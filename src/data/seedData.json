@@ -1,0 +1,5310 @@
+[
+  {
+    "name": "UEVR (Universal Unreal Engine VR Injector)",
+    "game": "Unreal Engine 4 & 5 (Tutti i giochi)",
+    "repo": "praydog/UEVR",
+    "author": "praydog",
+    "category": "Universal Frameworks & Injectors",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 4850,
+    "description": "Universal VR injector for Unreal Engine 4 and 5 games with 6DOF, stereoscopic 3D, and OpenXR support.",
+    "releases": [
+      {
+        "tag": "1.05",
+        "name": "UEVR 1.05",
+        "date": "2026-10-22",
+        "isNew": true,
+        "url": "https://github.com/praydog/UEVR/releases/tag/1.05",
+        "downloadUrl": "https://github.com/praydog/UEVR/releases/download/1.05/UEVR.zip"
+      },
+      {
+        "tag": "1.04",
+        "name": "UEVR Beta 1.04",
+        "date": "2026-04-02",
+        "isNew": false,
+        "url": "https://github.com/praydog/UEVR/releases/tag/1.04"
+      },
+      {
+        "tag": "1.03",
+        "name": "UEVR Beta 1.03",
+        "date": "2026-01-14",
+        "isNew": false,
+        "url": "https://github.com/praydog/UEVR/releases/tag/1.03"
+      }
+    ]
+  },
+  {
+    "name": "REFramework (Resident Evil & RE Engine VR)",
+    "game": "Resident Evil 2/3/4/7/8, Monster Hunter Rise, DMC5",
+    "repo": "praydog/REFramework",
+    "author": "praydog",
+    "category": "Universal Frameworks & Injectors",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 3920,
+    "description": "Modding framework and full 6DOF VR support for Capcom's RE Engine games.",
+    "releases": [
+      {
+        "tag": "v1.5.9.1",
+        "name": "REFramework v1.5.9.1",
+        "date": "2026-10-23",
+        "isNew": true,
+        "url": "https://github.com/praydog/REFramework/releases/tag/v1.5.9.1",
+        "downloadUrl": "https://github.com/praydog/REFramework/releases/download/v1.5.9.1/RE8.zip"
+      },
+      {
+        "tag": "v1.5.9",
+        "name": "REFramework v1.5.9",
+        "date": "2026-03-04",
+        "isNew": false,
+        "url": "https://github.com/praydog/REFramework/releases/tag/v1.5.9"
+      },
+      {
+        "tag": "v1.5.8",
+        "name": "REFramework v1.5.8",
+        "date": "2025-10-25",
+        "isNew": false,
+        "url": "https://github.com/praydog/REFramework/releases/tag/v1.5.8"
+      }
+    ]
+  },
+  {
+    "name": "VRPerfKit (FSR, NIS & Fixed Foveated Rendering)",
+    "game": "Universal DirectX 11 VR Games",
+    "repo": "fholger/vrperfkit",
+    "author": "fholger",
+    "category": "Universal Frameworks & Injectors",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 1820,
+    "description": "VR Performance Toolkit with AMD FidelityFX Super Resolution, NVIDIA Image Scaling, and FFR.",
+    "releases": [
+      {
+        "tag": "v0.3.2",
+        "name": "Release v0.3.2",
+        "date": "2026-10-18",
+        "isNew": false,
+        "url": "https://github.com/fholger/vrperfkit/releases/tag/v0.3.2"
+      },
+      {
+        "tag": "v0.3.1",
+        "name": "Release v0.3.1",
+        "date": "2025-05-12",
+        "isNew": false,
+        "url": "https://github.com/fholger/vrperfkit/releases/tag/v0.3.1"
+      }
+    ]
+  },
+  {
+    "name": "Half-Life 2: VR Mod",
+    "game": "Half-Life 2",
+    "repo": "SourceVR/hl2vr",
+    "author": "SourceVR",
+    "category": "Source & Classic Engine Ports",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 1250,
+    "description": "Complete room-scale VR conversion of Half-Life 2 with tracked motion controllers.",
+    "releases": [
+      {
+        "tag": "v0.6.8",
+        "name": "Update 0.6.8",
+        "date": "2026-10-15",
+        "isNew": false,
+        "url": "https://github.com/SourceVR/hl2vr/releases"
+      },
+      {
+        "tag": "v0.6.5",
+        "name": "Update 0.6.5",
+        "date": "2026-08-20",
+        "isNew": false,
+        "url": "https://github.com/SourceVR/hl2vr/releases"
+      }
+    ]
+  },
+  {
+    "name": "Portal 2 VR",
+    "game": "Portal 2",
+    "repo": "SourceVR/portal2vr",
+    "author": "SourceVR",
+    "category": "Source & Classic Engine Ports",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 940,
+    "description": "Full VR 6DOF motion control conversion for Valve's Portal 2.",
+    "releases": [
+      {
+        "tag": "v0.2.1",
+        "name": "Beta 0.2.1",
+        "date": "2026-10-21",
+        "isNew": true,
+        "url": "https://github.com/SourceVR/portal2vr/releases"
+      },
+      {
+        "tag": "v0.2.0",
+        "name": "Beta 0.2.0",
+        "date": "2026-09-14",
+        "isNew": false,
+        "url": "https://github.com/SourceVR/portal2vr/releases"
+      }
+    ]
+  },
+  {
+    "name": "NomaiVR (Outer Wilds VR)",
+    "game": "Outer Wilds",
+    "repo": "Raicuparta/nomai-vr",
+    "author": "Raicuparta",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 1420,
+    "description": "Full VR mod for Outer Wilds with motion controls, physical cockpit controls, and interactive tools.",
+    "releases": [
+      {
+        "tag": "v2.14.2",
+        "name": "NomaiVR 2.14.2",
+        "date": "2026-10-20",
+        "isNew": false,
+        "url": "https://github.com/Raicuparta/nomai-vr/releases"
+      },
+      {
+        "tag": "v2.14.1",
+        "name": "NomaiVR 2.14.1",
+        "date": "2026-07-10",
+        "isNew": false,
+        "url": "https://github.com/Raicuparta/nomai-vr/releases"
+      }
+    ]
+  },
+  {
+    "name": "Two Forks VR (Firewatch VR)",
+    "game": "Firewatch",
+    "repo": "Raicuparta/two-forks-vr",
+    "author": "Raicuparta",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 680,
+    "description": "VR mod for Firewatch with full motion control and room-scale interaction.",
+    "releases": [
+      {
+        "tag": "v0.8.4",
+        "name": "v0.8.4",
+        "date": "2026-09-02",
+        "isNew": false,
+        "url": "https://github.com/Raicuparta/two-forks-vr/releases"
+      }
+    ]
+  },
+  {
+    "name": "Valheim VR Mod",
+    "game": "Valheim",
+    "repo": "Kreny/Valheim-VR-Mod",
+    "author": "Kreny",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 1100,
+    "description": "Full 6DOF VR conversion for Valheim with SteamVR motion controls and stereo rendering.",
+    "releases": [
+      {
+        "tag": "v1.2.8",
+        "name": "v1.2.8 Ashlands Update",
+        "date": "2026-10-19",
+        "isNew": false,
+        "url": "https://github.com/Kreny/Valheim-VR-Mod/releases"
+      }
+    ]
+  },
+  {
+    "name": "Baldur's Gate 3 VR",
+    "game": "Baldur's Gate 3",
+    "repo": "PlasteredCrab/bg3-vr",
+    "author": "PlasteredCrab",
+    "category": "AAA & Action / RPG VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 350,
+    "description": "First-person, full-body 6DoF VR for Baldur's Gate 3: stereo rendering, IK body, hand interaction, VR menu.",
+    "releases": [
+      {
+        "tag": "v0.4.5",
+        "name": "bg3-vr v0.4.5",
+        "date": "2026-10-23",
+        "isNew": true,
+        "url": "https://github.com/PlasteredCrab/bg3-vr/releases"
+      },
+      {
+        "tag": "v0.4.0",
+        "name": "bg3-vr v0.4.0",
+        "date": "2026-10-12",
+        "isNew": false,
+        "url": "https://github.com/PlasteredCrab/bg3-vr/releases"
+      }
+    ]
+  },
+  {
+    "name": "Ghost of Tsushima VR",
+    "game": "Ghost of Tsushima",
+    "repo": "YouBungy/GhostofTsushimaVR",
+    "author": "YouBungy",
+    "category": "AAA & Action / RPG VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 290,
+    "description": "GOT VR mod with 6DOF, native stereo rendering, and motion controls.",
+    "releases": [
+      {
+        "tag": "v0.1.2",
+        "name": "GOT VR Alpha 0.1.2",
+        "date": "2026-10-22",
+        "isNew": true,
+        "url": "https://github.com/YouBungy/GhostofTsushimaVR/releases"
+      }
+    ]
+  },
+  {
+    "name": "Metal Gear Solid V VR",
+    "game": "Metal Gear Solid V: The Phantom Pain",
+    "repo": "nikamigaming-create/MGS5VR",
+    "author": "nikamigaming-create",
+    "category": "AAA & Action / RPG VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 210,
+    "description": "Experimental native OpenXR VR mod for MGSV with stereoscopic 3D and first-person camera.",
+    "releases": [
+      {
+        "tag": "v0.3.0",
+        "name": "MGS5VR 0.3.0",
+        "date": "2026-10-20",
+        "isNew": false,
+        "url": "https://github.com/nikamigaming-create/MGS5VR/releases"
+      }
+    ]
+  },
+  {
+    "name": "Halo 2 Vista VR",
+    "game": "Halo 2 Vista / Project Cartographer",
+    "repo": "Rankiseth/halo2-vr",
+    "author": "Rankiseth",
+    "category": "AAA & Action / RPG VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 180,
+    "description": "Unofficial PC VR mod for Halo 2 with tracked weapons, manual reloads, physical grenades, and dual wielding.",
+    "releases": [
+      {
+        "tag": "v0.2.2",
+        "name": "halo2-vr 0.2.2",
+        "date": "2026-10-21",
+        "isNew": true,
+        "url": "https://github.com/Rankiseth/halo2-vr/releases"
+      }
+    ]
+  },
+  {
+    "name": "MotherVR (Alien: Isolation)",
+    "game": "Alien: Isolation",
+    "repo": "Nibre/MotherVR",
+    "author": "Nibre",
+    "category": "AAA & Action / RPG VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 2600,
+    "description": "Adds comprehensive VR support for Alien: Isolation with Oculus Rift, HTC Vive, and OpenVR support.",
+    "releases": [
+      {
+        "tag": "0.8.1",
+        "name": "MotherVR 0.8.1",
+        "date": "2026-05-10",
+        "isNew": false,
+        "url": "https://github.com/Nibre/MotherVR/releases"
+      }
+    ]
+  },
+  {
+    "name": "Risk of Rain 2 VR Mod",
+    "game": "Risk of Rain 2",
+    "repo": "TheHollidayInn/RiskOfRain2-VR-Mod",
+    "author": "TheHollidayInn",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 870,
+    "description": "Full VR mod with motion controls and multiplayer support for Risk of Rain 2.",
+    "releases": [
+      {
+        "tag": "v4.2.3",
+        "name": "v4.2.3",
+        "date": "2026-10-14",
+        "isNew": false,
+        "url": "https://github.com/TheHollidayInn/RiskOfRain2-VR-Mod/releases"
+      }
+    ]
+  },
+  {
+    "name": "Deep Rock Galactic VR",
+    "game": "Deep Rock Galactic",
+    "repo": "Biotox/DeepRockVR",
+    "author": "Biotox",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 760,
+    "description": "Full VR mod for Deep Rock Galactic with motion controls and crossplay.",
+    "releases": [
+      {
+        "tag": "v0.9.1",
+        "name": "v0.9.1 Update",
+        "date": "2026-09-15",
+        "isNew": false,
+        "url": "https://github.com/Biotox/DeepRockVR/releases"
+      }
+    ]
+  },
+  {
+    "name": "Visor (Next-Gen Minecraft VR)",
+    "game": "Minecraft",
+    "repo": "VisorModStudio/Visor",
+    "author": "VisorModStudio",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 67,
+    "description": "Next-Gen VR core mod for Minecraft based on OpenXR with custom gestures and high performance.",
+    "releases": [
+      {
+        "tag": "v1.1.0",
+        "name": "Visor 1.1.0 OpenXR",
+        "date": "2026-10-23",
+        "isNew": true,
+        "url": "https://github.com/VisorModStudio/Visor/releases"
+      }
+    ]
+  },
+  {
+    "name": "1GenPokemonVR",
+    "game": "Pokemon Red",
+    "repo": "heurazy/1genpokemonvr",
+    "author": "heurazy",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Alpha",
+    "stars": 304,
+    "description": "A LOVE2D-based recreation/engine for Gen 1 with a custom stereo bridge; does not include or emulate the ROM, only decodes data from a player-supplied legal ROM.",
+    "releases": [
+      {
+        "tag": "v0.2.46",
+        "name": "1GenPokemonVR v0.2.46",
+        "date": "2026-08-10",
+        "isNew": false,
+        "url": "https://github.com/heurazy/1GenPokemonVr/releases/latest",
+        "downloadUrl": "https://github.com/heurazy/1GenPokemonVr/releases/latest"
+      },
+      {
+        "tag": "v0.2.0",
+        "name": "1GenPokemonVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/heurazy/1genpokemonvr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/heurazy/1genpokemonvr"
+  },
+  {
+    "name": "A.A.U. Black Site VR",
+    "game": "A.A.U. Black Site",
+    "repo": "King-EJ/A.A.U.-Black-Site-VR",
+    "author": "King-EJ",
+    "category": "AAA & Action / RPG VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 108,
+    "description": "BepInEx-based OpenXR mod with 6DOF weapon aiming and floating HUD.",
+    "releases": [
+      {
+        "tag": "A.A.U.BlackSiteVR",
+        "name": "A.A.U. Black Site VR A.A.U.BlackSiteVR",
+        "date": "2026-10-11",
+        "isNew": false,
+        "url": "https://github.com/King-EJ/A.A.U.-Black-Site-VR/releases/latest",
+        "downloadUrl": "https://github.com/King-EJ/A.A.U.-Black-Site-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/King-EJ/A.A.U.-Black-Site-VR"
+  },
+  {
+    "name": "ACE COMBAT 8 UEVR Profile (HUD fix)",
+    "game": "ACE COMBAT 8",
+    "repo": "VTFLAB/ace-combat-8-uevr-profile",
+    "author": "VTFLAB",
+    "category": "UEVR Profiles & Game Fixes",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 57,
+    "description": "Fixes the flight HUD (minimap, center instruments, weapons/status) not being visible in VR via UEVR.",
+    "releases": [
+      {
+        "tag": "v1.0.0",
+        "name": "ACE COMBAT 8 UEVR Profile (HUD fix) v1.0.0",
+        "date": "2026-10-04",
+        "isNew": false,
+        "url": "https://github.com/VTFLAB/ace-combat-8-uevr-profile/releases/latest",
+        "downloadUrl": "https://github.com/VTFLAB/ace-combat-8-uevr-profile/releases/latest"
+      },
+      {
+        "tag": "v1.0.0",
+        "name": "ACE COMBAT 8 UEVR Profile (HUD fix) base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/VTFLAB/ace-combat-8-uevr-profile/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/VTFLAB/ace-combat-8-uevr-profile"
+  },
+  {
+    "name": "Agent 64: Spies Never Die VR Mod",
+    "game": "Agent 64: Spies Never Die",
+    "repo": "King-EJ/Agent-64-Spies-Never-Die-VR-Mod",
+    "author": "King-EJ",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 342,
+    "description": "BepInEx plugin using OpenXR; v0.1.5 test build tested on Quest 3 via PC streaming.",
+    "releases": [
+      {
+        "tag": "Agent64SpiesNeverDieVR",
+        "name": "Agent 64: Spies Never Die VR Mod Agent64SpiesNeverDieVR",
+        "date": "2026-09-28",
+        "isNew": false,
+        "url": "https://github.com/King-EJ/Agent-64-Spies-Never-Die-VR-Mod/releases/latest",
+        "downloadUrl": "https://github.com/King-EJ/Agent-64-Spies-Never-Die-VR-Mod/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/King-EJ/Agent-64-Spies-Never-Die-VR-Mod"
+  },
+  {
+    "name": "Aliens Versus Predator VR",
+    "game": "Aliens Versus Predator (1999) / Aliens versus Predator Classic 2000",
+    "repo": "Bassquake/Aliens-Versus-Predator-VR",
+    "author": "Bassquake",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 398,
+    "description": "Fork of atsb/NakedAVP adding OpenXR support for standalone Quest VR as well as flat PC/Windows ports; supports Marine, Alien, and Predator campaigns with 6DoF motion controls and wall-climbing.",
+    "releases": [
+      {
+        "tag": "1.2",
+        "name": "Aliens Versus Predator VR 1.2",
+        "date": "2026-10-12",
+        "isNew": false,
+        "url": "https://github.com/Bassquake/Aliens-Versus-Predator-VR/releases/latest",
+        "downloadUrl": "https://github.com/Bassquake/Aliens-Versus-Predator-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/Bassquake/Aliens-Versus-Predator-VR"
+  },
+  {
+    "name": "AlphaHaloQuest",
+    "game": "Halo: Combat Evolved",
+    "repo": "christiancoler/AlphaHaloQuest",
+    "author": "christiancoler",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 69,
+    "description": "Based on halo-ce-universal and the Xbox Halo decompilation; runs natively on the headset with OpenXR and OpenGL ES.",
+    "releases": [
+      {
+        "tag": "alpha",
+        "name": "AlphaHaloQuest alpha",
+        "date": "2026-09-30",
+        "isNew": false,
+        "url": "https://github.com/christiancoler/AlphaHaloQuest/releases/latest",
+        "downloadUrl": "https://github.com/christiancoler/AlphaHaloQuest/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/christiancoler/AlphaHaloQuest"
+  },
+  {
+    "name": "Amnesia: A Machine for Pigs VR",
+    "game": "Amnesia: A Machine for Pigs",
+    "repo": "nvdg-public/amfp-vr",
+    "author": "nvdg-public",
+    "category": "Source & Classic Engine Ports",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 55,
+    "description": "Built on Frictional Games' GPLv3 source release for SteamVR; tested on Valve Index and Quest 2.",
+    "releases": [
+      {
+        "tag": "v0.4.1",
+        "name": "Amnesia: A Machine for Pigs VR v0.4.1",
+        "date": "2026-10-17",
+        "isNew": false,
+        "url": "https://github.com/nvdg-public/amfp-vr/releases/latest",
+        "downloadUrl": "https://github.com/nvdg-public/amfp-vr/releases/latest"
+      },
+      {
+        "tag": "v0.4.0",
+        "name": "Amnesia: A Machine for Pigs VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/nvdg-public/amfp-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/nvdg-public/amfp-vr"
+  },
+  {
+    "name": "Animal Crossing VR (LiquidAzir)",
+    "game": "Animal Crossing",
+    "repo": "LiquidAzir/animal-crossing-vr",
+    "author": "LiquidAzir",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 272,
+    "description": "First-person VR with tracked tools, based on ACGC-PC-Port and ac-decomp; Quest setup needs a Windows PC and USB to import the ROM.",
+    "releases": [
+      {
+        "tag": "v0.9.3-vr20",
+        "name": "Animal Crossing VR (LiquidAzir) v0.9.3-vr20",
+        "date": "2026-09-30",
+        "isNew": false,
+        "url": "https://github.com/LiquidAzir/animal-crossing-vr/releases/latest",
+        "downloadUrl": "https://github.com/LiquidAzir/animal-crossing-vr/releases/latest"
+      },
+      {
+        "tag": "v0.9.3-vr20",
+        "name": "Animal Crossing VR (LiquidAzir) base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/LiquidAzir/animal-crossing-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/LiquidAzir/animal-crossing-vr"
+  },
+  {
+    "name": "Animal Crossing VR/MR Standalone",
+    "game": "Animal Crossing (GameCube)",
+    "repo": "heurazy/AnimalCrossing-VR-MR-Standalone",
+    "author": "heurazy",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 217,
+    "description": "Based on DolphinXR; adds a custom Animal Crossing launcher, tabletop mixed-reality mode with passthrough, and Quest Touch hand/controller input mapped to GameCube controls.",
+    "releases": [
+      {
+        "tag": "v1.0.2",
+        "name": "Animal Crossing VR/MR Standalone v1.0.2",
+        "date": "2026-08-11",
+        "isNew": false,
+        "url": "https://github.com/heurazy/AnimalCrossing-VR-MR-Standalone/releases/latest",
+        "downloadUrl": "https://github.com/heurazy/AnimalCrossing-VR-MR-Standalone/releases/latest"
+      },
+      {
+        "tag": "v1.0.0",
+        "name": "Animal Crossing VR/MR Standalone base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/heurazy/AnimalCrossing-VR-MR-Standalone/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/heurazy/AnimalCrossing-VR-MR-Standalone"
+  },
+  {
+    "name": "ANKH-VR",
+    "game": "Ultima IV: Quest of the Avatar",
+    "repo": "plaidpants/ANKH-VR",
+    "author": "plaidpants",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 262,
+    "description": "Reads text and data directly from the original Ultima 4 EXE files rather than patching them; author describes it as alpha on Quest and beta on PC.",
+    "releases": [
+      {
+        "tag": "0.2.15",
+        "name": "ANKH-VR 0.2.15",
+        "date": "2026-07-02",
+        "isNew": false,
+        "url": "https://github.com/plaidpants/ANKH-VR/releases/latest",
+        "downloadUrl": "https://github.com/plaidpants/ANKH-VR/releases/latest"
+      },
+      {
+        "tag": "0.2.0",
+        "name": "ANKH-VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/plaidpants/ANKH-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/plaidpants/ANKH-VR"
+  },
+  {
+    "name": "AstroQuest",
+    "game": "ASTRO BOT Rescue Mission",
+    "repo": "bigmak94/AstroQuest",
+    "author": "bigmak94",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 122,
+    "description": "Based on an ARM64 fork of the shadPS4 PS4 emulator; playable standalone on Quest 3/3S or on PC via Virtual Desktop/SteamVR, with a PS5 DualSense recommended but Quest Touch controllers supported as a fallback.",
+    "releases": [
+      {
+        "tag": "v0.22",
+        "name": "AstroQuest v0.22",
+        "date": "2026-10-19",
+        "isNew": true,
+        "url": "https://github.com/bigmak94/AstroQuest/releases/latest",
+        "downloadUrl": "https://github.com/bigmak94/AstroQuest/releases/latest"
+      },
+      {
+        "tag": "v0.0",
+        "name": "AstroQuest base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/bigmak94/AstroQuest/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/bigmak94/AstroQuest"
+  },
+  {
+    "name": "Banjo-Kazooie VR",
+    "game": "Banjo-Kazooie",
+    "repo": "RaYRoD-TV/MVRH",
+    "author": "RaYRoD-TV",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 29,
+    "description": "Built on the Lighthouse PC decompilation port (HarbourMasters/Lighthouse); distributed as a patch via the Multiverse VR Hub installer. Quest standalone support listed as coming soon.",
+    "releases": [
+      {
+        "tag": "Patch 3",
+        "name": "Banjo-Kazooie VR Patch 3",
+        "date": "2026-10-09",
+        "isNew": false,
+        "url": "https://github.com/RaYRoD-TV/MVRH/releases",
+        "downloadUrl": "https://github.com/RaYRoD-TV/MVRH/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/RaYRoD-TV/MVRH"
+  },
+  {
+    "name": "BeefRaiderXR",
+    "game": "Tomb Raider (1996)",
+    "repo": "Team-Beef-Studios/BeefRaiderXR",
+    "author": "Team Beef",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Stable",
+    "stars": 145,
+    "description": "BeefRaiderXR VR mod for Tomb Raider (1996).",
+    "releases": [
+      {
+        "tag": "1.0.0",
+        "name": "BeefRaiderXR 1.0.0",
+        "date": "2024-09-29",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/BeefRaiderXR/releases/latest",
+        "downloadUrl": "https://github.com/Team-Beef-Studios/BeefRaiderXR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/Team-Beef-Studios/BeefRaiderXR"
+  },
+  {
+    "name": "BendyVR",
+    "game": "Bendy and the Ink Machine",
+    "repo": "Team-Beef-Studios/BendyVR",
+    "author": "Team Beef",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 200,
+    "description": "BendyVR VR mod for Bendy and the Ink Machine.",
+    "releases": [
+      {
+        "tag": "v.1.2.2",
+        "name": "BendyVR v.1.2.2",
+        "date": "2024-07-13",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/BendyVR/releases/latest",
+        "downloadUrl": "https://github.com/Team-Beef-Studios/BendyVR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/Team-Beef-Studios/BendyVR"
+  },
+  {
+    "name": "BetterVR",
+    "game": "The Legend of Zelda: Breath of the Wild",
+    "repo": "Crementif/BotW-BetterVR",
+    "author": "Crementif",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 127,
+    "description": "Does not work under Linux/Wine/Proton; Windows only.",
+    "releases": [
+      {
+        "tag": "0.9.23",
+        "name": "BetterVR 0.9.23",
+        "date": "2026-08-24",
+        "isNew": false,
+        "url": "https://github.com/Crementif/BotW-BetterVR/releases/latest",
+        "downloadUrl": "https://github.com/Crementif/BotW-BetterVR/releases/latest"
+      },
+      {
+        "tag": "0.9.0",
+        "name": "BetterVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Crementif/BotW-BetterVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Crementif/BotW-BetterVR"
+  },
+  {
+    "name": "Beyond: Two Souls VR Mod",
+    "game": "Beyond: Two Souls",
+    "repo": "adore11s/Beyond-Two-Souls-VR-Mod",
+    "author": "adore11s",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 390,
+    "description": "Uses OpenXR/SteamVR for native stereo head tracking, with an optional first-person mode through Jodie's eyes using motion-controller arms.",
+    "releases": [
+      {
+        "tag": "v0.17.16",
+        "name": "Beyond: Two Souls VR Mod v0.17.16",
+        "date": "2026-10-18",
+        "isNew": false,
+        "url": "https://github.com/adore11s/Beyond-Two-Souls-VR-Mod/releases/latest",
+        "downloadUrl": "https://github.com/adore11s/Beyond-Two-Souls-VR-Mod/releases/latest"
+      },
+      {
+        "tag": "v0.17.0",
+        "name": "Beyond: Two Souls VR Mod base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/adore11s/Beyond-Two-Souls-VR-Mod/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/adore11s/Beyond-Two-Souls-VR-Mod"
+  },
+  {
+    "name": "BF2142VR",
+    "game": "Battlefield 2142",
+    "repo": "justiceofrip/BF2142VR",
+    "author": "justiceofrip",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 44,
+    "description": "Based on BFVR by JayBiggsGMG; tested with Quest 3 controllers via Steam Link/SteamVR.",
+    "releases": [
+      {
+        "tag": "v0.2.0-beta.4-hotfix.4",
+        "name": "BF2142VR v0.2.0-beta.4-hotfix.4",
+        "date": "2026-10-13",
+        "isNew": false,
+        "url": "https://github.com/justiceofrip/BF2142VR/releases/latest",
+        "downloadUrl": "https://github.com/justiceofrip/BF2142VR/releases/latest"
+      },
+      {
+        "tag": "v0.2.0-beta.4-hotfix.0",
+        "name": "BF2142VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/justiceofrip/BF2142VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/justiceofrip/BF2142VR"
+  },
+  {
+    "name": "Big Walk VR",
+    "game": "Big Walk",
+    "repo": "CircuitLord/CircuitLordVRModInstaller",
+    "author": "CircuitLord",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 178,
+    "description": "Multiplayer-compatible: flatscreen players can see VR players' tracked hands without using VR themselves; installed via CircuitLord's one-click installer, which also supports Titanfall 2 VR.",
+    "releases": [
+      {
+        "tag": "v1.2.9",
+        "name": "Big Walk VR v1.2.9",
+        "date": "2026-10-06",
+        "isNew": false,
+        "url": "https://github.com/CircuitLord/CircuitLordVRModInstaller/releases/latest/download/CircuitLordVRModInstaller.exe",
+        "downloadUrl": "https://github.com/CircuitLord/CircuitLordVRModInstaller/releases/latest/download/CircuitLordVRModInstaller.exe"
+      },
+      {
+        "tag": "v1.2.0",
+        "name": "Big Walk VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/CircuitLord/CircuitLordVRModInstaller/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/CircuitLord/CircuitLordVRModInstaller"
+  },
+  {
+    "name": "BioShock Remastered VR",
+    "game": "BioShock Remastered",
+    "repo": "BioVRDev/Bioshock-Remastered-VR",
+    "author": "BioVRDev",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 194,
+    "description": "Works by hooking IDXGISwapChain::Present, APlayerController::eventPlayerCalcView, and the D3D11 draw path on the game's modified Unreal 2.5 engine.",
+    "releases": [
+      {
+        "tag": "v1.0.3a",
+        "name": "BioShock Remastered VR v1.0.3a",
+        "date": "2026-08-14",
+        "isNew": false,
+        "url": "https://github.com/BioVRDev/Bioshock-Remastered-VR/releases/latest",
+        "downloadUrl": "https://github.com/BioVRDev/Bioshock-Remastered-VR/releases/latest"
+      },
+      {
+        "tag": "v1.0.3a",
+        "name": "BioShock Remastered VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/BioVRDev/Bioshock-Remastered-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/BioVRDev/Bioshock-Remastered-VR"
+  },
+  {
+    "name": "BioShock VR",
+    "game": "BioShock Remastered",
+    "repo": "VR-Stereo-Hub/bioshock-trilogy-vr",
+    "author": "VR-Stereo-Hub",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 157,
+    "description": "Source material contained an unresolved mismatch between a claimed author/title ('BioShock VR by VOID' by mohamad-balouza) and the actual linked GitHub repo (VR-Stereo-Hub/bioshock-trilogy-vr); this entry uses only the verified repo facts.",
+    "releases": [
+      {
+        "tag": "v0.8.3",
+        "name": "BioShock VR v0.8.3",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/VR-Stereo-Hub/bioshock-trilogy-vr/releases/latest",
+        "downloadUrl": "https://github.com/VR-Stereo-Hub/bioshock-trilogy-vr/releases/latest"
+      },
+      {
+        "tag": "v0.8.0",
+        "name": "BioShock VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/VR-Stereo-Hub/bioshock-trilogy-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/VR-Stereo-Hub/bioshock-trilogy-vr"
+  },
+  {
+    "name": "BL1GOTYVR",
+    "game": "Borderlands: Game of the Year Enhanced",
+    "repo": "Mastersellz/BL1GOTYVR",
+    "author": "Mastersellz",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 77,
+    "description": "DXGI-proxy-based OpenXR mod; targets the 2019 GOTY Enhanced release only, not the original 2009 Borderlands.",
+    "releases": [
+      {
+        "tag": "V0.5.7.3",
+        "name": "BL1GOTYVR V0.5.7.3",
+        "date": "2026-10-12",
+        "isNew": false,
+        "url": "https://github.com/Mastersellz/BL1GOTYVR/releases/latest",
+        "downloadUrl": "https://github.com/Mastersellz/BL1GOTYVR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/Mastersellz/BL1GOTYVR"
+  },
+  {
+    "name": "Black Mesa VR",
+    "game": "Black Mesa",
+    "repo": "Hochgeschwindigkeitsrennfahrer/black-mesa-vr",
+    "author": "Hochgeschwindigkeitsrennfahrer",
+    "category": "AAA & Action / RPG VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 270,
+    "description": "L4D2VR-style DXVK-based mod with true stereo rendering and OpenXR; a separate macOS version exists.",
+    "releases": [
+      {
+        "tag": "bugfixes",
+        "name": "Black Mesa VR bugfixes",
+        "date": "2026-10-03",
+        "isNew": false,
+        "url": "https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr/releases/latest",
+        "downloadUrl": "https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr"
+  },
+  {
+    "name": "BladeVR",
+    "game": "Severance: Blade of Darkness",
+    "repo": "Efraim2704/BladeOfDarknessVR",
+    "author": "Efraim2704",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 290,
+    "description": "Runs over SteamVR via a dxgi.dll proxy; tested on Meta Quest 2. Also has a diorama mode.",
+    "releases": [
+      {
+        "tag": "v2.0",
+        "name": "BladeVR v2.0",
+        "date": "2026-10-17",
+        "isNew": false,
+        "url": "https://github.com/Efraim2704/BladeOfDarknessVR/releases/latest",
+        "downloadUrl": "https://github.com/Efraim2704/BladeOfDarknessVR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/Efraim2704/BladeOfDarknessVR"
+  },
+  {
+    "name": "Bomberman Hero Quest 3 VR Standalone",
+    "game": "Bomberman Hero",
+    "repo": "VistaLargaGames/Bomberman-Hero-Quest-3-VR-Standalone",
+    "author": "VistaLargaGames",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 388,
+    "description": "Based on the PC Bomberman Hero Recomp; install the APK via the Quest browser or SideQuest.",
+    "releases": [
+      {
+        "tag": "n64",
+        "name": "Bomberman Hero Quest 3 VR Standalone n64",
+        "date": "2026-10-12",
+        "isNew": false,
+        "url": "https://github.com/VistaLargaGames/Bomberman-Hero-Quest-3-VR-Standalone/releases/latest",
+        "downloadUrl": "https://github.com/VistaLargaGames/Bomberman-Hero-Quest-3-VR-Standalone/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/VistaLargaGames/Bomberman-Hero-Quest-3-VR-Standalone"
+  },
+  {
+    "name": "BW1-VR",
+    "game": "Black & White",
+    "repo": "BW1-VR/BW1-VR",
+    "author": "BW1-VR",
+    "category": "AAA & Action / RPG VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 399,
+    "description": "Mod for the original Black & White (2001) that requires game version 1.42 (patches 1.10, 1.20 and unofficial 1.42); tested on Quest 3 via Virtual Desktop.",
+    "releases": [
+      {
+        "tag": "v1.1.0-20261014-72ada9d",
+        "name": "BW1-VR v1.1.0-20261014-72ada9d",
+        "date": "2026-10-14",
+        "isNew": false,
+        "url": "https://github.com/BW1-VR/BW1-VR/releases/latest",
+        "downloadUrl": "https://github.com/BW1-VR/BW1-VR/releases/latest"
+      },
+      {
+        "tag": "v1.1.0-20261014-72ada9d",
+        "name": "BW1-VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/BW1-VR/BW1-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/BW1-VR/BW1-VR"
+  },
+  {
+    "name": "Center Ice Hockey VR",
+    "game": "Center Ice Hockey",
+    "repo": "King-EJ/Center-Ice-Hockey-VR",
+    "author": "King-EJ",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 241,
+    "description": "Test build only, offline; author states it will be a while before further work resumes. Skater view is experimental.",
+    "releases": [
+      {
+        "tag": "Center_Ice_Hockey_VR",
+        "name": "Center Ice Hockey VR Center_Ice_Hockey_VR",
+        "date": "2026-10-12",
+        "isNew": false,
+        "url": "https://github.com/King-EJ/Center-Ice-Hockey-VR/releases/latest",
+        "downloadUrl": "https://github.com/King-EJ/Center-Ice-Hockey-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/King-EJ/Center-Ice-Hockey-VR"
+  },
+  {
+    "name": "CodiesVR",
+    "game": "GRID Legends",
+    "repo": "drowhunter/CodiesVR",
+    "author": "drowhunter",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 129,
+    "description": "Release v0.4 includes Grid Legends VR 0.4.1 and Dirt VR 0.1, with mono, AFR and native stereo rendering modes.",
+    "releases": [
+      {
+        "tag": "v0.5.1",
+        "name": "CodiesVR v0.5.1",
+        "date": "2026-10-15",
+        "isNew": false,
+        "url": "https://github.com/drowhunter/CodiesVR/releases/latest",
+        "downloadUrl": "https://github.com/drowhunter/CodiesVR/releases/latest"
+      },
+      {
+        "tag": "v0.5.0",
+        "name": "CodiesVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/drowhunter/CodiesVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/drowhunter/CodiesVR"
+  },
+  {
+    "name": "Crazy Taxi VR Standalone",
+    "game": "Crazy Taxi",
+    "repo": "Baywilly/Crazy-Taxi-VR-Standalone",
+    "author": "Baywilly",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 87,
+    "description": "Distributed as an ~250 MB XDelta patch for the user's own Android game copy; offers cockpit, chase and miniature camera views.",
+    "releases": [
+      {
+        "tag": "v0.1-beta",
+        "name": "Crazy Taxi VR Standalone v0.1-beta",
+        "date": "2026-10-12",
+        "isNew": false,
+        "url": "https://github.com/Baywilly/Crazy-Taxi-VR-Standalone/releases/latest",
+        "downloadUrl": "https://github.com/Baywilly/Crazy-Taxi-VR-Standalone/releases/latest"
+      },
+      {
+        "tag": "v0.1-beta",
+        "name": "Crazy Taxi VR Standalone base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Baywilly/Crazy-Taxi-VR-Standalone/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Baywilly/Crazy-Taxi-VR-Standalone"
+  },
+  {
+    "name": "Crisis Zone VR",
+    "game": "Crisis Zone",
+    "repo": "DR-89/crisis-zone-vr",
+    "author": "DR-89",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Alpha",
+    "stars": 74,
+    "description": "Built from spacestate1's namco22-decompile 0.9.0 and the Time Crisis II VR host; Quest/Link/SteamVR performance still needs validation.",
+    "releases": [
+      {
+        "tag": "v0.1.4",
+        "name": "Crisis Zone VR v0.1.4",
+        "date": "2026-10-15",
+        "isNew": false,
+        "url": "https://github.com/DR-89/crisis-zone-vr/releases/latest",
+        "downloadUrl": "https://github.com/DR-89/crisis-zone-vr/releases/latest"
+      },
+      {
+        "tag": "v0.1.0",
+        "name": "Crisis Zone VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/DR-89/crisis-zone-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/DR-89/crisis-zone-vr"
+  },
+  {
+    "name": "Cronos: The New Dawn UEVR",
+    "game": "Cronos: The New Dawn",
+    "repo": "letmein-vr/CRONOS_UEVR",
+    "author": "letmein-vr",
+    "category": "UEVR Profiles & Game Fixes",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 47,
+    "description": "UEVR profile requiring the latest UEVR nightly build; built on jbusfield's UEVR helper libs.",
+    "releases": [
+      {
+        "tag": "1.2",
+        "name": "Cronos: The New Dawn UEVR 1.2",
+        "date": "2026-08-01",
+        "isNew": false,
+        "url": "https://github.com/letmein-vr/CRONOS_UEVR/releases/latest",
+        "downloadUrl": "https://github.com/letmein-vr/CRONOS_UEVR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/letmein-vr/CRONOS_UEVR"
+  },
+  {
+    "name": "Crysis VR WinlatorXR",
+    "game": "Crysis",
+    "repo": "SgtBilko76/Crysis-VR-WinlatorXR",
+    "author": "SgtBilko76",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 130,
+    "description": "Packages fholger's crysis_vrmod to run standalone on Meta Quest 3 via WinlatorXR (Wine + Box64 + DXVK), no PC required; ~20-40 fps expected.",
+    "releases": [
+      {
+        "tag": "Beta-0.3",
+        "name": "Crysis VR WinlatorXR Beta-0.3",
+        "date": "2026-09-16",
+        "isNew": false,
+        "url": "https://github.com/SgtBilko76/Crysis-VR-WinlatorXR/releases/latest",
+        "downloadUrl": "https://github.com/SgtBilko76/Crysis-VR-WinlatorXR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/SgtBilko76/Crysis-VR-WinlatorXR"
+  },
+  {
+    "name": "CyberpunkVR Port",
+    "game": "Cyberpunk 2077",
+    "repo": "dariulone/cyberpunk-vr-port",
+    "author": "dariulone",
+    "category": "AAA & Action / RPG VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 25,
+    "description": "Renders a genuine second-eye engine view instead of reconstructing stereo, pairing full-body VRIK and tracked hands with native VR frame generation.",
+    "releases": [
+      {
+        "tag": "0.1.8",
+        "name": "CyberpunkVR Port 0.1.8",
+        "date": "2026-10-19",
+        "isNew": true,
+        "url": "https://github.com/dariulone/cyberpunk-vr-port/releases/latest",
+        "downloadUrl": "https://github.com/dariulone/cyberpunk-vr-port/releases/latest"
+      },
+      {
+        "tag": "0.1.0",
+        "name": "CyberpunkVR Port base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/dariulone/cyberpunk-vr-port/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/dariulone/cyberpunk-vr-port"
+  },
+  {
+    "name": "DeadRisingVR",
+    "game": "Dead Rising",
+    "repo": "AshenVR/DeadRisingVR",
+    "author": "AshenVR",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 164,
+    "description": "Requires an active OpenXR runtime; Virtual Desktop + VDXR is the recommended/most-tested setup.",
+    "releases": [
+      {
+        "tag": "v0.1.0-alpha",
+        "name": "DeadRisingVR v0.1.0-alpha",
+        "date": "2026-10-11",
+        "isNew": false,
+        "url": "https://github.com/AshenVR/DeadRisingVR/releases/latest",
+        "downloadUrl": "https://github.com/AshenVR/DeadRisingVR/releases/latest"
+      },
+      {
+        "tag": "v0.1.0-alpha",
+        "name": "DeadRisingVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/AshenVR/DeadRisingVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/AshenVR/DeadRisingVR"
+  },
+  {
+    "name": "Descent 1 & 2 VR",
+    "game": "Descent",
+    "repo": "GameOrDie007/Descent-1-and-2-VR",
+    "author": "GameOrDie007",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 273,
+    "description": "Built on DXX-Redux with OpenXR; includes a one-click PC installer, cockpit view options, and an interactive in-VR game manual.",
+    "releases": [
+      {
+        "tag": "v1.1",
+        "name": "Descent 1 & 2 VR v1.1",
+        "date": "2026-10-11",
+        "isNew": false,
+        "url": "https://github.com/GameOrDie007/Descent-1-and-2-VR/releases/latest",
+        "downloadUrl": "https://github.com/GameOrDie007/Descent-1-and-2-VR/releases/latest"
+      },
+      {
+        "tag": "v1.0",
+        "name": "Descent 1 & 2 VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/GameOrDie007/Descent-1-and-2-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/GameOrDie007/Descent-1-and-2-VR"
+  },
+  {
+    "name": "Descent 3 VR",
+    "game": "Descent 3",
+    "repo": "SgtBilko76/Descent3-VR",
+    "author": "SgtBilko76",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 215,
+    "description": "Single APK now supports both Meta Quest and PICO headsets; built on the official open-source Descent 3 engine.",
+    "releases": [
+      {
+        "tag": "quest-v0.3-beta",
+        "name": "Descent 3 VR quest-v0.3-beta",
+        "date": "2026-09-23",
+        "isNew": false,
+        "url": "https://github.com/SgtBilko76/Descent3-VR/releases/latest",
+        "downloadUrl": "https://github.com/SgtBilko76/Descent3-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/SgtBilko76/Descent3-VR"
+  },
+  {
+    "name": "DiRT2VR",
+    "game": "Colin McRae: DiRT 2",
+    "repo": "preseznik/DiRT2VR",
+    "author": "preseznik",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 297,
+    "description": "Launcher with experimental stereoscopic VR and head tracking via SteamVR or OpenXR; menus use a virtual screen; tested on Quest 3 through SteamVR.",
+    "releases": [
+      {
+        "tag": "v0.16.0",
+        "name": "DiRT2VR v0.16.0",
+        "date": "2026-09-28",
+        "isNew": false,
+        "url": "https://github.com/preseznik/DiRT2VR/releases/latest",
+        "downloadUrl": "https://github.com/preseznik/DiRT2VR/releases/latest"
+      },
+      {
+        "tag": "v0.16.0",
+        "name": "DiRT2VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/preseznik/DiRT2VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/preseznik/DiRT2VR"
+  },
+  {
+    "name": "Disney Dreamlight Valley VR",
+    "game": "Disney Dreamlight Valley",
+    "repo": "King-EJ/Disney-Dreamlight-Valley-VR",
+    "author": "King-EJ",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 338,
+    "description": "Requires ViGEmBus virtual gamepad driver for menu/dialogue navigation; experimental auto-walk pointer does not work with water or pickaxe actions.",
+    "releases": [
+      {
+        "tag": "Disney_Dreamlight_Valley_VR_update1",
+        "name": "Disney Dreamlight Valley VR Disney_Dreamlight_Valley_VR_update1",
+        "date": "2026-10-11",
+        "isNew": false,
+        "url": "https://github.com/King-EJ/Disney-Dreamlight-Valley-VR/releases/latest",
+        "downloadUrl": "https://github.com/King-EJ/Disney-Dreamlight-Valley-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/King-EJ/Disney-Dreamlight-Valley-VR"
+  },
+  {
+    "name": "Doom3Quest",
+    "game": "Doom 3",
+    "repo": "Team-Beef-Studios/Doom3Quest",
+    "author": "Team Beef",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Stable",
+    "stars": 233,
+    "description": "Doom3Quest VR mod for Doom 3.",
+    "releases": [
+      {
+        "tag": "v1.4.8",
+        "name": "Doom3Quest v1.4.8",
+        "date": "2026-09-30",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/Doom3Quest/releases/latest",
+        "downloadUrl": "https://github.com/Team-Beef-Studios/Doom3Quest/releases/latest"
+      },
+      {
+        "tag": "v1.4.0",
+        "name": "Doom3Quest base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/Doom3Quest/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Team-Beef-Studios/Doom3Quest"
+  },
+  {
+    "name": "ds-vr",
+    "game": "Dead Space (2008)",
+    "repo": "Mortygotvr/deadspace-vr",
+    "author": "Mortygotvr",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 45,
+    "description": "Linux-only (Proton + SteamVR) mod with head-tracked first person, 6DoF aiming, wrist hologram HUD and in-VR settings menu.",
+    "releases": [
+      {
+        "tag": "v0.1.0-alpha",
+        "name": "ds-vr v0.1.0-alpha",
+        "date": "2026-10-14",
+        "isNew": false,
+        "url": "https://github.com/Mortygotvr/deadspace-vr/releases/latest",
+        "downloadUrl": "https://github.com/Mortygotvr/deadspace-vr/releases/latest"
+      },
+      {
+        "tag": "v0.1.0-alpha",
+        "name": "ds-vr base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Mortygotvr/deadspace-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Mortygotvr/deadspace-vr"
+  },
+  {
+    "name": "Dungeon Keeper 2 VR (DK2VR)",
+    "game": "Dungeon Keeper 2",
+    "repo": "lovemakerz/Dungeon-Keeper-2-VR-MOD",
+    "author": "LoVeMaKeRz",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 128,
+    "description": "Non-invasive install that leaves DKII-DX.exe untouched and restores the game folder to its original state on exit; dungeon table viewed from above with first-person 360° creature possession.",
+    "releases": [
+      {
+        "tag": "V0.9.47.63",
+        "name": "Dungeon Keeper 2 VR (DK2VR) V0.9.47.63",
+        "date": "2026-10-11",
+        "isNew": false,
+        "url": "https://github.com/lovemakerz/Dungeon-Keeper-2-VR-MOD/releases/latest",
+        "downloadUrl": "https://github.com/lovemakerz/Dungeon-Keeper-2-VR-MOD/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/lovemakerz/Dungeon-Keeper-2-VR-MOD"
+  },
+  {
+    "name": "Dusk VR",
+    "game": "The Legend of Zelda: Twilight Princess",
+    "repo": "provencher/dusk-vr",
+    "author": "provencher",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 417,
+    "description": "Fork of the Dusk Twilight Princess decompilation engine adding a Windows OpenXR/Vulkan VR launcher (run-dusk-vr.bat); no tagged release yet.",
+    "releases": [
+      {
+        "tag": "unversioned",
+        "name": "Dusk VR unversioned",
+        "date": "2026-10-09",
+        "isNew": false,
+        "url": "https://github.com/provencher/dusk-vr",
+        "downloadUrl": "https://github.com/provencher/dusk-vr"
+      }
+    ],
+    "githubUrl": "https://github.com/provencher/dusk-vr"
+  },
+  {
+    "name": "EDF6VR",
+    "game": "Earth Defense Force 6",
+    "repo": "momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD",
+    "author": "momotori01",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 49,
+    "description": "Bundles the EDF6MultiSlot 8-player co-op mod plus HD textures; supports SteamVR and Virtual Desktop, with VR cockpits built for every vehicle type.",
+    "releases": [
+      {
+        "tag": "EDF6VR-3.2.9",
+        "name": "EDF6VR EDF6VR-3.2.9",
+        "date": "2026-10-14",
+        "isNew": false,
+        "url": "https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD/releases/latest",
+        "downloadUrl": "https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD"
+  },
+  {
+    "name": "EternalVR",
+    "game": "DOOM Eternal",
+    "repo": "ArcadaLabs-Jason/EternalVR",
+    "author": "ArcadaLabs-Jason",
+    "category": "Source & Classic Engine Ports",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 372,
+    "description": "Requires an OpenXR runtime such as Virtual Desktop, SteamVR, or Meta Horizon Link.",
+    "releases": [
+      {
+        "tag": "v0.1.68",
+        "name": "EternalVR v0.1.68",
+        "date": "2026-10-20",
+        "isNew": true,
+        "url": "https://github.com/ArcadaLabs-Jason/EternalVR/releases/latest",
+        "downloadUrl": "https://github.com/ArcadaLabs-Jason/EternalVR/releases/latest"
+      },
+      {
+        "tag": "v0.1.0",
+        "name": "EternalVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/ArcadaLabs-Jason/EternalVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/ArcadaLabs-Jason/EternalVR"
+  },
+  {
+    "name": "F.E.A.R. VR",
+    "game": "F.E.A.R.",
+    "repo": "DR-89/fear-vr",
+    "author": "DR-89",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 296,
+    "description": "Requires SteamVR or Virtual Desktop (VDXR) as the active OpenXR runtime; GOG and retail-disc 1.08 copies are untested.",
+    "releases": [
+      {
+        "tag": "v1.0.0-beta.8",
+        "name": "F.E.A.R. VR v1.0.0-beta.8",
+        "date": "2026-08-04",
+        "isNew": false,
+        "url": "https://github.com/DR-89/fear-vr/releases/latest",
+        "downloadUrl": "https://github.com/DR-89/fear-vr/releases/latest"
+      },
+      {
+        "tag": "v1.0.0-beta.0",
+        "name": "F.E.A.R. VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/DR-89/fear-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/DR-89/fear-vr"
+  },
+  {
+    "name": "F-Zero X VR Standalone",
+    "game": "F-Zero X",
+    "repo": "heurazy/FzeroVR-Standalone",
+    "author": "heurazy",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 156,
+    "description": "Native Android/OpenXR Quest port built from the Zorkats/G-Diffuser decomp runtime and libultraship/Fast3D, rendering the original ~60Hz game twice per frame for stereo output.",
+    "releases": [
+      {
+        "tag": "v1.0.1",
+        "name": "F-Zero X VR Standalone v1.0.1",
+        "date": "2026-08-14",
+        "isNew": false,
+        "url": "https://github.com/heurazy/FzeroVR-Standalone/releases/latest",
+        "downloadUrl": "https://github.com/heurazy/FzeroVR-Standalone/releases/latest"
+      },
+      {
+        "tag": "v1.0.0",
+        "name": "F-Zero X VR Standalone base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/heurazy/FzeroVR-Standalone/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/heurazy/FzeroVR-Standalone"
+  },
+  {
+    "name": "Farpoint PC VR",
+    "game": "Farpoint",
+    "repo": "evertec82/Farpoint",
+    "author": "evertec82",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 118,
+    "description": "Development port built on shadPS4 and OpenXR, based on AstroQuest, with tracked controllers, haptics and SteamVR support.",
+    "releases": [
+      {
+        "tag": "v0.8.5",
+        "name": "Farpoint PC VR v0.8.5",
+        "date": "2026-10-12",
+        "isNew": false,
+        "url": "https://github.com/evertec82/Farpoint/releases/latest",
+        "downloadUrl": "https://github.com/evertec82/Farpoint/releases/latest"
+      },
+      {
+        "tag": "v0.8.0",
+        "name": "Farpoint PC VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/evertec82/Farpoint/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/evertec82/Farpoint"
+  },
+  {
+    "name": "FEAR2VR",
+    "game": "F.E.A.R. 2: Project Origin",
+    "repo": "praydog/FEAR2VR",
+    "author": "Praydog",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 103,
+    "description": "Public source drop with no packaged build or installation guide at time of announcement; AI-assisted development.",
+    "releases": [
+      {
+        "tag": "unversioned",
+        "name": "FEAR2VR unversioned",
+        "date": "2026-08-09",
+        "isNew": false,
+        "url": "https://github.com/praydog/FEAR2VR",
+        "downloadUrl": "https://github.com/praydog/FEAR2VR"
+      }
+    ],
+    "githubUrl": "https://github.com/praydog/FEAR2VR"
+  },
+  {
+    "name": "Forza VRMod",
+    "game": "Forza Horizon 5",
+    "repo": "oofz/vrmod-releases",
+    "author": "lufz",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 108,
+    "description": "Shared launcher targets both Forza Horizon 5 and 6 with seated cockpit viewing; Virtual Desktop/VDXR was the most consistently reported working path.",
+    "releases": [
+      {
+        "tag": "v1.4.3",
+        "name": "Forza VRMod v1.4.3",
+        "date": "2026-10-18",
+        "isNew": false,
+        "url": "https://github.com/oofz/vrmod-releases/releases/latest",
+        "downloadUrl": "https://github.com/oofz/vrmod-releases/releases/latest"
+      },
+      {
+        "tag": "v1.4.0",
+        "name": "Forza VRMod base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/oofz/vrmod-releases/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/oofz/vrmod-releases"
+  },
+  {
+    "name": "GalaxyQuest",
+    "game": "Super Mario Galaxy",
+    "repo": "bigmak94/GalaxyQuest",
+    "author": "bigmak94",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 360,
+    "description": "Native port (not emulation) built on the Petari Super Mario Galaxy decompilation; code and documentation stated to be entirely AI-written (Claude Opus 5.5 in Claude Code).",
+    "releases": [
+      {
+        "tag": "v0.1.9",
+        "name": "GalaxyQuest v0.1.9",
+        "date": "2026-10-19",
+        "isNew": true,
+        "url": "https://github.com/bigmak94/GalaxyQuest/releases/latest",
+        "downloadUrl": "https://github.com/bigmak94/GalaxyQuest/releases/latest"
+      },
+      {
+        "tag": "v0.1.0",
+        "name": "GalaxyQuest base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/bigmak94/GalaxyQuest/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/bigmak94/GalaxyQuest"
+  },
+  {
+    "name": "Garfield Kart 2 All You Can Drift VR",
+    "game": "Garfield Kart 2 - All You Can Drift",
+    "repo": "King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR",
+    "author": "King-EJ",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 116,
+    "description": "Install by unzipping the release into the game folder.",
+    "releases": [
+      {
+        "tag": "Garfield_Kart_Furious_Racing_VRa",
+        "name": "Garfield Kart 2 All You Can Drift VR Garfield_Kart_Furious_Racing_VRa",
+        "date": "2026-10-14",
+        "isNew": false,
+        "url": "https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR/releases/latest",
+        "downloadUrl": "https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/King-EJ/Garfield-Kart-2---All-You-Can-Drift-VR"
+  },
+  {
+    "name": "Garfield Kart - Furious Racing VR",
+    "game": "Garfield Kart - Furious Racing",
+    "repo": "King-EJ/Garfield-Kart---Furious-Racing-VR",
+    "author": "King-EJ",
+    "category": "Simulators, Guida & Sport",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 130,
+    "description": "Uses BepInEx plugin GKVR for OpenXR; VR controllers emulate an Xbox gamepad with an optional gyro steering mode; online multiplayer untested per the author.",
+    "releases": [
+      {
+        "tag": "Garfield_Kart_Furious_Racing_VRa",
+        "name": "Garfield Kart - Furious Racing VR Garfield_Kart_Furious_Racing_VRa",
+        "date": "2026-10-14",
+        "isNew": false,
+        "url": "https://github.com/King-EJ/Garfield-Kart---Furious-Racing-VR/releases/latest",
+        "downloadUrl": "https://github.com/King-EJ/Garfield-Kart---Furious-Racing-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/King-EJ/Garfield-Kart---Furious-Racing-VR"
+  },
+  {
+    "name": "Gen1Recomp for Steam Frame",
+    "game": "Pokémon Red",
+    "repo": "astromaddie/gen1recomp-frame",
+    "author": "astromaddie",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 349,
+    "description": "Experimental native Linux ARM64 OpenXR kit adapting Polymatic Gen1Recomp and DRAMALESS_SHAPE; runs on the headset with no PC streaming.",
+    "releases": [
+      {
+        "tag": "v0.2.1",
+        "name": "Gen1Recomp for Steam Frame v0.2.1",
+        "date": "2026-10-12",
+        "isNew": false,
+        "url": "https://github.com/astromaddie/gen1recomp-frame/releases/latest",
+        "downloadUrl": "https://github.com/astromaddie/gen1recomp-frame/releases/latest"
+      },
+      {
+        "tag": "v0.2.0",
+        "name": "Gen1Recomp for Steam Frame base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/astromaddie/gen1recomp-frame/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/astromaddie/gen1recomp-frame"
+  },
+  {
+    "name": "Gen1Recomp VR Unplugged",
+    "game": "Pokémon Red",
+    "repo": "HimioneGranger/Gen1recomp-Quest-Standalone",
+    "author": "HimioneGranger",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 399,
+    "description": "Standalone first-person voxel overhaul with a spatial launcher, tracked controls and a separately installed mod stack; no PC needed to play.",
+    "releases": [
+      {
+        "tag": "v0.1.81-quest",
+        "name": "Gen1Recomp VR Unplugged v0.1.81-quest",
+        "date": "2026-08-14",
+        "isNew": false,
+        "url": "https://github.com/HimioneGranger/Gen1recomp-Quest-Standalone/releases/latest",
+        "downloadUrl": "https://github.com/HimioneGranger/Gen1recomp-Quest-Standalone/releases/latest"
+      },
+      {
+        "tag": "v0.1.81-quest",
+        "name": "Gen1Recomp VR Unplugged base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/HimioneGranger/Gen1recomp-Quest-Standalone/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/HimioneGranger/Gen1recomp-Quest-Standalone"
+  },
+  {
+    "name": "Generals: Zero Hour XR",
+    "game": "Command & Conquer: Generals - Zero Hour",
+    "repo": "Cesarus85/Generals-Zero-Hour-XR",
+    "author": "Cesarus85",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 225,
+    "description": "Presents the campaign/skirmish battlefield as a stereoscopic mixed-reality tabletop, built on the open-source SAGE engine lineage (TheSuperHackers/GeneralsX/GeneralsZH-Android).",
+    "releases": [
+      {
+        "tag": "v1.2.36-xr-preview",
+        "name": "Generals: Zero Hour XR v1.2.36-xr-preview",
+        "date": "2026-09-30",
+        "isNew": false,
+        "url": "https://github.com/Cesarus85/Generals-Zero-Hour-XR/releases/latest",
+        "downloadUrl": "https://github.com/Cesarus85/Generals-Zero-Hour-XR/releases/latest"
+      },
+      {
+        "tag": "v1.2.36-xr-preview",
+        "name": "Generals: Zero Hour XR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Cesarus85/Generals-Zero-Hour-XR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Cesarus85/Generals-Zero-Hour-XR"
+  },
+  {
+    "name": "Ghost Recon Wildlands VR (GRW-XR)",
+    "game": "Tom Clancy's Ghost Recon Wildlands",
+    "repo": "Firejumper93/GhostReconWildlandsVR",
+    "author": "Firejumper93",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 158,
+    "description": "Native OpenXR mod injected via dxgi.dll proxy, no game files modified; singleplayer/private co-op only, not for PvP or matchmaking.",
+    "releases": [
+      {
+        "tag": "v0.13.0",
+        "name": "Ghost Recon Wildlands VR (GRW-XR) v0.13.0",
+        "date": "2026-10-12",
+        "isNew": false,
+        "url": "https://github.com/Firejumper93/GhostReconWildlandsVR/releases/latest",
+        "downloadUrl": "https://github.com/Firejumper93/GhostReconWildlandsVR/releases/latest"
+      },
+      {
+        "tag": "v0.13.0",
+        "name": "Ghost Recon Wildlands VR (GRW-XR) base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Firejumper93/GhostReconWildlandsVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Firejumper93/GhostReconWildlandsVR"
+  },
+  {
+    "name": "GloomhavenVR",
+    "game": "Gloomhaven (Digital)",
+    "repo": "McFredward/GloomhavenVR",
+    "author": "McFredward",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 273,
+    "description": "Room-scale VR board game mod with hand-held cards, a physical control board and VR multiplayer; includes Steam Frame install instructions.",
+    "releases": [
+      {
+        "tag": "v1.2.0",
+        "name": "GloomhavenVR v1.2.0",
+        "date": "2026-10-19",
+        "isNew": true,
+        "url": "https://github.com/McFredward/GloomhavenVR/releases/latest",
+        "downloadUrl": "https://github.com/McFredward/GloomhavenVR/releases/latest"
+      },
+      {
+        "tag": "v1.2.0",
+        "name": "GloomhavenVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/McFredward/GloomhavenVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/McFredward/GloomhavenVR"
+  },
+  {
+    "name": "GoatVR",
+    "game": "Goat Simulator",
+    "repo": "5chech/GoatVR",
+    "author": "5chech",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 387,
+    "description": "Built on the mobile phone version of Goat Simulator; runs fully standalone on the headset, no PCVR or streaming required.",
+    "releases": [
+      {
+        "tag": "v43.0",
+        "name": "GoatVR v43.0",
+        "date": "2026-10-11",
+        "isNew": false,
+        "url": "https://github.com/5chech/GoatVR/releases/latest",
+        "downloadUrl": "https://github.com/5chech/GoatVR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/5chech/GoatVR"
+  },
+  {
+    "name": "God of War VR Mod",
+    "game": "God of War (2018)",
+    "repo": "adore11s/God-of-War-VR-Mod",
+    "author": "adore11s",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 60,
+    "description": "Native stereo SteamVR/OpenXR rendering with first-person motion-controller combat; work in progress.",
+    "releases": [
+      {
+        "tag": "v0.2.6",
+        "name": "God of War VR Mod v0.2.6",
+        "date": "2026-10-19",
+        "isNew": true,
+        "url": "https://github.com/adore11s/God-of-War-VR-Mod/releases/latest",
+        "downloadUrl": "https://github.com/adore11s/God-of-War-VR-Mod/releases/latest"
+      },
+      {
+        "tag": "v0.2.0",
+        "name": "God of War VR Mod base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/adore11s/God-of-War-VR-Mod/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/adore11s/God-of-War-VR-Mod"
+  },
+  {
+    "name": "GoldenEye VR",
+    "game": "GoldenEye 007",
+    "repo": "MrSco/goldeneye-vr",
+    "author": "MrSco",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 86,
+    "description": "Built on the GoldenEye 007 decompilation; multiplayer requires all players on the same version due to network protocol changes.",
+    "releases": [
+      {
+        "tag": "v0.5.11",
+        "name": "GoldenEye VR v0.5.11",
+        "date": "2026-10-20",
+        "isNew": true,
+        "url": "https://github.com/MrSco/goldeneye-vr/releases/latest",
+        "downloadUrl": "https://github.com/MrSco/goldeneye-vr/releases/latest"
+      },
+      {
+        "tag": "v0.5.0",
+        "name": "GoldenEye VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/MrSco/goldeneye-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/MrSco/goldeneye-vr"
+  },
+  {
+    "name": "Gothic II VR",
+    "game": "Gothic II: Night of the Raven",
+    "repo": "dubrovskiy-yevhen-stakelogic/gothic2-vr",
+    "author": "dubrovskiy-yevhen-stakelogic",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Alpha",
+    "stars": 323,
+    "description": "Built on the open-source OpenGothic engine recreation; combined release ZIP bundles separate PCVR and standalone Quest builds.",
+    "releases": [
+      {
+        "tag": "v0.2.0",
+        "name": "Gothic II VR v0.2.0",
+        "date": "2026-09-23",
+        "isNew": false,
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic/gothic2-vr/releases/latest",
+        "downloadUrl": "https://github.com/dubrovskiy-yevhen-stakelogic/gothic2-vr/releases/latest"
+      },
+      {
+        "tag": "v0.2.0",
+        "name": "Gothic II VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic/gothic2-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/dubrovskiy-yevhen-stakelogic/gothic2-vr"
+  },
+  {
+    "name": "Gran Turismo 2 VR",
+    "game": "Gran Turismo 2",
+    "repo": "dubrovskiy-yevhen-stakelogic/gt-2-pc",
+    "author": "dubrovskiy-yevhen-stakelogic",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 303,
+    "description": "Single shared C++ codebase also targets Windows desktop, Steam Deck/Linux, macOS and a WebAssembly browser build alongside the VR modes.",
+    "releases": [
+      {
+        "tag": "v0.8.1",
+        "name": "Gran Turismo 2 VR v0.8.1",
+        "date": "2026-09-30",
+        "isNew": false,
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/latest",
+        "downloadUrl": "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/latest"
+      },
+      {
+        "tag": "v0.8.0",
+        "name": "Gran Turismo 2 VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc"
+  },
+  {
+    "name": "Grand Theft Auto IV VR",
+    "game": "Grand Theft Auto IV",
+    "repo": "Hochgeschwindigkeitsrennfahrer/Grand-Theft-Auto-IV-VR-Mod",
+    "author": "Hochgeschwindigkeitsrennfahrer",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 291,
+    "description": "SteamVR/OpenVR only, head tracking with experimental head aiming while ADS; no motion controller support yet.",
+    "releases": [
+      {
+        "tag": "GTA4VR",
+        "name": "Grand Theft Auto IV VR GTA4VR",
+        "date": "2026-08-04",
+        "isNew": false,
+        "url": "https://github.com/Hochgeschwindigkeitsrennfahrer/Grand-Theft-Auto-IV-VR-Mod/releases/latest",
+        "downloadUrl": "https://github.com/Hochgeschwindigkeitsrennfahrer/Grand-Theft-Auto-IV-VR-Mod/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/Hochgeschwindigkeitsrennfahrer/Grand-Theft-Auto-IV-VR-Mod"
+  },
+  {
+    "name": "Grim Dawn VR",
+    "game": "Grim Dawn",
+    "repo": "simplysnake/GrimDawn_mod",
+    "author": "simplysnake",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 328,
+    "description": "True-stereo OpenXR/SteamVR mod with floating HUD panel and laser-pointer controllers alongside mouse and keyboard; source under PolyForm Noncommercial 1.0.0.",
+    "releases": [
+      {
+        "tag": "v0.1.0",
+        "name": "Grim Dawn VR v0.1.0",
+        "date": "2026-10-18",
+        "isNew": false,
+        "url": "https://github.com/simplysnake/GrimDawn_mod/releases/latest",
+        "downloadUrl": "https://github.com/simplysnake/GrimDawn_mod/releases/latest"
+      },
+      {
+        "tag": "v0.1.0",
+        "name": "Grim Dawn VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/simplysnake/GrimDawn_mod/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/simplysnake/GrimDawn_mod"
+  },
+  {
+    "name": "GTA San Andreas VR for Quest",
+    "game": "Grand Theft Auto: San Andreas",
+    "repo": "dubrovskiy-yevhen-stakelogic/gta-sa-vr-quest",
+    "author": "dubrovskiy-yevhen-stakelogic",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 269,
+    "description": "Due to Rockstar copyright, no precompiled APK is distributed; a PC build script (BUILD_AND_INSTALL) merges the VR injector with the user's own exported APK and pushes it to the Quest via USB.",
+    "releases": [
+      {
+        "tag": "0.3.1 alpha",
+        "name": "GTA San Andreas VR for Quest 0.3.1 alpha",
+        "date": "2026-10-11",
+        "isNew": false,
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic/gta-sa-vr-quest",
+        "downloadUrl": "https://github.com/dubrovskiy-yevhen-stakelogic/gta-sa-vr-quest"
+      },
+      {
+        "tag": "0.3.1 alpha",
+        "name": "GTA San Andreas VR for Quest base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic/gta-sa-vr-quest/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/dubrovskiy-yevhen-stakelogic/gta-sa-vr-quest"
+  },
+  {
+    "name": "GunfireRebornVRMod",
+    "game": "Gunfire Reborn",
+    "repo": "xPrinny/GunfireRebornVRMod",
+    "author": "xPrinny",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 83,
+    "description": "Fork of PureDark's original Gunfire Reborn VR mod; optional haptics add-on by Astienth referenced separately.",
+    "releases": [
+      {
+        "tag": "1.0.6.1",
+        "name": "GunfireRebornVRMod 1.0.6.1",
+        "date": "2024-03-19",
+        "isNew": false,
+        "url": "https://github.com/xPrinny/GunfireRebornVRMod/releases/latest",
+        "downloadUrl": "https://github.com/xPrinny/GunfireRebornVRMod/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/xPrinny/GunfireRebornVRMod"
+  },
+  {
+    "name": "Half-Life: VR Mod - Blue Shift",
+    "game": "Half-Life: Blue Shift",
+    "repo": "DmitryShaburov/Blue-Shift-VR",
+    "author": "DmitryShaburov",
+    "category": "Source & Classic Engine Ports",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 159,
+    "description": "Ports the Half-Life: VR Mod codebase onto the Blue Shift Updated SDK and the HL 25th Anniversary engine.",
+    "releases": [
+      {
+        "tag": "v0.3.0",
+        "name": "Half-Life: VR Mod - Blue Shift v0.3.0",
+        "date": "2026-10-14",
+        "isNew": false,
+        "url": "https://github.com/DmitryShaburov/Blue-Shift-VR/releases/latest",
+        "downloadUrl": "https://github.com/DmitryShaburov/Blue-Shift-VR/releases/latest"
+      },
+      {
+        "tag": "v0.3.0",
+        "name": "Half-Life: VR Mod - Blue Shift base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/DmitryShaburov/Blue-Shift-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/DmitryShaburov/Blue-Shift-VR"
+  },
+  {
+    "name": "Halo: Campaign Evolved UEVR",
+    "game": "Halo: Campaign Evolved",
+    "repo": "MOTYSHIZ/HaloCampaignEvolved_UEVR",
+    "author": "MOTYSHIZ",
+    "category": "UEVR Profiles & Game Fixes",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 300,
+    "description": "Game-specific UEVR layer built on the UEVR framework; author states it works in multiplayer and is labeled early access.",
+    "releases": [
+      {
+        "tag": "v0.7.0",
+        "name": "Halo: Campaign Evolved UEVR v0.7.0",
+        "date": "2026-10-06",
+        "isNew": false,
+        "url": "https://github.com/MOTYSHIZ/HaloCampaignEvolved_UEVR/releases/latest",
+        "downloadUrl": "https://github.com/MOTYSHIZ/HaloCampaignEvolved_UEVR/releases/latest"
+      },
+      {
+        "tag": "v0.7.0",
+        "name": "Halo: Campaign Evolved UEVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/MOTYSHIZ/HaloCampaignEvolved_UEVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/MOTYSHIZ/HaloCampaignEvolved_UEVR"
+  },
+  {
+    "name": "Halo CE Quest VR + Android",
+    "game": "Halo: Combat Evolved",
+    "repo": "moistman42069/HaloCE-Quest-VR",
+    "author": "moistman42069",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 56,
+    "description": "Built on the OpenCE community engine; also ships a flat Android build.",
+    "releases": [
+      {
+        "tag": "v1.0.37",
+        "name": "Halo CE Quest VR + Android v1.0.37",
+        "date": "2026-10-15",
+        "isNew": false,
+        "url": "https://github.com/moistman42069/HaloCE-Quest-VR/releases/latest",
+        "downloadUrl": "https://github.com/moistman42069/HaloCE-Quest-VR/releases/latest"
+      },
+      {
+        "tag": "v1.0.0",
+        "name": "Halo CE Quest VR + Android base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/moistman42069/HaloCE-Quest-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/moistman42069/HaloCE-Quest-VR"
+  },
+  {
+    "name": "HaloCEVR",
+    "game": "Halo: Combat Evolved (PC)",
+    "repo": "LivingFray/HaloCEVR",
+    "author": "LivingFray",
+    "category": "AAA & Action / RPG VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 401,
+    "description": "Not compatible with Halo: The Master Chief Collection; requires original PC version only.",
+    "releases": [
+      {
+        "tag": "1.4.0",
+        "name": "HaloCEVR 1.4.0",
+        "date": "2026-01-10",
+        "isNew": false,
+        "url": "https://github.com/LivingFray/HaloCEVR/releases/latest",
+        "downloadUrl": "https://github.com/LivingFray/HaloCEVR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/LivingFray/HaloCEVR"
+  },
+  {
+    "name": "Harry Potter VR",
+    "game": "Harry Potter and the Sorcerer's Stone",
+    "repo": "dubrovskiy-yevhen-stakelogic/harry-potter-vr",
+    "author": "dubrovskiy-yevhen-stakelogic",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 135,
+    "description": "Decompilation-based native port with tracked wand spellcasting, offline voice recognition, and broomstick flight; currently implements five levels.",
+    "releases": [
+      {
+        "tag": "v0.1.4.1",
+        "name": "Harry Potter VR v0.1.4.1",
+        "date": "2026-09-23",
+        "isNew": false,
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic/harry-potter-vr/releases/latest",
+        "downloadUrl": "https://github.com/dubrovskiy-yevhen-stakelogic/harry-potter-vr/releases/latest"
+      },
+      {
+        "tag": "v0.1.4.0",
+        "name": "Harry Potter VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic/harry-potter-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/dubrovskiy-yevhen-stakelogic/harry-potter-vr"
+  },
+  {
+    "name": "HP2VR",
+    "game": "Harry Potter and the Chamber of Secrets (2002 PC)",
+    "repo": "The-Logeen/HP2VR",
+    "author": "The-Logeen",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 32,
+    "description": "Adds SteamVR stereo rendering and tracked wand spellcasting via the game's own spell system, with a guided installer.",
+    "releases": [
+      {
+        "tag": "v0.1.5",
+        "name": "HP2VR v0.1.5",
+        "date": "2026-10-18",
+        "isNew": false,
+        "url": "https://github.com/The-Logeen/HP2VR/releases/latest",
+        "downloadUrl": "https://github.com/The-Logeen/HP2VR/releases/latest"
+      },
+      {
+        "tag": "v0.1.0",
+        "name": "HP2VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/The-Logeen/HP2VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/The-Logeen/HP2VR"
+  },
+  {
+    "name": "Hytale VR Injector",
+    "game": "Hytale",
+    "repo": "heurazy/HytaleVRInjector-mod",
+    "author": "heurazy",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 342,
+    "description": "Experimental, AI-coded SteamVR injector that renders tracked-controller hands/items and centers the VR camera via an AFW reprojection dashboard.",
+    "releases": [
+      {
+        "tag": "v1.0.4",
+        "name": "Hytale VR Injector v1.0.4",
+        "date": "2026-08-24",
+        "isNew": false,
+        "url": "https://github.com/heurazy/HytaleVRInjector-mod/releases/latest",
+        "downloadUrl": "https://github.com/heurazy/HytaleVRInjector-mod/releases/latest"
+      },
+      {
+        "tag": "v1.0.0",
+        "name": "Hytale VR Injector base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/heurazy/HytaleVRInjector-mod/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/heurazy/HytaleVRInjector-mod"
+  },
+  {
+    "name": "Insanity Engine VR",
+    "game": "Outlast (2013)",
+    "repo": "TdiamondOf/InsanityEngineVR",
+    "author": "TdiamondOf",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 374,
+    "description": "Very early WIP beta build; requires an OpenXR runtime and a Vulkan-capable GPU.",
+    "releases": [
+      {
+        "tag": "v0.2.0-beta",
+        "name": "Insanity Engine VR v0.2.0-beta",
+        "date": "2026-10-16",
+        "isNew": false,
+        "url": "https://github.com/TdiamondOf/InsanityEngineVR/releases/latest",
+        "downloadUrl": "https://github.com/TdiamondOf/InsanityEngineVR/releases/latest"
+      },
+      {
+        "tag": "v0.2.0-beta",
+        "name": "Insanity Engine VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/TdiamondOf/InsanityEngineVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/TdiamondOf/InsanityEngineVR"
+  },
+  {
+    "name": "Iron Blight VR",
+    "game": "Iron Blight",
+    "repo": "King-EJ/Iron-Blight-VR",
+    "author": "King-EJ",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 59,
+    "description": "BepInEx-based OpenXR mod with motion-tracked gun and flashlight; test build 0.1.16 only tested with Quest 3 via Virtual Desktop XR.",
+    "releases": [
+      {
+        "tag": "IronBlightVR",
+        "name": "Iron Blight VR IronBlightVR",
+        "date": "2026-10-06",
+        "isNew": false,
+        "url": "https://github.com/King-EJ/Iron-Blight-VR/releases/latest",
+        "downloadUrl": "https://github.com/King-EJ/Iron-Blight-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/King-EJ/Iron-Blight-VR"
+  },
+  {
+    "name": "JKXR",
+    "game": "Star Wars Jedi Knight II: Jedi Outcast",
+    "repo": "Team-Beef-Studios/JKXR",
+    "author": "Team Beef",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Stable",
+    "stars": 98,
+    "description": "JKXR VR mod for Star Wars Jedi Knight II: Jedi Outcast.",
+    "releases": [
+      {
+        "tag": "v1.2.0",
+        "name": "JKXR v1.2.0",
+        "date": "2026-09-29",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/JKXR/releases/latest",
+        "downloadUrl": "https://github.com/Team-Beef-Studios/JKXR/releases/latest"
+      },
+      {
+        "tag": "v1.2.0",
+        "name": "JKXR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/JKXR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Team-Beef-Studios/JKXR"
+  },
+  {
+    "name": "KCD1VR",
+    "game": "Kingdom Come: Deliverance",
+    "repo": "farmerarmor/KCD1VR",
+    "author": "farmerarmor",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 88,
+    "description": "True-stereo (no alternating-eye rendering) CryEngine OpenXR mod; no motion controller support, uses keyboard/mouse or gamepad.",
+    "releases": [
+      {
+        "tag": "v0.1.69",
+        "name": "KCD1VR v0.1.69",
+        "date": "2026-09-26",
+        "isNew": false,
+        "url": "https://github.com/farmerarmor/KCD1VR/releases/latest",
+        "downloadUrl": "https://github.com/farmerarmor/KCD1VR/releases/latest"
+      },
+      {
+        "tag": "v0.1.0",
+        "name": "KCD1VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/farmerarmor/KCD1VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/farmerarmor/KCD1VR"
+  },
+  {
+    "name": "KisakCOD VR WinlatorXR",
+    "game": "Call of Duty 4: Modern Warfare",
+    "repo": "SgtBilko76/CallOfDuty4_VR_WinlatorXR",
+    "author": "SgtBilko76",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 406,
+    "description": "Packages the existing KisakCOD VR mod (by jplakon, based on SwagSoftware's KisakCOD) with a WinlatorXR XrAPI backend so it runs standalone on a Meta Quest without a PC, OpenXR, or SteamVR runtime; tested on Quest 3 via WinlatorXR cats-27 at ~45-72fps.",
+    "releases": [
+      {
+        "tag": "v0.1.0-beta.1",
+        "name": "KisakCOD VR WinlatorXR v0.1.0-beta.1",
+        "date": "2026-09-20",
+        "isNew": false,
+        "url": "https://github.com/SgtBilko76/CallOfDuty4_VR_WinlatorXR/releases/latest",
+        "downloadUrl": "https://github.com/SgtBilko76/CallOfDuty4_VR_WinlatorXR/releases/latest"
+      },
+      {
+        "tag": "v0.1.0-beta.0",
+        "name": "KisakCOD VR WinlatorXR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/SgtBilko76/CallOfDuty4_VR_WinlatorXR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/SgtBilko76/CallOfDuty4_VR_WinlatorXR"
+  },
+  {
+    "name": "KisakCOD VR",
+    "game": "Call of Duty 4: Modern Warfare (2007)",
+    "repo": "jplakon/CallOfDuty4_VR",
+    "author": "JplayUltimate",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 385,
+    "description": "Source-based OpenXR VR conversion built on the KisakCOD engine mod; first public beta released 2026-07-30, adding stereo rendering, 6DOF tracking, physical scopes, and physical grenades.",
+    "releases": [
+      {
+        "tag": "v0.10.0-beta.19",
+        "name": "KisakCOD VR v0.10.0-beta.19",
+        "date": "2026-09-23",
+        "isNew": false,
+        "url": "https://github.com/jplakon/CallOfDuty4_VR/releases/latest",
+        "downloadUrl": "https://github.com/jplakon/CallOfDuty4_VR/releases/latest"
+      },
+      {
+        "tag": "v0.10.0-beta.0",
+        "name": "KisakCOD VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/jplakon/CallOfDuty4_VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/jplakon/CallOfDuty4_VR"
+  },
+  {
+    "name": "KotOR VR",
+    "game": "Star Wars: Knights of the Old Republic",
+    "repo": "megabars/kotor-vr",
+    "author": "megabars",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 222,
+    "description": "Third-person per-eye stereo rendering with head tracking via OpenXR; mouse and keyboard control, no motion-controller input.",
+    "releases": [
+      {
+        "tag": "v0.0.1",
+        "name": "KotOR VR v0.0.1",
+        "date": "2026-10-18",
+        "isNew": false,
+        "url": "https://github.com/megabars/kotor-vr/releases/latest",
+        "downloadUrl": "https://github.com/megabars/kotor-vr/releases/latest"
+      },
+      {
+        "tag": "v0.0.0",
+        "name": "KotOR VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/megabars/kotor-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/megabars/kotor-vr"
+  },
+  {
+    "name": "L4D2VR",
+    "game": "Left 4 Dead 2",
+    "repo": "sd805/l4d2vr",
+    "author": "sd805",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 329,
+    "description": "Uses -insecure launch option due to VAC ban risk; built on code from VirtualFortress2, gmcl_openvr, a VR-patched dxvk fork, and source-sdk-2013.",
+    "releases": [
+      {
+        "tag": "0.6.2",
+        "name": "L4D2VR 0.6.2",
+        "date": "2025-07-19",
+        "isNew": false,
+        "url": "https://github.com/sd805/l4d2vr/releases/latest",
+        "downloadUrl": "https://github.com/sd805/l4d2vr/releases/latest"
+      },
+      {
+        "tag": "0.6.0",
+        "name": "L4D2VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/sd805/l4d2vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/sd805/l4d2vr"
+  },
+  {
+    "name": "Lambda1VR",
+    "game": "Half-Life",
+    "repo": "Team-Beef-Studios/Lambda1VR",
+    "author": "Team Beef",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Stable",
+    "stars": 320,
+    "description": "Lambda1VR VR mod for Half-Life.",
+    "releases": [
+      {
+        "tag": "v1.7.4",
+        "name": "Lambda1VR v1.7.4",
+        "date": "2026-09-29",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/Lambda1VR/releases/latest",
+        "downloadUrl": "https://github.com/Team-Beef-Studios/Lambda1VR/releases/latest"
+      },
+      {
+        "tag": "v1.7.0",
+        "name": "Lambda1VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/Lambda1VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Team-Beef-Studios/Lambda1VR"
+  },
+  {
+    "name": "Lemmix for Steam Frame",
+    "game": "Lemmings (NeoLemmix)",
+    "repo": "SPD13/lemmix-frame",
+    "author": "SPD13",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Stable",
+    "stars": 208,
+    "description": "Native Godot 4.7 .NET port of the web-based VR engine LemmingsJS_VR, running as a devkit title on Steam Frame.",
+    "releases": [
+      {
+        "tag": "v1.0.0",
+        "name": "Lemmix for Steam Frame v1.0.0",
+        "date": "2026-10-13",
+        "isNew": false,
+        "url": "https://github.com/SPD13/lemmix-frame/releases/latest",
+        "downloadUrl": "https://github.com/SPD13/lemmix-frame/releases/latest"
+      },
+      {
+        "tag": "v1.0.0",
+        "name": "Lemmix for Steam Frame base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/SPD13/lemmix-frame/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/SPD13/lemmix-frame"
+  },
+  {
+    "name": "LethalCompanyVR (LCVR)",
+    "game": "Lethal Company",
+    "repo": "DaXcess/LCVR",
+    "author": "DaXcess",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 69,
+    "description": "Compatible with cross-play between VR and non-VR players in the same multiplayer lobby.",
+    "releases": [
+      {
+        "tag": "v1.5.0",
+        "name": "LethalCompanyVR (LCVR) v1.5.0",
+        "date": "2026-04-14",
+        "isNew": false,
+        "url": "https://github.com/DaXcess/LCVR/releases/latest",
+        "downloadUrl": "https://github.com/DaXcess/LCVR/releases/latest"
+      },
+      {
+        "tag": "v1.5.0",
+        "name": "LethalCompanyVR (LCVR) base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/DaXcess/LCVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/DaXcess/LCVR"
+  },
+  {
+    "name": "Magic Carpet VR",
+    "game": "Magic Carpet",
+    "repo": "NathanaelA/mgcarpet-vr",
+    "author": "NathanaelA",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 79,
+    "description": "Engine reimplementation in Rust with true stereo, dual-cast spells on each controller, and an optional Enhanced Mode.",
+    "releases": [
+      {
+        "tag": "0.1.0",
+        "name": "Magic Carpet VR 0.1.0",
+        "date": "2026-08-18",
+        "isNew": false,
+        "url": "https://github.com/NathanaelA/mgcarpet-vr/releases/latest",
+        "downloadUrl": "https://github.com/NathanaelA/mgcarpet-vr/releases/latest"
+      },
+      {
+        "tag": "0.1.0",
+        "name": "Magic Carpet VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/NathanaelA/mgcarpet-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/NathanaelA/mgcarpet-vr"
+  },
+  {
+    "name": "Majora's Mask VR",
+    "game": "The Legend of Zelda: Majora's Mask",
+    "repo": "fulldivegames/Majoras-Mask-VR",
+    "author": "FullDiveGames",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 146,
+    "description": "Author states the mod was built using AI-assisted ('vibe coding') development.",
+    "releases": [
+      {
+        "tag": "v0.36",
+        "name": "Majora's Mask VR v0.36",
+        "date": "2026-10-11",
+        "isNew": false,
+        "url": "https://github.com/fulldivegames/Majoras-Mask-VR/releases/latest",
+        "downloadUrl": "https://github.com/fulldivegames/Majoras-Mask-VR/releases/latest"
+      },
+      {
+        "tag": "v0.0",
+        "name": "Majora's Mask VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/fulldivegames/Majoras-Mask-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/fulldivegames/Majoras-Mask-VR"
+  },
+  {
+    "name": "MegaMan64RecompiledVR",
+    "game": "Mega Man 64",
+    "repo": "randygil/MegaMan64RecompiledVR",
+    "author": "randygil",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 282,
+    "description": "Fork of MegaMan64Recompiled adding a first-person VR mode where the buster is mapped to the left hand and the special weapon to the right.",
+    "releases": [
+      {
+        "tag": "v0.9.1-vr1",
+        "name": "MegaMan64RecompiledVR v0.9.1-vr1",
+        "date": "2026-10-01",
+        "isNew": false,
+        "url": "https://github.com/randygil/MegaMan64RecompiledVR/releases/latest",
+        "downloadUrl": "https://github.com/randygil/MegaMan64RecompiledVR/releases/latest"
+      },
+      {
+        "tag": "v0.9.1-vr1",
+        "name": "MegaMan64RecompiledVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/randygil/MegaMan64RecompiledVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/randygil/MegaMan64RecompiledVR"
+  },
+  {
+    "name": "MetroidPrimePortVR (PrimedGun v2)",
+    "game": "Metroid Prime",
+    "repo": "iChris4/MetroidPrimePortVR",
+    "author": "iChris4",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Alpha",
+    "stars": 224,
+    "description": "Successor to the Dolphin-based PrimedGun v1; v2 drops the emulator and builds the game natively from the PrimeDecomp decompilation via Odran's Metroid Prime native port, with VR controls added by @Nobbie248.",
+    "releases": [
+      {
+        "tag": "v2.0.0-beta.2",
+        "name": "MetroidPrimePortVR (PrimedGun v2) v2.0.0-beta.2",
+        "date": "2026-10-19",
+        "isNew": true,
+        "url": "https://github.com/iChris4/MetroidPrimePortVR/releases/latest",
+        "downloadUrl": "https://github.com/iChris4/MetroidPrimePortVR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/iChris4/MetroidPrimePortVR"
+  },
+  {
+    "name": "Mirror's Edge VR",
+    "game": "Mirror's Edge (2008)",
+    "repo": "letsgosportsteam/mirrors-edge-vr-mod",
+    "author": "LetsGoSportsTeam",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 155,
+    "description": "Requires the Virtual Desktop app with VDXR runtime rather than SteamVR; motion input uses the Touch controller layout but also supports gamepad or keyboard/mouse.",
+    "releases": [
+      {
+        "tag": "v0.2.2-alpha",
+        "name": "Mirror's Edge VR v0.2.2-alpha",
+        "date": "2026-09-19",
+        "isNew": false,
+        "url": "https://github.com/letsgosportsteam/mirrors-edge-vr-mod/releases/latest",
+        "downloadUrl": "https://github.com/letsgosportsteam/mirrors-edge-vr-mod/releases/latest"
+      },
+      {
+        "tag": "v0.2.2-alpha",
+        "name": "Mirror's Edge VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/letsgosportsteam/mirrors-edge-vr-mod/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/letsgosportsteam/mirrors-edge-vr-mod"
+  },
+  {
+    "name": "MOHAVR",
+    "game": "Medal of Honor: Airborne",
+    "repo": "Disonomouss/MOHAVR",
+    "author": "Disonomouss",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 248,
+    "description": "Requires a graphics card with Direct3D 12 and an OpenXR runtime (Virtual Desktop, SteamVR or Meta Quest Link).",
+    "releases": [
+      {
+        "tag": "v0.8.15",
+        "name": "MOHAVR v0.8.15",
+        "date": "2026-10-13",
+        "isNew": false,
+        "url": "https://github.com/Disonomouss/MOHAVR/releases/latest",
+        "downloadUrl": "https://github.com/Disonomouss/MOHAVR/releases/latest"
+      },
+      {
+        "tag": "v0.8.0",
+        "name": "MOHAVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Disonomouss/MOHAVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Disonomouss/MOHAVR"
+  },
+  {
+    "name": "MOHWVR",
+    "game": "Medal of Honor: Warfighter",
+    "repo": "CaptainBrannigan/WarfighterVR",
+    "author": "CaptainBrannigan",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 217,
+    "description": "Proxy dxgi.dll with SteamVR stereo rendering, motion-controller aiming, holsters and an in-headset settings menu; tested on Quest 3 via Steam Link.",
+    "releases": [
+      {
+        "tag": "beta",
+        "name": "MOHWVR beta",
+        "date": "2026-10-16",
+        "isNew": false,
+        "url": "https://github.com/CaptainBrannigan/WarfighterVR/releases/latest",
+        "downloadUrl": "https://github.com/CaptainBrannigan/WarfighterVR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/CaptainBrannigan/WarfighterVR"
+  },
+  {
+    "name": "NewDarkVR",
+    "game": "System Shock 2",
+    "repo": "Owloeb/NewDarkVR",
+    "author": "Owloeb",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 127,
+    "description": "Built on the author's NewDarkRecompiled 64-bit decompilation port; current build only offers a standalone OpenXR test (ndvr_gltest.exe), not full in-game VR yet.",
+    "releases": [
+      {
+        "tag": "v.0.1.0",
+        "name": "NewDarkVR v.0.1.0",
+        "date": "2026-10-14",
+        "isNew": false,
+        "url": "https://github.com/Owloeb/NewDarkVR/releases/latest",
+        "downloadUrl": "https://github.com/Owloeb/NewDarkVR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/Owloeb/NewDarkVR"
+  },
+  {
+    "name": "NieRVR",
+    "game": "NieR:Automata",
+    "repo": "aracielVR/NieR-Automata-in-VR",
+    "author": "aracielVR",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 361,
+    "description": "Drop-in d3d11.dll with 6DoF head tracking, HUD layer, and VR controllers mapped as a gamepad; works with any OpenXR runtime.",
+    "releases": [
+      {
+        "tag": "0.5.4",
+        "name": "NieRVR 0.5.4",
+        "date": "2026-10-17",
+        "isNew": false,
+        "url": "https://github.com/aracielVR/NieR-Automata-in-VR/releases/latest",
+        "downloadUrl": "https://github.com/aracielVR/NieR-Automata-in-VR/releases/latest"
+      },
+      {
+        "tag": "0.5.0",
+        "name": "NieRVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/aracielVR/NieR-Automata-in-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/aracielVR/NieR-Automata-in-VR"
+  },
+  {
+    "name": "Night of the Hunt VR",
+    "game": "Bloodborne",
+    "repo": "bldbrne-vr/bldbrne-vr",
+    "author": "bldbrne-vr",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 320,
+    "description": "Unofficial fan mod for Bloodborne PS4 v1.09, distributed as a Windows installer and portable zip.",
+    "releases": [
+      {
+        "tag": "v0.3.5",
+        "name": "Night of the Hunt VR v0.3.5",
+        "date": "2026-10-20",
+        "isNew": true,
+        "url": "https://github.com/bldbrne-vr/bldbrne-vr/releases/latest",
+        "downloadUrl": "https://github.com/bldbrne-vr/bldbrne-vr/releases/latest"
+      },
+      {
+        "tag": "v0.3.0",
+        "name": "Night of the Hunt VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/bldbrne-vr/bldbrne-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/bldbrne-vr/bldbrne-vr"
+  },
+  {
+    "name": "NOLF2 R.E.A.L. mod",
+    "game": "No One Lives Forever 2: A Spy in H.A.R.M.'s Way",
+    "repo": "LukeRoss00/nolf2-real-mod",
+    "author": "LukeRoss00",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 49,
+    "description": "Part of the R.E.A.L. mod series of VR conversions by LukeRoss00 for Lithtech-engine games.",
+    "releases": [
+      {
+        "tag": "r3",
+        "name": "NOLF2 R.E.A.L. mod r3",
+        "date": "2018-02-13",
+        "isNew": false,
+        "url": "https://github.com/LukeRoss00/nolf2-real-mod/releases/latest",
+        "downloadUrl": "https://github.com/LukeRoss00/nolf2-real-mod/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/LukeRoss00/nolf2-real-mod"
+  },
+  {
+    "name": "NOVR",
+    "game": "Nuclear Option",
+    "repo": "InfernoSuperNova/novr",
+    "author": "InfernoSuperNova",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 120,
+    "description": "A reworked, game-specific version of the UUVR universal VR mod tailored for Nuclear Option.",
+    "releases": [
+      {
+        "tag": "0.4.4",
+        "name": "NOVR 0.4.4",
+        "date": "2026-09-09",
+        "isNew": false,
+        "url": "https://github.com/InfernoSuperNova/novr/releases/latest",
+        "downloadUrl": "https://github.com/InfernoSuperNova/novr/releases/latest"
+      },
+      {
+        "tag": "0.4.0",
+        "name": "NOVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/InfernoSuperNova/novr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/InfernoSuperNova/novr"
+  },
+  {
+    "name": "oot-vr",
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "repo": "gibranfelix/oot-vr",
+    "author": "gibranfelix",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 188,
+    "description": "Built on Ship of Harkinian with OpenXR on GLES; runs natively on-headset with no PC required.",
+    "releases": [
+      {
+        "tag": "v0.8.0-beta",
+        "name": "oot-vr v0.8.0-beta",
+        "date": "2026-10-17",
+        "isNew": false,
+        "url": "https://github.com/gibranfelix/oot-vr/releases/latest",
+        "downloadUrl": "https://github.com/gibranfelix/oot-vr/releases/latest"
+      },
+      {
+        "tag": "v0.8.0-beta",
+        "name": "oot-vr base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/gibranfelix/oot-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/gibranfelix/oot-vr"
+  },
+  {
+    "name": "OpenCMR2 VR",
+    "game": "Colin McRae Rally 2.0",
+    "repo": "DR-89/opencmr2-vr",
+    "author": "DR-89",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 33,
+    "description": "Built on pablocpas/OpenCMR2, a native SDL port of the pablocpas/CMR2Decomp decompilation; same release includes a Windows PCVR/OpenXR build.",
+    "releases": [
+      {
+        "tag": "v0.1.0",
+        "name": "OpenCMR2 VR v0.1.0",
+        "date": "2026-10-13",
+        "isNew": false,
+        "url": "https://github.com/DR-89/opencmr2-vr/releases/latest",
+        "downloadUrl": "https://github.com/DR-89/opencmr2-vr/releases/latest"
+      },
+      {
+        "tag": "v0.1.0",
+        "name": "OpenCMR2 VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/DR-89/opencmr2-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/DR-89/opencmr2-vr"
+  },
+  {
+    "name": "OpenMW-VR Quest",
+    "game": "The Elder Scrolls III: Morrowind",
+    "repo": "tomups/openmw-vr-quest",
+    "author": "tomups",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Abandoned",
+    "stars": 136,
+    "description": "Marked not under active development by the creator; Team Beef is working on a separate native Quest port.",
+    "releases": [
+      {
+        "tag": "v0.51",
+        "name": "OpenMW-VR Quest v0.51",
+        "date": "2026-07-05",
+        "isNew": false,
+        "url": "https://github.com/tomups/openmw-vr-quest/releases/latest",
+        "downloadUrl": "https://github.com/tomups/openmw-vr-quest/releases/latest"
+      },
+      {
+        "tag": "v0.0",
+        "name": "OpenMW-VR Quest base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/tomups/openmw-vr-quest/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/tomups/openmw-vr-quest"
+  },
+  {
+    "name": "Overlord",
+    "game": "Call of Duty: Modern Warfare 2 Campaign Remastered",
+    "repo": "Aeka0/Overlord",
+    "author": "Aeka0",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 208,
+    "description": "Supports Quest 3 via a zero-offset origin preset for controller calibration; project is actively developed with no stable release yet.",
+    "releases": [
+      {
+        "tag": "v0.6.0-beta",
+        "name": "Overlord v0.6.0-beta",
+        "date": "2026-10-13",
+        "isNew": false,
+        "url": "https://github.com/Aeka0/Overlord/releases/latest",
+        "downloadUrl": "https://github.com/Aeka0/Overlord/releases/latest"
+      },
+      {
+        "tag": "v0.6.0-beta",
+        "name": "Overlord base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Aeka0/Overlord/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Aeka0/Overlord"
+  },
+  {
+    "name": "OZARK VR",
+    "game": "OZARK",
+    "repo": "King-EJ/OZARK_VR",
+    "author": "King-EJ",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 301,
+    "description": "WIP Unity IL2CPP mod with first and third person modes, hand HUD, and grenade throwing; tested on Quest 3.",
+    "releases": [
+      {
+        "tag": "OZARK-VRMod",
+        "name": "OZARK VR OZARK-VRMod",
+        "date": "2026-10-03",
+        "isNew": false,
+        "url": "https://github.com/King-EJ/OZARK_VR/releases/latest",
+        "downloadUrl": "https://github.com/King-EJ/OZARK_VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/King-EJ/OZARK_VR"
+  },
+  {
+    "name": "PainKiller VR Mod",
+    "game": "PainKiller",
+    "repo": "FluorescentHallucinogen/painkiller-vr-mod",
+    "author": "FluorescentHallucinogen",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 266,
+    "description": "Native OpenXR implementation (no UEVR dependency); author tested with Black Edition on Steam, Quest 2 and Virtual Desktop, though broader OpenXR headset/runtime support is expected but less proven.",
+    "releases": [
+      {
+        "tag": "v0.1.9",
+        "name": "PainKiller VR Mod v0.1.9",
+        "date": "2026-09-07",
+        "isNew": false,
+        "url": "https://github.com/FluorescentHallucinogen/painkiller-vr-mod/releases/latest",
+        "downloadUrl": "https://github.com/FluorescentHallucinogen/painkiller-vr-mod/releases/latest"
+      },
+      {
+        "tag": "v0.1.0",
+        "name": "PainKiller VR Mod base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/FluorescentHallucinogen/painkiller-vr-mod/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/FluorescentHallucinogen/painkiller-vr-mod"
+  },
+  {
+    "name": "PC2VR (PlanetCoaster2VR)",
+    "game": "Planet Coaster 2",
+    "repo": "D-Rey86/PlanetCoaster2VR",
+    "author": "D-Rey86",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 408,
+    "description": "Bundles CheekyFoveatedDLSS for optional foveated DLSS rendering on NVIDIA GPUs; requires OpenXR runtime with D3D12 support.",
+    "releases": [
+      {
+        "tag": "v0.1.0-alpha.2",
+        "name": "PC2VR (PlanetCoaster2VR) v0.1.0-alpha.2",
+        "date": "2026-10-13",
+        "isNew": false,
+        "url": "https://github.com/D-Rey86/PlanetCoaster2VR/releases/latest",
+        "downloadUrl": "https://github.com/D-Rey86/PlanetCoaster2VR/releases/latest"
+      },
+      {
+        "tag": "v0.1.0-alpha.0",
+        "name": "PC2VR (PlanetCoaster2VR) base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/D-Rey86/PlanetCoaster2VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/D-Rey86/PlanetCoaster2VR"
+  },
+  {
+    "name": "Penumbra: Overture VR Mod",
+    "game": "Penumbra: Overture",
+    "repo": "newyork167/penumbra_vr",
+    "author": "newyork167",
+    "category": "Source & Classic Engine Ports",
+    "platform": "PCVR",
+    "status": "Abandoned",
+    "stars": 261,
+    "description": "Fork noted as last known release pre fork; copy mod files into Penumbra's redist directory and run with SteamVR.",
+    "releases": [
+      {
+        "tag": "untagged-aceffe2e650abce1e795",
+        "name": "Penumbra: Overture VR Mod untagged-aceffe2e650abce1e795",
+        "date": "2018-06-23",
+        "isNew": false,
+        "url": "https://github.com/newyork167/penumbra_vr/releases/latest",
+        "downloadUrl": "https://github.com/newyork167/penumbra_vr/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/newyork167/penumbra_vr"
+  },
+  {
+    "name": "Perfect Dark VR",
+    "game": "Perfect Dark",
+    "repo": "Alex-LeTux/perfect_dark_VR",
+    "author": "Alex Le Tux",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 271,
+    "description": "Fork of the perfect-dark-pc-port and izzy2lost Android port of the n64decomp Perfect Dark decompilation; supports community HD texture packs.",
+    "releases": [
+      {
+        "tag": "v2.1",
+        "name": "Perfect Dark VR v2.1",
+        "date": "2026-10-11",
+        "isNew": false,
+        "url": "https://github.com/Alex-LeTux/perfect_dark_VR/releases/latest",
+        "downloadUrl": "https://github.com/Alex-LeTux/perfect_dark_VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/Alex-LeTux/perfect_dark_VR"
+  },
+  {
+    "name": "Port0r: Rally VR",
+    "game": "Sega Rally Championship",
+    "repo": "jacquesdupontd/port0r",
+    "author": "jacquesdupontd (Port0r)",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 396,
+    "description": "Runs the original arcade code via a modified MAME core that redraws every Model 2 polygon per eye for true stereoscopic 3D; also has Switch, Android and Linux builds.",
+    "releases": [
+      {
+        "tag": "timecrs2-v0.1.0",
+        "name": "Port0r: Rally VR timecrs2-v0.1.0",
+        "date": "2026-10-17",
+        "isNew": false,
+        "url": "https://github.com/jacquesdupontd/port0r/releases/latest",
+        "downloadUrl": "https://github.com/jacquesdupontd/port0r/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/jacquesdupontd/port0r"
+  },
+  {
+    "name": "Prey (2006) VR PCVR",
+    "game": "Prey (2006)",
+    "repo": "GameOrDie007/Prey-2006-VR",
+    "author": "GameOrDie007",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 231,
+    "description": "PC port of lvonasek's Quest PreyVR via OpenXR, tested on Quest 3 over Virtual Desktop.",
+    "releases": [
+      {
+        "tag": "v1.0-pcvr",
+        "name": "Prey (2006) VR PCVR v1.0-pcvr",
+        "date": "2026-09-17",
+        "isNew": false,
+        "url": "https://github.com/GameOrDie007/Prey-2006-VR/releases/latest",
+        "downloadUrl": "https://github.com/GameOrDie007/Prey-2006-VR/releases/latest"
+      },
+      {
+        "tag": "v1.0-pcvr",
+        "name": "Prey (2006) VR PCVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/GameOrDie007/Prey-2006-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/GameOrDie007/Prey-2006-VR"
+  },
+  {
+    "name": "PreyVR",
+    "game": "Prey (2006)",
+    "repo": "Team-Beef-Studios/PreyVR",
+    "author": "lvonasek",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Stable",
+    "stars": 145,
+    "description": "Built on id Tech 4 Quest-porting work from the Doom3Quest/Quake2Quest lineage by lvonasek; v1.2.4 adds Pico 4 support, weapon wheel, and a hidden cheat menu.",
+    "releases": [
+      {
+        "tag": "v1.2.4",
+        "name": "PreyVR v1.2.4",
+        "date": "2026-03-24",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/PreyVR/releases/latest",
+        "downloadUrl": "https://github.com/Team-Beef-Studios/PreyVR/releases/latest"
+      },
+      {
+        "tag": "v1.2.0",
+        "name": "PreyVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/PreyVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Team-Beef-Studios/PreyVR"
+  },
+  {
+    "name": "PrimedGun Quest 3",
+    "game": "Metroid Prime",
+    "repo": "LiquidAzir/PrimedGun-Quest3",
+    "author": "LiquidAzir",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 65,
+    "description": "Standalone build on Dolphin and Dolphin ReduX; emulation runs on the headset.",
+    "releases": [
+      {
+        "tag": "v0.1.0-preview.1",
+        "name": "PrimedGun Quest 3 v0.1.0-preview.1",
+        "date": "2026-10-03",
+        "isNew": false,
+        "url": "https://github.com/LiquidAzir/PrimedGun-Quest3/releases/latest",
+        "downloadUrl": "https://github.com/LiquidAzir/PrimedGun-Quest3/releases/latest"
+      },
+      {
+        "tag": "v0.1.0-preview.0",
+        "name": "PrimedGun Quest 3 base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/LiquidAzir/PrimedGun-Quest3/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/LiquidAzir/PrimedGun-Quest3"
+  },
+  {
+    "name": "PrimedGun",
+    "game": "Metroid Prime",
+    "repo": "Nobbie248/PrimedGun",
+    "author": "Nobbie248",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Stable",
+    "stars": 39,
+    "description": "Dolphin ReduX-based build; headlined Flat2VR's June 2026 release report.",
+    "releases": [
+      {
+        "tag": "v1.1.7-windows",
+        "name": "PrimedGun v1.1.7-windows",
+        "date": "2026-10-05",
+        "isNew": false,
+        "url": "https://github.com/Nobbie248/PrimedGun/releases/latest",
+        "downloadUrl": "https://github.com/Nobbie248/PrimedGun/releases/latest"
+      },
+      {
+        "tag": "v1.1.7-windows",
+        "name": "PrimedGun base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Nobbie248/PrimedGun/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Nobbie248/PrimedGun"
+  },
+  {
+    "name": "Project 06 VR",
+    "game": "Sonic Project 06",
+    "repo": "moistman42069/Project06-VR",
+    "author": "moistman42069",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 118,
+    "description": "Wraps the Android Sonic Release port with OpenXR stereo rendering, Touch controls, optional first-person view and physical motion controls.",
+    "releases": [
+      {
+        "tag": "v0.1.15",
+        "name": "Project 06 VR v0.1.15",
+        "date": "2026-09-27",
+        "isNew": false,
+        "url": "https://github.com/moistman42069/Project06-VR/releases/latest",
+        "downloadUrl": "https://github.com/moistman42069/Project06-VR/releases/latest"
+      },
+      {
+        "tag": "v0.1.0",
+        "name": "Project 06 VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/moistman42069/Project06-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/moistman42069/Project06-VR"
+  },
+  {
+    "name": "Quake II VR for PCVR",
+    "game": "Quake II",
+    "repo": "GameOrDie007/Quake-II-PCVR",
+    "author": "GameOrDie007",
+    "category": "Source & Classic Engine Ports",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 29,
+    "description": "Port of Team Beef's Quake2Quest to PC VR over OpenXR (VDXR, SteamVR, Oculus runtime); Setup downloads Team Beef's HD assets from their release page.",
+    "releases": [
+      {
+        "tag": "v1.0",
+        "name": "Quake II VR for PCVR v1.0",
+        "date": "2026-09-07",
+        "isNew": false,
+        "url": "https://github.com/GameOrDie007/Quake-II-PCVR/releases/latest",
+        "downloadUrl": "https://github.com/GameOrDie007/Quake-II-PCVR/releases/latest"
+      },
+      {
+        "tag": "v1.0",
+        "name": "Quake II VR for PCVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/GameOrDie007/Quake-II-PCVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/GameOrDie007/Quake-II-PCVR"
+  },
+  {
+    "name": "Quake-PCVR",
+    "game": "Quake",
+    "repo": "GameOrDie007/Quake-PCVR",
+    "author": "GameOrDie007",
+    "category": "Source & Classic Engine Ports",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 205,
+    "description": "PC VR port over OpenXR of Team Beef's QuakeQuest (Simon Brown's DarkPlaces-based VR work), with support for the official expansions and MachineGames episodes.",
+    "releases": [
+      {
+        "tag": "v1.1",
+        "name": "Quake-PCVR v1.1",
+        "date": "2026-09-07",
+        "isNew": false,
+        "url": "https://github.com/GameOrDie007/Quake-PCVR/releases/latest",
+        "downloadUrl": "https://github.com/GameOrDie007/Quake-PCVR/releases/latest"
+      },
+      {
+        "tag": "v1.0",
+        "name": "Quake-PCVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/GameOrDie007/Quake-PCVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/GameOrDie007/Quake-PCVR"
+  },
+  {
+    "name": "Quake VR: UNLEASHED",
+    "game": "Quake",
+    "repo": "vittorioromeo/quakevr",
+    "author": "Vittorio Romeo",
+    "category": "Source & Classic Engine Ports",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 415,
+    "description": "Runs on the Ironwail engine via OpenXR; successor to the original Quake VR mod which ran on QuakeSpasm-Spiked/OpenVR.",
+    "releases": [
+      {
+        "tag": "v1.0.1",
+        "name": "Quake VR: UNLEASHED v1.0.1",
+        "date": "2026-10-11",
+        "isNew": false,
+        "url": "https://github.com/vittorioromeo/quakevr/releases/latest",
+        "downloadUrl": "https://github.com/vittorioromeo/quakevr/releases/latest"
+      },
+      {
+        "tag": "v1.0.0",
+        "name": "Quake VR: UNLEASHED base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/vittorioromeo/quakevr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/vittorioromeo/quakevr"
+  },
+  {
+    "name": "Quake2Quest",
+    "game": "Quake II",
+    "repo": "Team-Beef-Studios/Quake2Quest",
+    "author": "Team Beef",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Stable",
+    "stars": 113,
+    "description": "Quake2Quest VR mod for Quake II.",
+    "releases": [
+      {
+        "tag": "v1.1.1",
+        "name": "Quake2Quest v1.1.1",
+        "date": "2026-09-29",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/Quake2Quest/releases/latest",
+        "downloadUrl": "https://github.com/Team-Beef-Studios/Quake2Quest/releases/latest"
+      },
+      {
+        "tag": "v1.1.0",
+        "name": "Quake2Quest base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/Quake2Quest/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Team-Beef-Studios/Quake2Quest"
+  },
+  {
+    "name": "Quake3Quest",
+    "game": "Quake III Arena",
+    "repo": "Team-Beef-Studios/ioq3quest",
+    "author": "Team Beef",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Stable",
+    "stars": 177,
+    "description": "Fork/VR port of ioquake3; includes weapon wheel, campaign, local Wi-Fi and dedicated VR-only online multiplayer.",
+    "releases": [
+      {
+        "tag": "1.2.0",
+        "name": "Quake3Quest 1.2.0",
+        "date": "2026-09-29",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/ioq3quest/releases/latest",
+        "downloadUrl": "https://github.com/Team-Beef-Studios/ioq3quest/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/Team-Beef-Studios/ioq3quest"
+  },
+  {
+    "name": "QuakeQuest",
+    "game": "Quake",
+    "repo": "Team-Beef-Studios/QuakeQuest",
+    "author": "Team Beef",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Stable",
+    "stars": 244,
+    "description": "QuakeQuest VR mod for Quake.",
+    "releases": [
+      {
+        "tag": "v1.6.0",
+        "name": "QuakeQuest v1.6.0",
+        "date": "2026-09-29",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/QuakeQuest/releases/latest",
+        "downloadUrl": "https://github.com/Team-Beef-Studios/QuakeQuest/releases/latest"
+      },
+      {
+        "tag": "v1.6.0",
+        "name": "QuakeQuest base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/QuakeQuest/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Team-Beef-Studios/QuakeQuest"
+  },
+  {
+    "name": "Qualyx",
+    "game": "Half-Life: Alyx",
+    "repo": "tinsarfal/Qualyx",
+    "author": "tinsarfal",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 374,
+    "description": "Experimental; developed and tested on Quest 3, Quest 2 less tested with reduced graphics; requires enabling Quest's Positional time warp experimental setting.",
+    "releases": [
+      {
+        "tag": "1.0.84",
+        "name": "Qualyx 1.0.84",
+        "date": "2026-10-04",
+        "isNew": false,
+        "url": "https://github.com/tinsarfal/Qualyx/releases/latest",
+        "downloadUrl": "https://github.com/tinsarfal/Qualyx/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/tinsarfal/Qualyx"
+  },
+  {
+    "name": "Quest 3: OOT VR",
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "repo": "ChocoTorp/Shipwright-VR",
+    "author": "ChocoTorp",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Stable",
+    "stars": 391,
+    "description": "Standalone Quest 3 fork of ShinyWindow's Shipwright-VR (Ship of Harkinian VR); Quest 3S/Pro not independently tested.",
+    "releases": [
+      {
+        "tag": "v1.2.1",
+        "name": "Quest 3: OOT VR v1.2.1",
+        "date": "2026-10-14",
+        "isNew": false,
+        "url": "https://github.com/ChocoTorp/Shipwright-VR/releases/latest",
+        "downloadUrl": "https://github.com/ChocoTorp/Shipwright-VR/releases/latest"
+      },
+      {
+        "tag": "v1.2.0",
+        "name": "Quest 3: OOT VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/ChocoTorp/Shipwright-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/ChocoTorp/Shipwright-VR"
+  },
+  {
+    "name": "Quest 3 Strikers CHARGED",
+    "game": "Mario Strikers Charged",
+    "repo": "LanceSweatpants/Quest-3-Strikers-CHARGED",
+    "author": "LanceSweatpants",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 69,
+    "description": "Fork of yannicksuter/mscharged-port with a Quest OpenXR layer offering Jumbotron living-room and stadium views.",
+    "releases": [
+      {
+        "tag": "v0.1.1-alpha1.1",
+        "name": "Quest 3 Strikers CHARGED v0.1.1-alpha1.1",
+        "date": "2026-10-16",
+        "isNew": false,
+        "url": "https://github.com/LanceSweatpants/Quest-3-Strikers-CHARGED/releases/latest",
+        "downloadUrl": "https://github.com/LanceSweatpants/Quest-3-Strikers-CHARGED/releases/latest"
+      },
+      {
+        "tag": "v0.1.1-alpha1.0",
+        "name": "Quest 3 Strikers CHARGED base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/LanceSweatpants/Quest-3-Strikers-CHARGED/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/LanceSweatpants/Quest-3-Strikers-CHARGED"
+  },
+  {
+    "name": "Quest 3 Strikers",
+    "game": "Super Mario Strikers",
+    "repo": "LanceSweatpants/Strikers-Quest-MR",
+    "author": "LanceSweatpants",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 417,
+    "description": "Fork of luisxl15/Strikers-Android-Port compiled for Quest via OpenXR; offers tabletop and life-size-stadium mixed-reality views plus online 1v1 with room codes.",
+    "releases": [
+      {
+        "tag": "v0.1.12-alpha1",
+        "name": "Quest 3 Strikers v0.1.12-alpha1",
+        "date": "2026-10-18",
+        "isNew": false,
+        "url": "https://github.com/LanceSweatpants/Strikers-Quest-MR/releases/latest",
+        "downloadUrl": "https://github.com/LanceSweatpants/Strikers-Quest-MR/releases/latest"
+      },
+      {
+        "tag": "v0.1.12-alpha1",
+        "name": "Quest 3 Strikers base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/LanceSweatpants/Strikers-Quest-MR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/LanceSweatpants/Strikers-Quest-MR"
+  },
+  {
+    "name": "Quest DOOM",
+    "game": "DOOM",
+    "repo": "CommunityPokeOrg/quest-doom",
+    "author": "CommunityPokeOrg",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 121,
+    "description": "Built on doomgeneric with OpenXR and Android NDK; renders levels as real 3D geometry, supports hand tracking.",
+    "releases": [
+      {
+        "tag": "v0.2.6",
+        "name": "Quest DOOM v0.2.6",
+        "date": "2026-09-18",
+        "isNew": false,
+        "url": "https://github.com/CommunityPokeOrg/quest-doom/releases/latest",
+        "downloadUrl": "https://github.com/CommunityPokeOrg/quest-doom/releases/latest"
+      },
+      {
+        "tag": "v0.2.0",
+        "name": "Quest DOOM base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/CommunityPokeOrg/quest-doom/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/CommunityPokeOrg/quest-doom"
+  },
+  {
+    "name": "QuestCarNage",
+    "game": "Carmageddon",
+    "repo": "maranone/carnage",
+    "author": "maranone",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 341,
+    "description": "Native OpenXR port built on the Dethrace engine reimplementation; also builds as PCVRCarnage.exe for Windows PC VR from the same source.",
+    "releases": [
+      {
+        "tag": "pico-test",
+        "name": "QuestCarNage pico-test",
+        "date": "2026-10-17",
+        "isNew": false,
+        "url": "https://github.com/maranone/carnage/releases/latest",
+        "downloadUrl": "https://github.com/maranone/carnage/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/maranone/carnage"
+  },
+  {
+    "name": "QuestCraftPlus+",
+    "game": "Minecraft: Java Edition",
+    "repo": "MisterEnglishDev/QuestCraftPlus",
+    "author": "MisterEnglishDev",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Stable",
+    "stars": 220,
+    "description": "Independent fork of QuestCraft updating Vivecraft-based Quest VR support to Minecraft 26.2; installs alongside official QuestCraft.",
+    "releases": [
+      {
+        "tag": "v26.2-1.0.0",
+        "name": "QuestCraftPlus+ v26.2-1.0.0",
+        "date": "2026-08-29",
+        "isNew": false,
+        "url": "https://github.com/MisterEnglishDev/QuestCraftPlus/releases/latest",
+        "downloadUrl": "https://github.com/MisterEnglishDev/QuestCraftPlus/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/MisterEnglishDev/QuestCraftPlus"
+  },
+  {
+    "name": "QuestSam",
+    "game": "Serious Sam Classic: The First Encounter",
+    "repo": "maranone/QuestSam",
+    "author": "maranone",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 179,
+    "description": "Features dual wielding, roomscale tracking, and 1st/3rd-person diorama views.",
+    "releases": [
+      {
+        "tag": "pico-test",
+        "name": "QuestSam pico-test",
+        "date": "2026-10-17",
+        "isNew": false,
+        "url": "https://github.com/maranone/QuestSam/releases/latest",
+        "downloadUrl": "https://github.com/maranone/QuestSam/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/maranone/QuestSam"
+  },
+  {
+    "name": "QuestZDoom",
+    "game": "Doom",
+    "repo": "Team-Beef-Studios/QuestZDoom",
+    "author": "Team Beef",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Stable",
+    "stars": 124,
+    "description": "QuestZDoom VR mod for Doom.",
+    "releases": [
+      {
+        "tag": "1.6.2",
+        "name": "QuestZDoom 1.6.2",
+        "date": "2026-09-30",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/QuestZDoom/releases/latest",
+        "downloadUrl": "https://github.com/Team-Beef-Studios/QuestZDoom/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/Team-Beef-Studios/QuestZDoom"
+  },
+  {
+    "name": "RazeXR",
+    "game": "Duke Nukem 3D",
+    "repo": "Team-Beef-Studios/RazeXR",
+    "author": "Team Beef",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Stable",
+    "stars": 403,
+    "description": "RazeXR VR mod for Duke Nukem 3D.",
+    "releases": [
+      {
+        "tag": "v1.0.0",
+        "name": "RazeXR v1.0.0",
+        "date": "2023-09-30",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/RazeXR/releases/latest",
+        "downloadUrl": "https://github.com/Team-Beef-Studios/RazeXR/releases/latest"
+      },
+      {
+        "tag": "v1.0.0",
+        "name": "RazeXR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/RazeXR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Team-Beef-Studios/RazeXR"
+  },
+  {
+    "name": "RDRVR",
+    "game": "Red Dead Redemption (2024 PC port)",
+    "repo": "Disonomouss/RDRVR",
+    "author": "Disonomouss",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 320,
+    "description": "Native-stereo VR mod rendering the scene per eye with head/hand tracked John's body and hand-aimed weapons/lasso; tested on Meta Quest 3 via Virtual Desktop.",
+    "releases": [
+      {
+        "tag": "v0.8.11",
+        "name": "RDRVR v0.8.11",
+        "date": "2026-10-14",
+        "isNew": false,
+        "url": "https://github.com/Disonomouss/RDRVR/releases/latest",
+        "downloadUrl": "https://github.com/Disonomouss/RDRVR/releases/latest"
+      },
+      {
+        "tag": "v0.8.0",
+        "name": "RDRVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Disonomouss/RDRVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Disonomouss/RDRVR"
+  },
+  {
+    "name": "RealRTCW XR",
+    "game": "Return to Castle Wolfenstein",
+    "repo": "Team-Beef-Studios/RealRTCWXR",
+    "author": "Team Beef Studios",
+    "category": "Source & Classic Engine Ports",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 322,
+    "description": "OpenXR PC VR build of RealRTCW 5.0 for the full single-player campaign. Works with any OpenXR headset.",
+    "releases": [
+      {
+        "tag": "0.8.7",
+        "name": "RealRTCW XR 0.8.7",
+        "date": "2026-10-10",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/RealRTCWXR/releases/latest",
+        "downloadUrl": "https://github.com/Team-Beef-Studios/RealRTCWXR/releases/latest"
+      },
+      {
+        "tag": "0.8.0",
+        "name": "RealRTCW XR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/RealRTCWXR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Team-Beef-Studios/RealRTCWXR"
+  },
+  {
+    "name": "Red Dead Redemption VR",
+    "game": "Red Dead Redemption",
+    "repo": "dubrovskiy-yevhen-stakelogic/rdr1-quest",
+    "author": "dubrovskiy-yevhen-stakelogic",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 324,
+    "description": "Built on the user's PC from their own game export; no ready APK is provided.",
+    "releases": [
+      {
+        "tag": "0.1.1 alpha",
+        "name": "Red Dead Redemption VR 0.1.1 alpha",
+        "date": "2026-10-17",
+        "isNew": false,
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic/rdr1-quest",
+        "downloadUrl": "https://github.com/dubrovskiy-yevhen-stakelogic/rdr1-quest"
+      },
+      {
+        "tag": "0.1.1 alpha",
+        "name": "Red Dead Redemption VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic/rdr1-quest/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/dubrovskiy-yevhen-stakelogic/rdr1-quest"
+  },
+  {
+    "name": "ReLith",
+    "game": "The Operative: No One Lives Forever",
+    "repo": "alex-nax/relith",
+    "author": "alex.nax (alex-nax)",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 152,
+    "description": "Engine-only reimplementation of LithTech 2.x; same engine is planned to add Aliens versus Predator 2 next.",
+    "releases": [
+      {
+        "tag": "v0.4.0",
+        "name": "ReLith v0.4.0",
+        "date": "2026-09-25",
+        "isNew": false,
+        "url": "https://github.com/alex-nax/relith/releases/latest",
+        "downloadUrl": "https://github.com/alex-nax/relith/releases/latest"
+      },
+      {
+        "tag": "v0.4.0",
+        "name": "ReLith base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/alex-nax/relith/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/alex-nax/relith"
+  },
+  {
+    "name": "RetroSpace VR Mod",
+    "game": "RetroSpace",
+    "repo": "King-EJ/RetroSpace-VR-Mod",
+    "author": "King-EJ",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 62,
+    "description": "BepInEx-based OpenXR mod (v0.1.16 test build); only tested with Virtual Desktop on Quest 3.",
+    "releases": [
+      {
+        "tag": "RetroSpaceVRMod",
+        "name": "RetroSpace VR Mod RetroSpaceVRMod",
+        "date": "2026-10-02",
+        "isNew": false,
+        "url": "https://github.com/King-EJ/RetroSpace-VR-Mod/releases/latest",
+        "downloadUrl": "https://github.com/King-EJ/RetroSpace-VR-Mod/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/King-EJ/RetroSpace-VR-Mod"
+  },
+  {
+    "name": "Returnal UEVR",
+    "game": "Returnal",
+    "repo": "letmein-vr/RETURNAL_UEVR",
+    "author": "letmein-vr",
+    "category": "UEVR Profiles & Game Fixes",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 68,
+    "description": "UEVR profile adding full first-person 6DOF with tracked weapons, IK arms/hands, cinematic handling, and HUD-follow mode.",
+    "releases": [
+      {
+        "tag": "1.2_IK",
+        "name": "Returnal UEVR 1.2_IK",
+        "date": "2026-08-01",
+        "isNew": false,
+        "url": "https://github.com/letmein-vr/RETURNAL_UEVR/releases/latest",
+        "downloadUrl": "https://github.com/letmein-vr/RETURNAL_UEVR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/letmein-vr/RETURNAL_UEVR"
+  },
+  {
+    "name": "Ringfall: Mjolnir VR",
+    "game": "Halo: Combat Evolved",
+    "repo": "Cesarus85/ringfall-mjolnir-vr",
+    "author": "Cesarus85",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 285,
+    "description": "Runs standalone on-device with full 6DoF campaign, co-op, LAN and online multiplayer (up to 128 players), and cross-play with the OpenCE PC/phone builds.",
+    "releases": [
+      {
+        "tag": "build-312",
+        "name": "Ringfall: Mjolnir VR build-312",
+        "date": "2026-10-19",
+        "isNew": true,
+        "url": "https://github.com/Cesarus85/ringfall-mjolnir-vr/releases/latest",
+        "downloadUrl": "https://github.com/Cesarus85/ringfall-mjolnir-vr/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/Cesarus85/ringfall-mjolnir-vr"
+  },
+  {
+    "name": "Road Rash: Jailbreak VR",
+    "game": "Road Rash: Jailbreak",
+    "repo": "dubrovskiy-yevhen-stakelogic/road-rash-jailbreak",
+    "author": "dubrovskiy-yevhen-stakelogic",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 340,
+    "description": "Native engine reimplementation ported function-by-function from the original MIPS executable; includes Windows PC flat mode, PCVR via OpenXR, and Quest 3 standalone VR builds.",
+    "releases": [
+      {
+        "tag": "v0.1.0",
+        "name": "Road Rash: Jailbreak VR v0.1.0",
+        "date": "2026-10-02",
+        "isNew": false,
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic/road-rash-jailbreak/releases/latest",
+        "downloadUrl": "https://github.com/dubrovskiy-yevhen-stakelogic/road-rash-jailbreak/releases/latest"
+      },
+      {
+        "tag": "v0.1.0",
+        "name": "Road Rash: Jailbreak VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic/road-rash-jailbreak/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/dubrovskiy-yevhen-stakelogic/road-rash-jailbreak"
+  },
+  {
+    "name": "RTCWQuest",
+    "game": "Return to Castle Wolfenstein",
+    "repo": "Team-Beef-Studios/RTCWQuest",
+    "author": "Team Beef",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Stable",
+    "stars": 178,
+    "description": "RTCWQuest VR mod for Return to Castle Wolfenstein.",
+    "releases": [
+      {
+        "tag": "v1.4.1",
+        "name": "RTCWQuest v1.4.1",
+        "date": "2026-09-29",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/RTCWQuest/releases/latest",
+        "downloadUrl": "https://github.com/Team-Beef-Studios/RTCWQuest/releases/latest"
+      },
+      {
+        "tag": "v1.4.0",
+        "name": "RTCWQuest base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Team-Beef-Studios/RTCWQuest/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Team-Beef-Studios/RTCWQuest"
+  },
+  {
+    "name": "Rustler-VR",
+    "game": "Rustler",
+    "repo": "King-EJ/Rustler-VR",
+    "author": "King-EJ",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 380,
+    "description": "Test build with 6DOF ranged weapons, hand HUD and VR menu; tested on Quest 3 via VDXR.",
+    "releases": [
+      {
+        "tag": "Rustler_VR",
+        "name": "Rustler-VR Rustler_VR",
+        "date": "2026-10-16",
+        "isNew": false,
+        "url": "https://github.com/King-EJ/Rustler-VR/releases/latest",
+        "downloadUrl": "https://github.com/King-EJ/Rustler-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/King-EJ/Rustler-VR"
+  },
+  {
+    "name": "SAN ANDREAS VR DEFINITIVE EDITION",
+    "game": "Grand Theft Auto: San Andreas - The Definitive Edition",
+    "repo": "Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION",
+    "author": "Gangbusters1337",
+    "category": "UEVR Profiles & Game Fixes",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 380,
+    "description": "UEVR profile adding free-aim weapons, two-handed/akimbo aiming, physics throwables, and vehicle free-aim/camera memory to GTA San Andreas - The Definitive Edition.",
+    "releases": [
+      {
+        "tag": "v0.3.7",
+        "name": "SAN ANDREAS VR DEFINITIVE EDITION v0.3.7",
+        "date": "2026-09-09",
+        "isNew": false,
+        "url": "https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION/releases/latest",
+        "downloadUrl": "https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION/releases/latest"
+      },
+      {
+        "tag": "v0.3.0",
+        "name": "SAN ANDREAS VR DEFINITIVE EDITION base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION"
+  },
+  {
+    "name": "SauerQuest",
+    "game": "Cube 2: Sauerbraten",
+    "repo": "SgtBilko76/Sauerbraten-VR",
+    "author": "SgtBilko76",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 416,
+    "description": "Standalone OpenXR port with room-scale tracking and controller aiming; experimental Pico support via universal APK.",
+    "releases": [
+      {
+        "tag": "Beta-0.2",
+        "name": "SauerQuest Beta-0.2",
+        "date": "2026-09-23",
+        "isNew": false,
+        "url": "https://github.com/SgtBilko76/Sauerbraten-VR/releases/latest",
+        "downloadUrl": "https://github.com/SgtBilko76/Sauerbraten-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/SgtBilko76/Sauerbraten-VR"
+  },
+  {
+    "name": "Scrap Mechanic Native VR",
+    "game": "Scrap Mechanic",
+    "repo": "21Suspect/Scrap-Mechanic-Native-VR",
+    "author": "21Suspect",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 42,
+    "description": "Supports Meta Quest Link and Virtual Desktop (VDXR) or SteamVR as the OpenXR runtime; a v1.4.9 pre-release for the upcoming Patch 1.0.6 is also mentioned but untested.",
+    "releases": [
+      {
+        "tag": "v1.4.10",
+        "name": "Scrap Mechanic Native VR v1.4.10",
+        "date": "2026-10-12",
+        "isNew": false,
+        "url": "https://github.com/21Suspect/Scrap-Mechanic-Native-VR/releases/latest",
+        "downloadUrl": "https://github.com/21Suspect/Scrap-Mechanic-Native-VR/releases/latest"
+      },
+      {
+        "tag": "v1.4.0",
+        "name": "Scrap Mechanic Native VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/21Suspect/Scrap-Mechanic-Native-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/21Suspect/Scrap-Mechanic-Native-VR"
+  },
+  {
+    "name": "Shipwright-VR",
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "repo": "ShinyWindow/Shipwright-VR",
+    "author": "ShinyWindow",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 67,
+    "description": "Fork of HarbourMasters/Shipwright (Ship of Harkinian); must be run with DirectX11, not OpenGL.",
+    "releases": [
+      {
+        "tag": "v1.4.1",
+        "name": "Shipwright-VR v1.4.1",
+        "date": "2026-10-06",
+        "isNew": false,
+        "url": "https://github.com/ShinyWindow/Shipwright-VR/releases/latest",
+        "downloadUrl": "https://github.com/ShinyWindow/Shipwright-VR/releases/latest"
+      },
+      {
+        "tag": "v1.4.0",
+        "name": "Shipwright-VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/ShinyWindow/Shipwright-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/ShinyWindow/Shipwright-VR"
+  },
+  {
+    "name": "Shogo VR",
+    "game": "Shogo: Mobile Armor Division",
+    "repo": "BrandonW24/Shogo-VR",
+    "author": "Brandon Withington",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 34,
+    "description": "Adds 6DoF head tracking, motion controllers, VR hands, weapon wheel and a launcher with VR settings; requires SteamVR as OpenXR runtime.",
+    "releases": [
+      {
+        "tag": "1.2",
+        "name": "Shogo VR 1.2",
+        "date": "2026-10-12",
+        "isNew": false,
+        "url": "https://github.com/BrandonW24/Shogo-VR/releases/latest",
+        "downloadUrl": "https://github.com/BrandonW24/Shogo-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/BrandonW24/Shogo-VR"
+  },
+  {
+    "name": "Silver Pines VR",
+    "game": "Silver Pines",
+    "repo": "King-EJ/Silver-Pines-VR",
+    "author": "King-EJ",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 213,
+    "description": "Stage view of the side-on 3D world via OpenXR; first-person not possible due to 2D sprite characters. Test build 0.1.12 on Quest via VDXR.",
+    "releases": [
+      {
+        "tag": "Silver_Pines_VR",
+        "name": "Silver Pines VR Silver_Pines_VR",
+        "date": "2026-10-17",
+        "isNew": false,
+        "url": "https://github.com/King-EJ/Silver-Pines-VR/releases/latest",
+        "downloadUrl": "https://github.com/King-EJ/Silver-Pines-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/King-EJ/Silver-Pines-VR"
+  },
+  {
+    "name": "SiN Gold VR",
+    "game": "SiN Gold",
+    "repo": "RototRobot/SiN-Gold-VR-Port",
+    "author": "RototRobot",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 384,
+    "description": "OpenXR renderer (ref_vr.dll) over the game's OpenGL renderer; requires SteamVR, and was made with AI (Claude) assistance.",
+    "releases": [
+      {
+        "tag": "1.0.2",
+        "name": "SiN Gold VR 1.0.2",
+        "date": "2026-10-18",
+        "isNew": false,
+        "url": "https://github.com/RototRobot/SiN-Gold-VR-Port/releases/latest",
+        "downloadUrl": "https://github.com/RototRobot/SiN-Gold-VR-Port/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/RototRobot/SiN-Gold-VR-Port"
+  },
+  {
+    "name": "SM64 Quest VR",
+    "game": "Super Mario 64",
+    "repo": "heurazy/mario64VRStandalone",
+    "author": "heurazy",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 302,
+    "description": "Built on the SM64/CoopDX decompilation codebase as a native OpenXR engine; debug APK output, ROM validated by MD5 and stored privately on-device.",
+    "releases": [
+      {
+        "tag": "v1.0.1",
+        "name": "SM64 Quest VR v1.0.1",
+        "date": "2026-08-07",
+        "isNew": false,
+        "url": "https://github.com/heurazy/mario64VRStandalone/releases/latest",
+        "downloadUrl": "https://github.com/heurazy/mario64VRStandalone/releases/latest"
+      },
+      {
+        "tag": "v1.0.0",
+        "name": "SM64 Quest VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/heurazy/mario64VRStandalone/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/heurazy/mario64VRStandalone"
+  },
+  {
+    "name": "SM64 VR for Steam Frame",
+    "game": "Super Mario 64",
+    "repo": "astromaddie/sm64-vr",
+    "author": "astromaddie",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 267,
+    "description": "Fork of SM64CoopDX adding stereoscopic VR, head tracking, and Steam Frame controller bindings; runs natively via SteamLinuxRuntime without a PC.",
+    "releases": [
+      {
+        "tag": "v0.1.0",
+        "name": "SM64 VR for Steam Frame v0.1.0",
+        "date": "2026-10-11",
+        "isNew": false,
+        "url": "https://github.com/astromaddie/sm64-vr/releases/latest",
+        "downloadUrl": "https://github.com/astromaddie/sm64-vr/releases/latest"
+      },
+      {
+        "tag": "v0.1.0",
+        "name": "SM64 VR for Steam Frame base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/astromaddie/sm64-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/astromaddie/sm64-vr"
+  },
+  {
+    "name": "sm64coopdx-VR-Standalone (Physics-based)",
+    "game": "Super Mario 64",
+    "repo": "fulldivegames/sm64coopdx-VR-Standalone-Physics-based",
+    "author": "fulldivegames",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 231,
+    "description": "Native ARM64/OpenXR standalone build with physical motion controls (jumping, swimming, climbing); a separate PC VR edition repo is linked in the README.",
+    "releases": [
+      {
+        "tag": "v0.9.21",
+        "name": "sm64coopdx-VR-Standalone (Physics-based) v0.9.21",
+        "date": "2026-09-13",
+        "isNew": false,
+        "url": "https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based/releases/latest",
+        "downloadUrl": "https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based/releases/latest"
+      },
+      {
+        "tag": "v0.9.0",
+        "name": "sm64coopdx-VR-Standalone (Physics-based) base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based"
+  },
+  {
+    "name": "SOMA VR",
+    "game": "SOMA",
+    "repo": "Bateau01/SOMA-VR",
+    "author": "Bateau01",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 362,
+    "description": "Native OpenXR VR conversion with motion controls and physical interactions; runs via SteamVR or Virtual Desktop (VDXR).",
+    "releases": [
+      {
+        "tag": "v1.08.1",
+        "name": "SOMA VR v1.08.1",
+        "date": "2026-10-17",
+        "isNew": false,
+        "url": "https://github.com/Bateau01/SOMA-VR/releases/latest",
+        "downloadUrl": "https://github.com/Bateau01/SOMA-VR/releases/latest"
+      },
+      {
+        "tag": "v1.08.0",
+        "name": "SOMA VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Bateau01/SOMA-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Bateau01/SOMA-VR"
+  },
+  {
+    "name": "SourceVR",
+    "game": "Half-Life 2",
+    "repo": "tinsarfal/SourceVR",
+    "author": "tinsarfal",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 43,
+    "description": "SourceVR VR mod for Half-Life 2.",
+    "releases": [
+      {
+        "tag": "0.1.28",
+        "name": "SourceVR 0.1.28",
+        "date": "2026-10-02",
+        "isNew": false,
+        "url": "https://github.com/tinsarfal/SourceVR/releases/latest",
+        "downloadUrl": "https://github.com/tinsarfal/SourceVR/releases/latest"
+      },
+      {
+        "tag": "0.1.0",
+        "name": "SourceVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/tinsarfal/SourceVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/tinsarfal/SourceVR"
+  },
+  {
+    "name": "Space Hulk: Deathwing VR",
+    "game": "Space Hulk: Deathwing Enhanced Edition",
+    "repo": "helpimaghost/Space-Hulk-Deathwing-VR",
+    "author": "help im a ghost",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 233,
+    "description": "A UEVR game profile (not a standalone renderer) adding 6DOF gun and melee combat, UI Peek, and haptics to the Enhanced Edition.",
+    "releases": [
+      {
+        "tag": "1.18",
+        "name": "Space Hulk: Deathwing VR 1.18",
+        "date": "2026-10-19",
+        "isNew": true,
+        "url": "https://github.com/helpimaghost/Space-Hulk-Deathwing-VR/releases/latest",
+        "downloadUrl": "https://github.com/helpimaghost/Space-Hulk-Deathwing-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/helpimaghost/Space-Hulk-Deathwing-VR"
+  },
+  {
+    "name": "SpecOpsTheLineVR",
+    "game": "Spec Ops: The Line",
+    "repo": "Mavic-Pro/SpecOpsTheLineVR",
+    "author": "Mavic-Pro",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 280,
+    "description": "Full 6DOF VR mod via SteamVR with motion-controller aiming, VR cover, haptics and a cinema screen for cutscenes.",
+    "releases": [
+      {
+        "tag": "v0.9.8",
+        "name": "SpecOpsTheLineVR v0.9.8",
+        "date": "2026-10-20",
+        "isNew": true,
+        "url": "https://github.com/Mavic-Pro/SpecOpsTheLineVR/releases/latest",
+        "downloadUrl": "https://github.com/Mavic-Pro/SpecOpsTheLineVR/releases/latest"
+      },
+      {
+        "tag": "v0.9.0",
+        "name": "SpecOpsTheLineVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Mavic-Pro/SpecOpsTheLineVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Mavic-Pro/SpecOpsTheLineVR"
+  },
+  {
+    "name": "Stanley VR",
+    "game": "The Stanley Parable: Ultra Deluxe",
+    "repo": "Raicuparta/stanley-vr",
+    "author": "Raicuparta",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 148,
+    "description": "Stanley VR VR mod for The Stanley Parable: Ultra Deluxe.",
+    "releases": [
+      {
+        "tag": "v0.4.0",
+        "name": "Stanley VR v0.4.0",
+        "date": "2023-04-10",
+        "isNew": false,
+        "url": "https://github.com/Raicuparta/stanley-vr/releases/latest",
+        "downloadUrl": "https://github.com/Raicuparta/stanley-vr/releases/latest"
+      },
+      {
+        "tag": "v0.4.0",
+        "name": "Stanley VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Raicuparta/stanley-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Raicuparta/stanley-vr"
+  },
+  {
+    "name": "Star Fox Enhanced VR",
+    "game": "Star Fox",
+    "repo": "kandowontu2/starfox-enhanced",
+    "author": "kandowontu2",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Alpha",
+    "stars": 128,
+    "description": "Native C++/SDL3 port of UltraStarFox, made with AI (Codex) assistance; the Quest VR build is experimental and the Flat Android APK differs from the Quest VR package.",
+    "releases": [
+      {
+        "tag": "v0.0.8.7",
+        "name": "Star Fox Enhanced VR v0.0.8.7",
+        "date": "2026-10-16",
+        "isNew": false,
+        "url": "https://github.com/kandowontu2/starfox-enhanced/releases/latest",
+        "downloadUrl": "https://github.com/kandowontu2/starfox-enhanced/releases/latest"
+      },
+      {
+        "tag": "v0.0.8.0",
+        "name": "Star Fox Enhanced VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/kandowontu2/starfox-enhanced/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/kandowontu2/starfox-enhanced"
+  },
+  {
+    "name": "SubmersedVR",
+    "game": "Subnautica",
+    "repo": "Okabintaro/SubmersedVR",
+    "author": "Okabintaro",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 309,
+    "description": "SubmersedVR VR mod for Subnautica.",
+    "releases": [
+      {
+        "tag": "0.2.1",
+        "name": "SubmersedVR 0.2.1",
+        "date": "2026-10-15",
+        "isNew": false,
+        "url": "https://github.com/Okabintaro/SubmersedVR/releases/latest",
+        "downloadUrl": "https://github.com/Okabintaro/SubmersedVR/releases/latest"
+      },
+      {
+        "tag": "0.2.0",
+        "name": "SubmersedVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Okabintaro/SubmersedVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Okabintaro/SubmersedVR"
+  },
+  {
+    "name": "Subnautica 2 UEVR",
+    "game": "Subnautica 2",
+    "repo": "jbusfield/SN2_UEVR",
+    "author": "jbusfield",
+    "category": "UEVR Profiles & Game Fixes",
+    "platform": "PCVR",
+    "status": "Stable",
+    "stars": 226,
+    "description": "Requires UEVR nightly with joeyhodge fix; only works with Native Stereo, not Synced Sequential.",
+    "releases": [
+      {
+        "tag": "v1.0.3",
+        "name": "Subnautica 2 UEVR v1.0.3",
+        "date": "2026-07-08",
+        "isNew": false,
+        "url": "https://github.com/jbusfield/SN2_UEVR/releases/latest",
+        "downloadUrl": "https://github.com/jbusfield/SN2_UEVR/releases/latest"
+      },
+      {
+        "tag": "v1.0.0",
+        "name": "Subnautica 2 UEVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/jbusfield/SN2_UEVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/jbusfield/SN2_UEVR"
+  },
+  {
+    "name": "SuperMario3DWorld-VR",
+    "game": "Super Mario 3D World",
+    "repo": "Destroyjevski/SuperMario3DWorld-VR",
+    "author": "Destroyjevski",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 413,
+    "description": "Runs on top of the Cemu Wii U emulator; supports diorama, close diorama and first-person modes with VR controller touch and microphone-based blowing.",
+    "releases": [
+      {
+        "tag": "alpha-1.6b",
+        "name": "SuperMario3DWorld-VR alpha-1.6b",
+        "date": "2026-10-11",
+        "isNew": false,
+        "url": "https://github.com/Destroyjevski/SuperMario3DWorld-VR/releases/latest",
+        "downloadUrl": "https://github.com/Destroyjevski/SuperMario3DWorld-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/Destroyjevski/SuperMario3DWorld-VR"
+  },
+  {
+    "name": "System Shock Remake UEVR Plugin",
+    "game": "System Shock (Remake)",
+    "repo": "Ashok0/SystemShock-UEVR",
+    "author": "Ashok0",
+    "category": "UEVR Profiles & Game Fixes",
+    "platform": "PCVR",
+    "status": "Abandoned",
+    "stars": 377,
+    "description": "Deprecated by its author in favor of Gwizdek's separate SystemReShock-UEVR-Plugin.",
+    "releases": [
+      {
+        "tag": "v1.01",
+        "name": "System Shock Remake UEVR Plugin v1.01",
+        "date": "2024-09-16",
+        "isNew": false,
+        "url": "https://github.com/Ashok0/SystemShock-UEVR/releases/latest",
+        "downloadUrl": "https://github.com/Ashok0/SystemShock-UEVR/releases/latest"
+      },
+      {
+        "tag": "v1.0",
+        "name": "System Shock Remake UEVR Plugin base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Ashok0/SystemShock-UEVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Ashok0/SystemShock-UEVR"
+  },
+  {
+    "name": "Teardown VR Mod",
+    "game": "Teardown",
+    "repo": "markos12900-beep/teardown-vr-mod",
+    "author": "markos12900-beep",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 80,
+    "description": "Installs a dxgi.dll plus a Lua mod; tested only on Quest 3 via Steam Link.",
+    "releases": [
+      {
+        "tag": "v0.22",
+        "name": "Teardown VR Mod v0.22",
+        "date": "2026-10-17",
+        "isNew": false,
+        "url": "https://github.com/markos12900-beep/teardown-vr-mod/releases/latest",
+        "downloadUrl": "https://github.com/markos12900-beep/teardown-vr-mod/releases/latest"
+      },
+      {
+        "tag": "v0.0",
+        "name": "Teardown VR Mod base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/markos12900-beep/teardown-vr-mod/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/markos12900-beep/teardown-vr-mod"
+  },
+  {
+    "name": "The Crimson Hunt VR",
+    "game": "The Crimson Hunt",
+    "repo": "King-EJ/The-Crimson-Hunt-VR-single-player-",
+    "author": "King-EJ",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 377,
+    "description": "Tested on Quest 3 via Virtual Desktop/SteamVR OpenXR runtime; game's own camera and menus are displayed on a floating screen.",
+    "releases": [
+      {
+        "tag": "The_Crimson_Hunt_VR",
+        "name": "The Crimson Hunt VR The_Crimson_Hunt_VR",
+        "date": "2026-10-13",
+        "isNew": false,
+        "url": "https://github.com/King-EJ/The-Crimson-Hunt-VR-single-player-/releases/latest",
+        "downloadUrl": "https://github.com/King-EJ/The-Crimson-Hunt-VR-single-player-/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/King-EJ/The-Crimson-Hunt-VR-single-player-"
+  },
+  {
+    "name": "The House of the Dead 2 VR",
+    "game": "The House of the Dead 2",
+    "repo": "mikermak/hotd2-vr",
+    "author": "mikermak",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Alpha",
+    "stars": 261,
+    "description": "Fork of the Flycast Dreamcast/NAOMI emulator; no game data included.",
+    "releases": [
+      {
+        "tag": "v0.4-test1",
+        "name": "The House of the Dead 2 VR v0.4-test1",
+        "date": "2026-10-14",
+        "isNew": false,
+        "url": "https://github.com/mikermak/hotd2-vr/releases/latest",
+        "downloadUrl": "https://github.com/mikermak/hotd2-vr/releases/latest"
+      },
+      {
+        "tag": "v0.4-test1",
+        "name": "The House of the Dead 2 VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/mikermak/hotd2-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/mikermak/hotd2-vr"
+  },
+  {
+    "name": "The Precinct VR",
+    "game": "The Precinct",
+    "repo": "King-EJ/The-Precinct-VR",
+    "author": "King-EJ",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 178,
+    "description": "Early WIP test build tested on Quest 3 via VDXR; unzip into the game folder.",
+    "releases": [
+      {
+        "tag": "The_Precinct_VRv2",
+        "name": "The Precinct VR The_Precinct_VRv2",
+        "date": "2026-10-18",
+        "isNew": false,
+        "url": "https://github.com/King-EJ/The-Precinct-VR/releases/latest",
+        "downloadUrl": "https://github.com/King-EJ/The-Precinct-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/King-EJ/The-Precinct-VR"
+  },
+  {
+    "name": "The Witcher 3 VR",
+    "game": "The Witcher 3: Wild Hunt",
+    "repo": "tig3rmast3r/witcher3-vr",
+    "author": "tig3rmast3r",
+    "category": "AAA & Action / RPG VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 138,
+    "description": "Independent DirectX 12/OpenXR implementation supporting same-tick stereo rendering, DLSS/DLAA/TAAU, OptiScaler and ReShade integration, and an OFXR frame-generation system.",
+    "releases": [
+      {
+        "tag": "v0.9.8v2",
+        "name": "The Witcher 3 VR v0.9.8v2",
+        "date": "2026-10-04",
+        "isNew": false,
+        "url": "https://github.com/tig3rmast3r/witcher3-vr/releases/latest",
+        "downloadUrl": "https://github.com/tig3rmast3r/witcher3-vr/releases/latest"
+      },
+      {
+        "tag": "v0.9.8v2",
+        "name": "The Witcher 3 VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/tig3rmast3r/witcher3-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/tig3rmast3r/witcher3-vr"
+  },
+  {
+    "name": "Time Crisis II VR",
+    "game": "Time Crisis II (arcade, US TSS3 Ver. B)",
+    "repo": "DR-89/time-crisis-2-vr",
+    "author": "DR-89",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 263,
+    "description": "Built on the System 23 arcade decompilation spacestate1/namco22-decompile, with OpenXR host/controller code adapted from the author's earlier Time Crisis VR port.",
+    "releases": [
+      {
+        "tag": "v0.3.0",
+        "name": "Time Crisis II VR v0.3.0",
+        "date": "2026-10-12",
+        "isNew": false,
+        "url": "https://github.com/DR-89/time-crisis-2-vr/releases/latest",
+        "downloadUrl": "https://github.com/DR-89/time-crisis-2-vr/releases/latest"
+      },
+      {
+        "tag": "v0.3.0",
+        "name": "Time Crisis II VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/DR-89/time-crisis-2-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/DR-89/time-crisis-2-vr"
+  },
+  {
+    "name": "Time Crisis VR",
+    "game": "Time Crisis",
+    "repo": "DR-89/time-crisis-vr",
+    "author": "DR-89",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Alpha",
+    "stars": 253,
+    "description": "Built on spacestate1/namco22-decompile; adds Android/OpenXR host, Quest renderer, VR aiming and controls, with a Windows PCVR build also available.",
+    "releases": [
+      {
+        "tag": "v0.9.0",
+        "name": "Time Crisis VR v0.9.0",
+        "date": "2026-10-12",
+        "isNew": false,
+        "url": "https://github.com/DR-89/time-crisis-vr/releases/latest",
+        "downloadUrl": "https://github.com/DR-89/time-crisis-vr/releases/latest"
+      },
+      {
+        "tag": "v0.9.0",
+        "name": "Time Crisis VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/DR-89/time-crisis-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/DR-89/time-crisis-vr"
+  },
+  {
+    "name": "Tomb Raider: Legend VR",
+    "game": "Tomb Raider: Legend",
+    "repo": "RototRobot/Tomb-Raider-Legend-VR-Port",
+    "author": "RototRobot",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 390,
+    "description": "Runs as a Direct3D 9 proxy (d3d9.dll) alongside a forked DXVK, with an optional first-person mode and radial gear menu; the author states the mod was made with heavy AI (Claude) assistance.",
+    "releases": [
+      {
+        "tag": "1.0.0",
+        "name": "Tomb Raider: Legend VR 1.0.0",
+        "date": "2026-10-18",
+        "isNew": false,
+        "url": "https://github.com/RototRobot/Tomb-Raider-Legend-VR-Port/releases/latest",
+        "downloadUrl": "https://github.com/RototRobot/Tomb-Raider-Legend-VR-Port/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/RototRobot/Tomb-Raider-Legend-VR-Port"
+  },
+  {
+    "name": "TPVR",
+    "game": "The Legend of Zelda: Twilight Princess",
+    "repo": "JoeyAW/TPVR",
+    "author": "JoeyAW",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Stable",
+    "stars": 85,
+    "description": "VR mod built on top of Dusklight, a native PC port derived from the zeldaret Twilight Princess decompilation; author states the mod's code was written with AI assistance (Claude Code); also ships an early-testing Linux AppImage build.",
+    "releases": [
+      {
+        "tag": "2.4.0",
+        "name": "TPVR 2.4.0",
+        "date": "2026-10-19",
+        "isNew": true,
+        "url": "https://github.com/JoeyAW/TPVR/releases/latest",
+        "downloadUrl": "https://github.com/JoeyAW/TPVR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/JoeyAW/TPVR"
+  },
+  {
+    "name": "Trails of Cold Steel VR",
+    "game": "The Legend of Heroes: Trails of Cold Steel",
+    "repo": "petonexus/tocs-vr-releases",
+    "author": "petonexus",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 182,
+    "description": "Native OpenXR mod tested on Meta Quest 3 via Virtual Desktop; includes SenPatcher and an in-game VR settings menu.",
+    "releases": [
+      {
+        "tag": "v0.1.0-alpha.9",
+        "name": "Trails of Cold Steel VR v0.1.0-alpha.9",
+        "date": "2026-10-17",
+        "isNew": false,
+        "url": "https://github.com/petonexus/tocs-vr-releases/releases/latest",
+        "downloadUrl": "https://github.com/petonexus/tocs-vr-releases/releases/latest"
+      },
+      {
+        "tag": "v0.1.0-alpha.0",
+        "name": "Trails of Cold Steel VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/petonexus/tocs-vr-releases/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/petonexus/tocs-vr-releases"
+  },
+  {
+    "name": "Turbo Overkill VR Mod",
+    "game": "Turbo Overkill",
+    "repo": "AtomicUzumaki/Turbo-Overkill-VR-Mod",
+    "author": "AtomicUzumaki",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 156,
+    "description": "Download the installer and the release zip, put both in one folder, and run the installer.",
+    "releases": [
+      {
+        "tag": "New",
+        "name": "Turbo Overkill VR Mod New",
+        "date": "2026-10-16",
+        "isNew": false,
+        "url": "https://github.com/AtomicUzumaki/Turbo-Overkill-VR-Mod/releases/latest",
+        "downloadUrl": "https://github.com/AtomicUzumaki/Turbo-Overkill-VR-Mod/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/AtomicUzumaki/Turbo-Overkill-VR-Mod"
+  },
+  {
+    "name": "Twisted Tower VR Mod",
+    "game": "Twisted Tower",
+    "repo": "King-EJ/Twisted-Tower-VR-Mod",
+    "author": "King-EJ",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 383,
+    "description": "VR controllers act as a virtual gamepad; melee weapons can be swung physically to hit enemies/objects; tested on Quest 3 via Virtual Desktop.",
+    "releases": [
+      {
+        "tag": "TwistedTowerVRModa_updated",
+        "name": "Twisted Tower VR Mod TwistedTowerVRModa_updated",
+        "date": "2026-10-04",
+        "isNew": false,
+        "url": "https://github.com/King-EJ/Twisted-Tower-VR-Mod/releases/latest",
+        "downloadUrl": "https://github.com/King-EJ/Twisted-Tower-VR-Mod/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/King-EJ/Twisted-Tower-VR-Mod"
+  },
+  {
+    "name": "Unreal Gold VR",
+    "game": "Unreal Gold",
+    "repo": "SgtBilko76/Unreal-Gold-VR",
+    "author": "SgtBilko76",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 152,
+    "description": "Built on the Surreal Engine (Unreal Engine 1 reimplementation) with an OpenXR/Vulkan renderer. PICO support is untested on hardware.",
+    "releases": [
+      {
+        "tag": "v1.0.0-beta12",
+        "name": "Unreal Gold VR v1.0.0-beta12",
+        "date": "2026-10-19",
+        "isNew": true,
+        "url": "https://github.com/SgtBilko76/Unreal-Gold-VR/releases/latest",
+        "downloadUrl": "https://github.com/SgtBilko76/Unreal-Gold-VR/releases/latest"
+      },
+      {
+        "tag": "v1.0.0-beta12",
+        "name": "Unreal Gold VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/SgtBilko76/Unreal-Gold-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/SgtBilko76/Unreal-Gold-VR"
+  },
+  {
+    "name": "Unreal Tournament VR",
+    "game": "Unreal Tournament (UT99)",
+    "repo": "SgtBilko76/Unreal-Tournament-VR",
+    "author": "SgtBilko76",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 98,
+    "description": "Built on the Surreal Engine Unreal Engine 1 reimplementation with an OpenXR/Vulkan renderer.",
+    "releases": [
+      {
+        "tag": "v1.0.0-beta12-ut99",
+        "name": "Unreal Tournament VR v1.0.0-beta12-ut99",
+        "date": "2026-10-19",
+        "isNew": true,
+        "url": "https://github.com/SgtBilko76/Unreal-Tournament-VR/releases/latest",
+        "downloadUrl": "https://github.com/SgtBilko76/Unreal-Tournament-VR/releases/latest"
+      },
+      {
+        "tag": "v1.0.0-beta12-ut99",
+        "name": "Unreal Tournament VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/SgtBilko76/Unreal-Tournament-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/SgtBilko76/Unreal-Tournament-VR"
+  },
+  {
+    "name": "Vibelight Valley",
+    "game": "Disney Dreamlight Valley",
+    "repo": "TheBacon00/vibelight-valley",
+    "author": "TheBacon00",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 292,
+    "description": "Experimental BepInEx OpenXR mod with stereo 6DOF head tracking, HUD layer and a one-click installer; requires SteamVR as the OpenXR runtime.",
+    "releases": [
+      {
+        "tag": "v0.2.0",
+        "name": "Vibelight Valley v0.2.0",
+        "date": "2026-10-15",
+        "isNew": false,
+        "url": "https://github.com/TheBacon00/vibelight-valley/releases/latest",
+        "downloadUrl": "https://github.com/TheBacon00/vibelight-valley/releases/latest"
+      },
+      {
+        "tag": "v0.2.0",
+        "name": "Vibelight Valley base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/TheBacon00/vibelight-valley/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/TheBacon00/vibelight-valley"
+  },
+  {
+    "name": "Vice City VR",
+    "game": "Grand Theft Auto: Vice City",
+    "repo": "dubrovskiy-yevhen-stakelogic/vice-city-vr",
+    "author": "dubrovskiy-yevhen-stakelogic",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Alpha",
+    "stars": 366,
+    "description": "Native Direct3D 12 and OpenXR conversion with save transfer between PCVR and Quest builds and experimental DLSS 5 neural rendering support.",
+    "releases": [
+      {
+        "tag": "v0.5.5.1",
+        "name": "Vice City VR v0.5.5.1",
+        "date": "2026-09-14",
+        "isNew": false,
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic/vice-city-vr/releases/latest",
+        "downloadUrl": "https://github.com/dubrovskiy-yevhen-stakelogic/vice-city-vr/releases/latest"
+      },
+      {
+        "tag": "v0.5.5.0",
+        "name": "Vice City VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/dubrovskiy-yevhen-stakelogic/vice-city-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/dubrovskiy-yevhen-stakelogic/vice-city-vr"
+  },
+  {
+    "name": "Victory Heat Rally VR: Quest Standalone",
+    "game": "Victory Heat Rally",
+    "repo": "segadreamcat/VictoryHeatRallyVR-Quest",
+    "author": "segadreamcat",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Stable",
+    "stars": 62,
+    "description": "Installer is a Windows .bat tool that builds and signs the APK from the user's Steam copy and installs it over USB; no game files are distributed.",
+    "releases": [
+      {
+        "tag": "v1.1",
+        "name": "Victory Heat Rally VR: Quest Standalone v1.1",
+        "date": "2026-10-03",
+        "isNew": false,
+        "url": "https://github.com/segadreamcat/VictoryHeatRallyVR-Quest/releases/latest",
+        "downloadUrl": "https://github.com/segadreamcat/VictoryHeatRallyVR-Quest/releases/latest"
+      },
+      {
+        "tag": "v1.0",
+        "name": "Victory Heat Rally VR: Quest Standalone base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/segadreamcat/VictoryHeatRallyVR-Quest/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/segadreamcat/VictoryHeatRallyVR-Quest"
+  },
+  {
+    "name": "VR: Improvements Mod / VR+ (VR Plus) Continued",
+    "game": "PAYDAY 2",
+    "repo": "DennisGHUA/payday2-vr-improvements",
+    "author": "DennisGHUA",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 88,
+    "description": "A continuation/improvement mod adding comfort, control, HUD and locomotion features on top of PAYDAY 2's VR mod support.",
+    "releases": [
+      {
+        "tag": "v0.8.11",
+        "name": "VR: Improvements Mod / VR+ (VR Plus) Continued v0.8.11",
+        "date": "2026-10-13",
+        "isNew": false,
+        "url": "https://github.com/DennisGHUA/payday2-vr-improvements/releases/latest",
+        "downloadUrl": "https://github.com/DennisGHUA/payday2-vr-improvements/releases/latest"
+      },
+      {
+        "tag": "v0.8.0",
+        "name": "VR: Improvements Mod / VR+ (VR Plus) Continued base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/DennisGHUA/payday2-vr-improvements/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/DennisGHUA/payday2-vr-improvements"
+  },
+  {
+    "name": "VRMod",
+    "game": "Risk of Rain 2",
+    "repo": "DrBibop/RoR2VRMod",
+    "author": "DrBibop",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Abandoned",
+    "stars": 88,
+    "description": "Thunderstore page marks the package as deprecated/no longer maintained; latest listed version is 2.9.2 though the newest GitHub release tag (1.1.0, 2022-06-15) predates that.",
+    "releases": [
+      {
+        "tag": "2.9.2",
+        "name": "VRMod 2.9.2",
+        "date": "2022-06-15",
+        "isNew": false,
+        "url": "https://thunderstore.io/package/DrBibop/VRMod/",
+        "downloadUrl": "https://thunderstore.io/package/DrBibop/VRMod/"
+      }
+    ],
+    "githubUrl": "https://github.com/DrBibop/RoR2VRMod"
+  },
+  {
+    "name": "VRTRAKILL",
+    "game": "ULTRAKILL",
+    "repo": "whateverusername0/VRTRAKILL",
+    "author": "whateverusername0",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Abandoned",
+    "stars": 295,
+    "description": "Development put on indefinite hold by the author; stable branch PRs are frozen, ultra_revamp branch is an unfinished rewrite.",
+    "releases": [
+      {
+        "tag": "0.20.2",
+        "name": "VRTRAKILL 0.20.2",
+        "date": "2024-05-25",
+        "isNew": false,
+        "url": "https://github.com/whateverusername0/VRTRAKILL/releases/latest",
+        "downloadUrl": "https://github.com/whateverusername0/VRTRAKILL/releases/latest"
+      },
+      {
+        "tag": "0.20.0",
+        "name": "VRTRAKILL base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/whateverusername0/VRTRAKILL/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/whateverusername0/VRTRAKILL"
+  },
+  {
+    "name": "WarbandVR",
+    "game": "Mount & Blade: Warband",
+    "repo": "M3-4T35/WarbandVR",
+    "author": "M3-4T35",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 182,
+    "description": "Engine-level DLL injection, no game files modified; works with any module including Steam Workshop content; supports standalone Steam Frame (SteamOS ARM64, Proton 11) as well as PCVR via OpenXR.",
+    "releases": [
+      {
+        "tag": "v0.3.1",
+        "name": "WarbandVR v0.3.1",
+        "date": "2026-10-16",
+        "isNew": false,
+        "url": "https://github.com/M3-4T35/WarbandVR/releases/latest",
+        "downloadUrl": "https://github.com/M3-4T35/WarbandVR/releases/latest"
+      },
+      {
+        "tag": "v0.3.0",
+        "name": "WarbandVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/M3-4T35/WarbandVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/M3-4T35/WarbandVR"
+  },
+  {
+    "name": "WDVR",
+    "game": "Watch Dogs",
+    "repo": "Somney/WDVR",
+    "author": "Somney",
+    "category": "AAA & Action / RPG VR Mods",
+    "platform": "PCVR",
+    "status": "Beta",
+    "stars": 99,
+    "description": "Uses an ASI loader (dinput8.dll) to load WDVR.asi into the game folder.",
+    "releases": [
+      {
+        "tag": "v0.16.14",
+        "name": "WDVR v0.16.14",
+        "date": "2026-10-15",
+        "isNew": false,
+        "url": "https://github.com/Somney/WDVR/releases/latest",
+        "downloadUrl": "https://github.com/Somney/WDVR/releases/latest"
+      },
+      {
+        "tag": "v0.16.0",
+        "name": "WDVR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/Somney/WDVR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/Somney/WDVR"
+  },
+  {
+    "name": "Wiicompiled VR PLUS",
+    "game": "Mario Kart Wii",
+    "repo": "heurazy/Wiicompiled_VR-PLUS",
+    "author": "heurazy",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "BOTH",
+    "status": "Beta",
+    "stars": 213,
+    "description": "Fork of iChris4/Wiicompiled_VR merged with heurazy's own mario-kart-wii-VR-port, statically recompiled to native code (ARM64 on Quest via Vulkan/OpenXR, x86-64 on Windows) with no Wii emulator/JIT; adds grab-and-turn kart steering, character body IK, and a standalone Quest APK target.",
+    "releases": [
+      {
+        "tag": "v1.3.1",
+        "name": "Wiicompiled VR PLUS v1.3.1",
+        "date": "2026-10-02",
+        "isNew": false,
+        "url": "https://github.com/heurazy/Wiicompiled_VR-PLUS/releases/latest",
+        "downloadUrl": "https://github.com/heurazy/Wiicompiled_VR-PLUS/releases/latest"
+      },
+      {
+        "tag": "v1.3.0",
+        "name": "Wiicompiled VR PLUS base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/heurazy/Wiicompiled_VR-PLUS/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/heurazy/Wiicompiled_VR-PLUS"
+  },
+  {
+    "name": "Wiicompiled VR",
+    "game": "Mario Kart Wii",
+    "repo": "iChris4/Wiicompiled_VR",
+    "author": "iChris4",
+    "category": "Indie & Adventure VR Mods",
+    "platform": "PCVR",
+    "status": "Alpha",
+    "stars": 417,
+    "description": "Fork of the WiiCompiled static-recompilation port; VR is opt-in and falls back to the normal desktop renderer if unsupported.",
+    "releases": [
+      {
+        "tag": "0.2.45",
+        "name": "Wiicompiled VR 0.2.45",
+        "date": "2026-09-30",
+        "isNew": false,
+        "url": "https://github.com/iChris4/Wiicompiled_VR/releases/latest",
+        "downloadUrl": "https://github.com/iChris4/Wiicompiled_VR/releases/latest"
+      },
+      {
+        "tag": "0.2.0",
+        "name": "Wiicompiled VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/iChris4/Wiicompiled_VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/iChris4/Wiicompiled_VR"
+  },
+  {
+    "name": "Wipeout Rewrite VR",
+    "game": "wipEout (1995)",
+    "repo": "SgtBilko76/Wipeout-Rewrite-VR",
+    "author": "SgtBilko76",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 114,
+    "description": "Built on phoboslab's open-source wipEout Rewrite; races render in stereo 3D with head tracking and a switchable cockpit/chase view.",
+    "releases": [
+      {
+        "tag": "v0.1.0-beta1",
+        "name": "Wipeout Rewrite VR v0.1.0-beta1",
+        "date": "2026-09-25",
+        "isNew": false,
+        "url": "https://github.com/SgtBilko76/Wipeout-Rewrite-VR/releases/latest",
+        "downloadUrl": "https://github.com/SgtBilko76/Wipeout-Rewrite-VR/releases/latest"
+      },
+      {
+        "tag": "v0.1.0-beta1",
+        "name": "Wipeout Rewrite VR base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/SgtBilko76/Wipeout-Rewrite-VR/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/SgtBilko76/Wipeout-Rewrite-VR"
+  },
+  {
+    "name": "WipEout VR (astromaddie)",
+    "game": "WipEout (1995)",
+    "repo": "astromaddie/wipeout-vr",
+    "author": "astromaddie",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 202,
+    "description": "Fork of phoboslab/wipeout-rewrite running natively on SteamOS/Steam Frame via OpenXR, SDL2 and OpenGL (Turnip/Zink); not an emulator or PC-streamed app.",
+    "releases": [
+      {
+        "tag": "v0.1.0",
+        "name": "WipEout VR (astromaddie) v0.1.0",
+        "date": "2026-10-11",
+        "isNew": false,
+        "url": "https://github.com/astromaddie/wipeout-vr/releases/latest",
+        "downloadUrl": "https://github.com/astromaddie/wipeout-vr/releases/latest"
+      },
+      {
+        "tag": "v0.1.0",
+        "name": "WipEout VR (astromaddie) base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/astromaddie/wipeout-vr/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/astromaddie/wipeout-vr"
+  },
+  {
+    "name": "Xonotic VR",
+    "game": "Xonotic",
+    "repo": "SgtBilko76/Xonotic-VR",
+    "author": "SgtBilko76",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Beta",
+    "stars": 119,
+    "description": "Native standalone DarkPlaces-based port with room-scale tracking, hand-aimed weapons and online multiplayer.",
+    "releases": [
+      {
+        "tag": "Beta-0.5",
+        "name": "Xonotic VR Beta-0.5",
+        "date": "2026-10-05",
+        "isNew": false,
+        "url": "https://github.com/SgtBilko76/Xonotic-VR/releases/latest",
+        "downloadUrl": "https://github.com/SgtBilko76/Xonotic-VR/releases/latest"
+      }
+    ],
+    "githubUrl": "https://github.com/SgtBilko76/Xonotic-VR"
+  },
+  {
+    "name": "XRKart 64",
+    "game": "Mario Kart 64",
+    "repo": "ArtfulRascal8/XRKart-64",
+    "author": "ArtfulRascal8",
+    "category": "Standalone (Meta Quest / Android) Ports",
+    "platform": "STANDALONE",
+    "status": "Alpha",
+    "stars": 155,
+    "description": "Early standalone Quest APK built on SpaghettiKart/LibUltraShip work; game data is generated on-device from the user's ROM.",
+    "releases": [
+      {
+        "tag": "v0.2.0",
+        "name": "XRKart 64 v0.2.0",
+        "date": "2026-07-29",
+        "isNew": false,
+        "url": "https://github.com/ArtfulRascal8/XRKart-64/releases/latest",
+        "downloadUrl": "https://github.com/ArtfulRascal8/XRKart-64/releases/latest"
+      },
+      {
+        "tag": "v0.2.0",
+        "name": "XRKart 64 base",
+        "date": "2026-09-10",
+        "isNew": false,
+        "url": "https://github.com/ArtfulRascal8/XRKart-64/releases"
+      }
+    ],
+    "githubUrl": "https://github.com/ArtfulRascal8/XRKart-64"
+  }
+]
