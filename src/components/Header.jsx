@@ -41,29 +41,29 @@ export default function Header({ onOpenAddModal, onOpenExplorerModal, onOpenSett
   ];
 
   return (
-    <header className="sticky top-0 z-30 bg-[#0f1014]/95 backdrop-blur-md border-b border-zinc-800/80 px-4 py-3 sm:px-6">
+    <header className="sticky top-0 z-30 bg-[#0c0d12]/95 backdrop-blur-md border-b border-zinc-800/80 px-4 py-3 sm:px-6">
       <div className="max-w-7xl mx-auto space-y-3">
         {/* Top Branding & Main Action Buttons */}
         <div className="flex flex-wrap items-center justify-between gap-3">
           {/* Logo and App Title */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-600 via-indigo-600 to-emerald-500 p-0.5 shadow-lg shadow-purple-900/30 flex items-center justify-center shrink-0">
-              <div className="w-full h-full bg-[#121319] rounded-[10px] flex items-center justify-center">
-                <Glasses className="w-5 h-5 text-emerald-400" />
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-violet-600 via-indigo-600 to-emerald-500 p-0.5 shadow-md flex items-center justify-center shrink-0">
+              <div className="w-full h-full bg-[#101117] rounded-[10px] flex items-center justify-center">
+                <Glasses className="w-4.5 h-4.5 text-emerald-400" />
               </div>
             </div>
 
             <div>
               <div className="flex items-center gap-2">
                 <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight leading-none">
-                  VR MODS <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-emerald-400">TRACKER</span>
+                  VR MODS <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-emerald-400">TRACKER</span>
                 </h1>
-                <span className="hidden sm:inline-block px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider rounded bg-purple-950/80 text-purple-300 border border-purple-800/40">
+                <span className="hidden sm:inline-block px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider rounded-md bg-violet-950/70 text-violet-300 border border-violet-800/40">
                   Flat2VR Live
                 </span>
               </div>
               <p className="text-xs text-zinc-400 mt-0.5">
-                Monitoraggio automatico delle release GitHub per tutti i port e mod VR
+                Monitoraggio continuo e directory aperta per tutte le mod VR
               </p>
             </div>
           </div>
@@ -74,37 +74,37 @@ export default function Header({ onOpenAddModal, onOpenExplorerModal, onOpenSett
             <button
               onClick={syncAll}
               disabled={isSyncing}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-zinc-800/90 hover:bg-zinc-700 text-xs font-semibold text-zinc-200 hover:text-white transition-all shadow-sm border border-zinc-700/60 disabled:opacity-50"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-zinc-850 hover:bg-zinc-800 text-xs font-medium text-zinc-200 hover:text-white transition-all border border-zinc-750 disabled:opacity-50"
               title={lastSyncTime ? `Ultimo sync: ${lastSyncTime}` : 'Controlla aggiornamenti e nuovi port'}
             >
               <RefreshCw className={`w-3.5 h-3.5 text-emerald-400 ${isSyncing ? 'animate-spin' : ''}`} />
-              <span className="hidden md:inline">{isSyncing ? 'Sincronizzazione...' : 'Aggiorna'}</span>
+              <span className="hidden md:inline">{isSyncing ? 'Aggiornamento...' : 'Aggiorna'}</span>
             </button>
 
             {/* Mark All As Seen */}
             <button
               onClick={markAllAsSeen}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-zinc-800/90 hover:bg-zinc-700 text-xs font-semibold text-zinc-200 hover:text-white transition-all shadow-sm border border-zinc-700/60"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-zinc-850 hover:bg-zinc-800 text-xs font-medium text-zinc-200 hover:text-white transition-all border border-zinc-750"
               title="Segna tutte le nuove release come viste"
             >
-              <CheckCheck className="w-3.5 h-3.5 text-purple-400" />
+              <CheckCheck className="w-3.5 h-3.5 text-violet-400" />
               <span className="hidden md:inline">Segna tutti visti</span>
             </button>
 
             {/* Add Custom Repo */}
             <button
               onClick={onOpenAddModal}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-purple-600/20 hover:bg-purple-600/30 text-purple-300 border border-purple-500/40 text-xs font-semibold transition-all shadow-sm"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-violet-600/15 hover:bg-violet-600/25 text-violet-300 border border-violet-500/30 text-xs font-medium transition-all"
               title="Aggiungi qualsiasi repository GitHub al tracker"
             >
-              <Plus className="w-3.5 h-3.5 text-purple-300" />
+              <Plus className="w-3.5 h-3.5 text-violet-300" />
               <span>Aggiungi Repo</span>
             </button>
 
             {/* GitHub Explorer Modal */}
             <button
               onClick={onOpenExplorerModal}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 border border-emerald-500/40 text-xs font-semibold transition-all shadow-sm"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600/15 hover:bg-emerald-600/25 text-emerald-300 border border-emerald-500/30 text-xs font-medium transition-all"
               title="Cerca e scopri nuove mod VR su GitHub in tempo reale"
             >
               <Compass className="w-3.5 h-3.5 text-emerald-400" />
@@ -114,7 +114,7 @@ export default function Header({ onOpenAddModal, onOpenExplorerModal, onOpenSett
             {/* Settings */}
             <button
               onClick={onOpenSettingsModal}
-              className="p-1.5 rounded-lg bg-zinc-800/90 hover:bg-zinc-700 text-zinc-400 hover:text-white transition-all border border-zinc-700/60"
+              className="p-1.5 rounded-lg bg-zinc-850 hover:bg-zinc-800 text-zinc-400 hover:text-white transition-all border border-zinc-750"
               title="Impostazioni"
             >
               <Settings className="w-4 h-4" />
@@ -132,7 +132,7 @@ export default function Header({ onOpenAddModal, onOpenExplorerModal, onOpenSett
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Cerca gioco, mod, autore (es. Resident Evil, Praydog, Half-Life)..."
-              className="w-full pl-9 pr-8 py-1.5 rounded-lg bg-[#161720] border border-zinc-700/70 focus:border-purple-500 focus:outline-none text-xs text-white placeholder-zinc-500 transition-colors"
+              className="w-full pl-9 pr-8 py-1.5 rounded-lg bg-[#14151e] border border-zinc-750 focus:border-violet-500 focus:outline-none text-xs text-white placeholder-zinc-500 transition-colors"
             />
             {searchQuery && (
               <button
@@ -146,19 +146,19 @@ export default function Header({ onOpenAddModal, onOpenExplorerModal, onOpenSett
 
           {/* Quick Stats Pills */}
           <div className="flex items-center gap-2 overflow-x-auto text-xs shrink-0">
-            <span className="bg-zinc-800/70 px-2.5 py-1 rounded-md text-zinc-300 border border-zinc-700/50">
+            <span className="bg-zinc-850 px-2.5 py-1 rounded-md text-zinc-300 border border-zinc-750">
               <strong className="text-white font-mono">{stats.totalRepos}</strong> repo tracciati
             </span>
 
             {/* New Releases Filter Toggle */}
             <button
               onClick={() => setOnlyNewReleases(prev => !prev)}
-              className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-md font-bold transition-all ${
+              className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-md font-medium transition-all ${
                 onlyNewReleases
-                  ? 'bg-[#10b981] text-black shadow-[0_0_12px_rgba(16,185,129,0.5)] ring-2 ring-emerald-400'
+                  ? 'bg-emerald-500 text-black font-semibold shadow-sm'
                   : stats.newReleasesCount > 0
-                  ? 'bg-emerald-950/70 border border-emerald-500/50 text-emerald-300 hover:bg-emerald-900/60'
-                  : 'bg-zinc-800/60 text-zinc-400 border border-zinc-700/40'
+                  ? 'bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 hover:bg-emerald-500/25'
+                  : 'bg-zinc-850 text-zinc-400 border border-zinc-750'
               }`}
               title="Filtra solo le mod con nuove release non viste"
             >
@@ -170,7 +170,7 @@ export default function Header({ onOpenAddModal, onOpenExplorerModal, onOpenSett
             <select
               value={sortMode}
               onChange={(e) => setSortMode(e.target.value)}
-              className="bg-[#161720] border border-zinc-700/70 text-xs text-zinc-300 rounded-md px-2 py-1 focus:outline-none focus:border-purple-500 cursor-pointer"
+              className="bg-[#14151e] border border-zinc-750 text-xs text-zinc-300 rounded-md px-2 py-1 focus:outline-none focus:border-violet-500 cursor-pointer"
             >
               <option value="A-Z">A-Z (Alfabetico)</option>
               <option value="Z-A">Z-A</option>
@@ -189,10 +189,10 @@ export default function Header({ onOpenAddModal, onOpenExplorerModal, onOpenSett
               <button
                 key={cat.id}
                 onClick={() => setSelectedCategory(cat.id)}
-                className={`px-3 py-1 rounded-md font-medium whitespace-nowrap transition-all ${
+                className={`px-3 py-1 rounded-lg font-medium whitespace-nowrap transition-all ${
                   isActive
-                    ? 'bg-purple-600 text-white shadow-sm shadow-purple-900/50 font-semibold'
-                    : 'bg-zinc-900/60 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/70'
+                    ? 'bg-violet-600 text-white shadow-sm font-semibold'
+                    : 'bg-zinc-900/60 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/60'
                 }`}
               >
                 {cat.label}

@@ -10,10 +10,9 @@ import {
 } from 'lucide-react';
 import { useTracker } from '../context/useTracker';
 
-// Helper to format ISO date to DD/MM/YYYY like the screenshot
+// Helper to format ISO date to DD/MM/YYYY
 function formatDateDDMMYYYY(dateStr) {
   if (!dateStr) return '--/--/----';
-  // Check if already in DD/MM/YYYY
   if (/^\d{2}\/\d{2}\/\d{4}$/.test(dateStr)) return dateStr;
   const parts = dateStr.split('-');
   if (parts.length === 3) {
@@ -44,17 +43,16 @@ export default function RepoCard({ repo }) {
   const displayedReleases = (repo.releases || []).slice(0, 3);
   const totalReleasesCount = repo.releases ? repo.releases.length : 0;
 
-  // Format short repo URL for display
   const shortUrl = repo.githubUrl 
     ? repo.githubUrl.replace(/^https?:\/\//, '')
     : `github.com/${repo.repo}`;
 
   return (
     <div
-      className={`relative flex flex-col justify-between rounded-xl p-4 transition-all duration-300 ${
+      className={`relative flex flex-col justify-between rounded-xl p-4 transition-all duration-200 ${
         hasNew
-          ? 'bg-[#1b1e24] border-2 border-[#22c55e] shadow-[0_0_20px_rgba(34,197,94,0.35)] card-new-glow ring-1 ring-emerald-500/50'
-          : 'bg-[#181920] border border-[#2b2d38] hover:border-[#414557] hover:bg-[#1c1d26]'
+          ? 'bg-[#151722] border border-emerald-500/35 card-new-ambient'
+          : 'bg-[#13141c] border border-zinc-800/80 hover:border-zinc-700 hover:bg-[#161720]'
       }`}
       style={{ minWidth: '290px', maxWidth: '350px', flex: '1 1 310px' }}
     >
@@ -67,10 +65,10 @@ export default function RepoCard({ repo }) {
               {repo.game || repo.name}
             </h3>
             <div className="flex flex-wrap items-center gap-1.5 mt-0.5 text-xs">
-              <span className="font-semibold text-sky-400">
+              <span className="font-semibold text-sky-400 text-[11px]">
                 [{repo.platform || 'PCVR'}]
               </span>
-              <span className="text-purple-300 font-medium truncate max-w-[130px]" title={repo.author}>
+              <span className="text-purple-300 font-medium truncate max-w-[130px] text-[11px]" title={repo.author}>
                 [{repo.author}]
               </span>
             </div>
@@ -79,11 +77,12 @@ export default function RepoCard({ repo }) {
           {/* Right badges & actions */}
           <div className="flex items-center gap-1.5 shrink-0">
             {hasNew ? (
-              <span className="inline-flex items-center gap-1 px-2.5 py-0.5 text-[11px] font-extrabold uppercase rounded-full bg-[#22c55e] text-black shadow-sm tracking-wide animate-pulse">
-                📢 NEW!
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 text-[10px] font-bold tracking-wider rounded-full bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+                <Sparkles className="w-2.5 h-2.5 text-emerald-400" />
+                <span>NEW</span>
               </span>
             ) : (
-              <span className="inline-flex items-center px-1.5 py-0.5 text-[10px] font-bold rounded bg-sky-600/30 text-sky-300 border border-sky-500/30">
+              <span className="inline-flex items-center px-1.5 py-0.5 text-[10px] font-medium rounded bg-zinc-800/60 text-zinc-400 border border-zinc-700/50">
                 OK
               </span>
             )}
@@ -126,7 +125,7 @@ export default function RepoCard({ repo }) {
         </div>
 
         {/* Subtitle Game Name & Releases counter */}
-        <div className="flex items-center justify-between text-xs text-zinc-400 border-b border-zinc-800/80 pb-2 mb-2.5">
+        <div className="flex items-center justify-between text-xs text-zinc-400 border-b border-zinc-800/70 pb-2 mb-2.5">
           <span className="truncate pr-2 text-zinc-300 font-medium" title={repo.name}>
             {repo.name}
           </span>
@@ -149,17 +148,17 @@ export default function RepoCard({ repo }) {
               return (
                 <div
                   key={`${repo.repo}-${rel.tag}-${idx}`}
-                  className={`flex items-center justify-between px-2 py-1.5 rounded text-xs transition-colors ${
+                  className={`flex items-center justify-between px-2.5 py-1.5 rounded-lg text-xs transition-colors ${
                     isNew
-                      ? 'bg-emerald-950/40 border border-emerald-500/40 text-emerald-300'
-                      : 'bg-zinc-900/50 hover:bg-zinc-800/60 text-zinc-300'
+                      ? 'bg-emerald-950/20 border border-emerald-500/25 text-emerald-200'
+                      : 'bg-[#0f1016]/80 hover:bg-zinc-800/50 text-zinc-300 border border-transparent'
                   }`}
                 >
                   {/* Version Tag */}
                   <div className="flex items-center gap-1.5 font-mono font-medium truncate max-w-[95px]">
                     <span
-                      className={`truncate ${
-                        isNew ? 'text-emerald-400 font-bold' : 'text-emerald-500/90'
+                      className={`truncate text-xs ${
+                        isNew ? 'text-emerald-400 font-semibold' : 'text-emerald-500/80'
                       }`}
                       title={rel.tag}
                     >
@@ -176,23 +175,21 @@ export default function RepoCard({ repo }) {
                   <div className="flex items-center gap-1 shrink-0">
                     <button
                       onClick={() => toggleReleaseSeen(repo.repo, rel.tag, isNew)}
-                      className={`inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-semibold transition-all ${
+                      className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] font-medium transition-all ${
                         isNew
-                          ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40 hover:bg-amber-500/30'
-                          : 'bg-purple-900/30 text-purple-300 hover:bg-purple-900/50 hover:text-purple-200'
+                          ? 'bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500/25'
+                          : 'bg-zinc-800/60 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-700/60'
                       }`}
                       title={isNew ? 'Clicca per segnare come Visto' : 'Clicca per segnare come Non Visto'}
                     >
                       {isNew ? (
                         <>
-                          <span>+</span>
-                          <Sparkles className="w-2.5 h-2.5 text-amber-400" />
+                          <Sparkles className="w-2.5 h-2.5 text-emerald-400" />
                           <span>NEW!</span>
                         </>
                       ) : (
                         <>
-                          <span>+</span>
-                          <Eye className="w-2.5 h-2.5 text-purple-300" />
+                          <Eye className="w-2.5 h-2.5 text-zinc-400" />
                           <span>Visto</span>
                         </>
                       )}
@@ -219,7 +216,7 @@ export default function RepoCard({ repo }) {
       </div>
 
       {/* Card Footer Actions */}
-      <div className="mt-3 pt-2 border-t border-zinc-800/80 flex items-center justify-between text-xs text-zinc-400">
+      <div className="mt-3 pt-2 border-t border-zinc-800/70 flex items-center justify-between text-xs text-zinc-400">
         <button
           onClick={() => setActiveReleaseModal({ repo, release: repo.releases?.[0] })}
           className="inline-flex items-center gap-1 text-[11px] text-zinc-400 hover:text-white transition-colors"
