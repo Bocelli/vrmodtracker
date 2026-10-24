@@ -136,7 +136,7 @@ function TrackerContent() {
             <Glasses className="w-4 h-4 text-purple-400" />
             <span className="text-zinc-400 font-semibold">VR Mods Tracker</span>
             <span>—</span>
-            <span>Ispirato alla community Flat2VR & GitHub</span>
+            <span>Directory informativa della community Flat2VR</span>
           </div>
 
           <div className="flex flex-wrap items-center gap-4 text-zinc-400">
@@ -168,6 +168,10 @@ function TrackerContent() {
               <ExternalLink className="w-3 h-3" />
             </a>
           </div>
+        </div>
+
+        <div className="max-w-7xl mx-auto mt-4 pt-3 border-t border-zinc-900 text-[11px] text-zinc-500 text-center sm:text-left leading-relaxed">
+          Avviso: Questo sito è una directory informativa open source ad accesso libero. Non richiede credenziali o registrazioni, non raccoglie dati personali né distribuisce file binari. Tutti i link indirizzano alle pagine ufficiali dei rispettivi progetti open source.
         </div>
       </footer>
     </div>

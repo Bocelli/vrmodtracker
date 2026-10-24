@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {
   ExternalLink,
   Star,
-  Download,
   FileText,
   RefreshCw,
   Trash2,
@@ -199,16 +198,16 @@ export default function RepoCard({ repo }) {
                       )}
                     </button>
 
-                    {/* Direct Download Icon if available */}
-                    {rel.downloadUrl && (
+                    {/* Official Release Page Link */}
+                    {rel.url && (
                       <a
-                        href={rel.downloadUrl}
+                        href={rel.url}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-1 rounded text-zinc-400 hover:text-sky-300 hover:bg-zinc-800 transition-colors"
-                        title="Download diretto file / installer"
+                        title="Apri release ufficiale su GitHub"
                       >
-                        <Download className="w-3 h-3" />
+                        <ExternalLink className="w-3 h-3" />
                       </a>
                     )}
                   </div>

@@ -115,7 +115,7 @@ export default function Header({ onOpenAddModal, onOpenExplorerModal, onOpenSett
             <button
               onClick={onOpenSettingsModal}
               className="p-1.5 rounded-lg bg-zinc-800/90 hover:bg-zinc-700 text-zinc-400 hover:text-white transition-all border border-zinc-700/60"
-              title="Impostazioni & Token GitHub"
+              title="Impostazioni"
             >
               <Settings className="w-4 h-4" />
             </button>

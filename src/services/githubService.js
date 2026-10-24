@@ -5,54 +5,24 @@
 const AWESOME_FLAT2VR_URL = 'https://raw.githubusercontent.com/jrejaud/awesome-flat2vr/main/data/ports.json';
 const GITHUB_API_BASE = 'https://api.github.com';
 
-/**
- * Helper to build GitHub API headers
- */
-function getHeaders(token) {
-  const headers = {
+function getHeaders() {
+  return {
     'Accept': 'application/vnd.github.v3+json',
   };
-  if (token && token.trim().length > 0) {
-    // Bearer works for both Classic PATs (ghp_) and Fine-grained PATs (github_pat_)
-    headers['Authorization'] = `Bearer ${token.trim()}`;
-  }
-  return headers;
-}
-
-/**
- * Fetch rate limit info from GitHub
- */
-export async function getRateLimitStatus(token) {
-  try {
-    const res = await fetch(`${GITHUB_API_BASE}/rate_limit`, {
-      headers: getHeaders(token),
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-    return {
-      limit: data.rate.limit,
-      remaining: data.rate.remaining,
-      reset: new Date(data.rate.reset * 1000).toLocaleTimeString(),
-      used: data.rate.used,
-    };
-  } catch (err) {
-    console.warn('Could not fetch rate limit:', err);
-    return null;
-  }
 }
 
 /**
  * Fetch releases for a specific repository
  */
-export async function fetchRepoReleases(repoFullName, token) {
+export async function fetchRepoReleases(repoFullName) {
   try {
     const res = await fetch(`${GITHUB_API_BASE}/repos/${repoFullName}/releases?per_page=5`, {
-      headers: getHeaders(token),
+      headers: getHeaders(),
     });
 
     if (res.status === 404) {
       // Fallback to tags if releases endpoint returns 404
-      return await fetchRepoTags(repoFullName, token);
+      return await fetchRepoTags(repoFullName);
     }
 
     if (!res.ok) {
@@ -61,7 +31,7 @@ export async function fetchRepoReleases(repoFullName, token) {
 
     const data = await res.json();
     if (!Array.isArray(data) || data.length === 0) {
-      return await fetchRepoTags(repoFullName, token);
+      return await fetchRepoTags(repoFullName);
     }
 
     return data.map(r => ({
@@ -70,12 +40,6 @@ export async function fetchRepoReleases(repoFullName, token) {
       date: (r.published_at || r.created_at || '').substring(0, 10),
       url: r.html_url,
       body: r.body || '',
-      assets: (r.assets || []).map(a => ({
-        name: a.name,
-        size: a.size,
-        downloadUrl: a.browser_download_url,
-      })),
-      downloadUrl: r.assets?.[0]?.browser_download_url || r.html_url,
     }));
   } catch (err) {
     console.warn(`Error fetching releases for ${repoFullName}:`, err);
@@ -86,10 +50,10 @@ export async function fetchRepoReleases(repoFullName, token) {
 /**
  * Fallback to tags if repository has no formal releases
  */
-async function fetchRepoTags(repoFullName, token) {
+async function fetchRepoTags(repoFullName) {
   try {
     const res = await fetch(`${GITHUB_API_BASE}/repos/${repoFullName}/tags?per_page=5`, {
-      headers: getHeaders(token),
+      headers: getHeaders(),
     });
     if (!res.ok) return [];
     const tags = await res.json();
@@ -98,9 +62,7 @@ async function fetchRepoTags(repoFullName, token) {
       name: t.name,
       date: new Date().toISOString().substring(0, 10),
       url: `https://github.com/${repoFullName}/releases/tag/${t.name}`,
-      body: 'Tag release (senza changelog formattato).',
-      assets: [],
-      downloadUrl: `https://github.com/${repoFullName}/archive/refs/tags/${t.name}.zip`,
+      body: 'Tag release.',
     }));
   } catch {
     return [];
@@ -110,11 +72,11 @@ async function fetchRepoTags(repoFullName, token) {
 /**
  * Search GitHub for new VR mod repositories
  */
-export async function searchGitHubVrRepos(query = 'topic:vr-mod OR topic:uevr OR topic:flat-to-vr', token) {
+export async function searchGitHubVrRepos(query = 'topic:vr-mod OR topic:uevr OR topic:flat-to-vr') {
   try {
     const url = `${GITHUB_API_BASE}/search/repositories?q=${encodeURIComponent(query)}&sort=updated&order=desc&per_page=15`;
     const res = await fetch(url, {
-      headers: getHeaders(token),
+      headers: getHeaders(),
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
@@ -139,20 +101,20 @@ export function extractOwnerAndRepo(input) {
 /**
  * Fetch raw repository details (for adding custom repo)
  */
-export async function fetchRepoInfo(repoInput, token) {
+export async function fetchRepoInfo(repoInput) {
   const cleanRepo = extractOwnerAndRepo(repoInput);
   if (!cleanRepo) {
     throw new Error("Formato repository non valido. Inserisci un link GitHub valido o 'autore/progetto'.");
   }
 
   const res = await fetch(`${GITHUB_API_BASE}/repos/${cleanRepo}`, {
-    headers: getHeaders(token),
+    headers: getHeaders(),
   });
   if (!res.ok) {
     throw new Error(`Repository '${cleanRepo}' non trovato su GitHub (${res.status})`);
   }
   const repoData = await res.json();
-  const releases = await fetchRepoReleases(cleanRepo, token);
+  const releases = await fetchRepoReleases(cleanRepo);
 
   return {
     repo: repoData.full_name,

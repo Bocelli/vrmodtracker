@@ -5,17 +5,14 @@ import {
   fetchRepoReleases,
   fetchRepoInfo,
   fetchLatestFlat2vrPorts,
-  getRateLimitStatus,
   extractOwnerAndRepo
 } from '../services/githubService';
-
 
 const STORAGE_KEYS = {
   SEEN_RELEASES: 'vr_tracker_seen_releases_v1',
   CUSTOM_REPOS: 'vr_tracker_custom_repos_v1',
   FAVORITES: 'vr_tracker_favorites_v1',
   COLLAPSED_CATS: 'vr_tracker_collapsed_cats_v1',
-  GITHUB_TOKEN: 'vr_tracker_gh_token_v1',
   CACHED_RELEASES: 'vr_tracker_cached_releases_v1',
   LAST_SYNC: 'vr_tracker_last_sync_v1',
 };
@@ -58,10 +55,6 @@ export function TrackerProvider({ children }) {
     }
   });
 
-  const [githubToken, setGithubTokenState] = useState(() => {
-    return localStorage.getItem(STORAGE_KEYS.GITHUB_TOKEN) || '';
-  });
-
   const [cachedReleases, setCachedReleases] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.CACHED_RELEASES);
@@ -81,8 +74,7 @@ export function TrackerProvider({ children }) {
   const [onlyNewReleases, setOnlyNewReleases] = useState(false);
   const [sortMode, setSortMode] = useState('A-Z'); // 'A-Z', 'Z-A', 'RECENT', 'NEW_FIRST', 'STARS'
   const [isSyncing, setIsSyncing] = useState(false);
-  const [rateLimitInfo, setRateLimitInfo] = useState(null);
-  const [activeReleaseModal, setActiveReleaseModal] = useState(null); // for showing full changelog
+  const [activeReleaseModal, setActiveReleaseModal] = useState(null);
 
   // Save changes to localStorage
   useEffect(() => {
@@ -102,14 +94,6 @@ export function TrackerProvider({ children }) {
   }, [collapsedCats]);
 
   useEffect(() => {
-    if (githubToken) {
-      localStorage.setItem(STORAGE_KEYS.GITHUB_TOKEN, githubToken);
-    } else {
-      localStorage.removeItem(STORAGE_KEYS.GITHUB_TOKEN);
-    }
-  }, [githubToken]);
-
-  useEffect(() => {
     localStorage.setItem(STORAGE_KEYS.CACHED_RELEASES, JSON.stringify(cachedReleases));
   }, [cachedReleases]);
 
@@ -119,16 +103,8 @@ export function TrackerProvider({ children }) {
     }
   }, [lastSyncTime]);
 
-  // Check rate limit on mount
-  useEffect(() => {
-    getRateLimitStatus(githubToken).then(info => {
-      if (info) setRateLimitInfo(info);
-    });
-  }, [githubToken]);
-
   // Merge seed data with custom repos and cached releases
   const allRepos = useMemo(() => {
-    // Combine seedData and customRepos, ensuring no duplicates by repo name
     const map = new Map();
 
     seedData.forEach(item => {
@@ -146,10 +122,6 @@ export function TrackerProvider({ children }) {
       const cached = cachedReleases[repo.repo.toLowerCase()];
       const releases = cached && cached.releases ? cached.releases : repo.releases;
 
-      // Determine if a release is "NEW"
-      // A release is NEW if:
-      // 1. It is marked as new in seed data or was released recently (e.g. October 2026), AND
-      // 2. The user has not explicitly marked it as seen in seenReleases
       const releasesWithSeen = (releases || []).map(r => {
         const releaseKey = `${repo.repo}:${r.tag}`;
         const isExplicitlySeen = seenReleases[releaseKey] === true;
@@ -161,7 +133,6 @@ export function TrackerProvider({ children }) {
         } else if (isExplicitlyUnseen) {
           isNew = true;
         } else {
-          // Default heuristic: isNew flag from seed or recent date
           isNew = Boolean(r.isNew);
         }
 
@@ -191,7 +162,6 @@ export function TrackerProvider({ children }) {
     setSeenReleases(prev => {
       let nextState;
       if (typeof currentIsNew === 'boolean') {
-        // If it was currently NEW, mark it as seen (true); otherwise mark it as unseen (false)
         nextState = currentIsNew ? true : false;
       } else {
         nextState = prev[releaseKey] === true ? false : true;
@@ -243,7 +213,7 @@ export function TrackerProvider({ children }) {
   const addCustomRepo = useCallback(async (repoFullNameOrUrl, category = 'Custom Added Repos') => {
     setIsSyncing(true);
     try {
-      const info = await fetchRepoInfo(repoFullNameOrUrl, githubToken);
+      const info = await fetchRepoInfo(repoFullNameOrUrl);
       const newRepo = {
         name: info.name,
         game: info.name,
@@ -257,7 +227,7 @@ export function TrackerProvider({ children }) {
         githubUrl: info.githubUrl,
         releases: (info.releases || []).map((r, idx) => ({
           ...r,
-          isNew: idx === 0, // Latest release is flagged as new initially
+          isNew: idx === 0,
         })),
         isCustom: true,
       };
@@ -267,9 +237,6 @@ export function TrackerProvider({ children }) {
         return [newRepo, ...filtered];
       });
 
-      // Update rate limit info
-      getRateLimitStatus(githubToken).then(limit => limit && setRateLimitInfo(limit));
-
       return { success: true, repo: newRepo };
     } catch (err) {
       console.error('Failed to add repo:', err);
@@ -277,7 +244,7 @@ export function TrackerProvider({ children }) {
     } finally {
       setIsSyncing(false);
     }
-  }, [githubToken]);
+  }, []);
 
   // Remove a custom repo
   const removeCustomRepo = useCallback((repoKey) => {
@@ -287,7 +254,7 @@ export function TrackerProvider({ children }) {
   // Sync a single repository with GitHub
   const syncSingleRepo = useCallback(async (repoFullName) => {
     try {
-      const releases = await fetchRepoReleases(repoFullName, githubToken);
+      const releases = await fetchRepoReleases(repoFullName);
       if (releases && releases.length > 0) {
         setCachedReleases(prev => ({
           ...prev,
@@ -299,23 +266,20 @@ export function TrackerProvider({ children }) {
             cachedAt: new Date().toISOString(),
           },
         }));
-        getRateLimitStatus(githubToken).then(limit => limit && setRateLimitInfo(limit));
         return true;
       }
     } catch (err) {
       console.warn('Sync single repo error:', err);
     }
     return false;
-  }, [githubToken, seenReleases]);
+  }, [seenReleases]);
 
-  // Full Sync: checks awesome-flat2vr for brand new ports and updates rate limit
+  // Full Sync: checks awesome-flat2vr for brand new ports
   const syncAll = useCallback(async () => {
     setIsSyncing(true);
     try {
-      // 1. Fetch latest ports from awesome-flat2vr
       const latestPorts = await fetchLatestFlat2vrPorts();
       if (latestPorts && Array.isArray(latestPorts)) {
-        // Detect if any new ports exist that are not in our list
         const existingRepos = new Set(allRepos.map(r => r.repo.toLowerCase()));
         const newDiscovered = [];
 
@@ -328,7 +292,7 @@ export function TrackerProvider({ children }) {
               name: port.name,
               game: port.games?.[0] || port.name,
               repo: fullRepo,
-              author: port.authors?.[0]?.name || m[1],
+              author: port.authors?.[0]?.name || fullRepo.split('/')[0],
               category: 'Newly Discovered VR Mods',
               platform: port.platform ? port.platform.toUpperCase() : 'PCVR',
               status: port.status || 'Active',
@@ -340,7 +304,7 @@ export function TrackerProvider({ children }) {
                   name: `${port.name} ${port.version || 'v1.0.0'}`,
                   date: port.version_date || new Date().toISOString().substring(0, 10),
                   isNew: true,
-                  url: port.download_url || `https://github.com/${fullRepo}`,
+                  url: `https://github.com/${fullRepo}/releases`,
                 }
               ],
               githubUrl: `https://github.com/${fullRepo}`,
@@ -354,24 +318,19 @@ export function TrackerProvider({ children }) {
         }
       }
 
-      // 2. Refresh top starred repos releases (e.g. top 5 to avoid burning rate limits)
-      const topRepos = allRepos.slice(0, 6);
+      const topRepos = allRepos.slice(0, 5);
       for (const item of topRepos) {
         await syncSingleRepo(item.repo);
       }
 
       const now = new Date().toLocaleString();
       setLastSyncTime(now);
-
-      // 3. Update rate limit
-      const limit = await getRateLimitStatus(githubToken);
-      if (limit) setRateLimitInfo(limit);
     } catch (err) {
       console.error('Sync failed:', err);
     } finally {
       setIsSyncing(false);
     }
-  }, [allRepos, githubToken, syncSingleRepo]);
+  }, [allRepos, syncSingleRepo]);
 
   // Export / Import
   const exportTrackerData = useCallback(() => {
@@ -419,19 +378,16 @@ export function TrackerProvider({ children }) {
   const filteredRepos = useMemo(() => {
     let list = [...allRepos];
 
-    // Filter by category
     if (selectedCategory === 'FAVORITES') {
       list = list.filter(r => r.isFavorite);
     } else if (selectedCategory !== 'ALL') {
       list = list.filter(r => r.category === selectedCategory);
     }
 
-    // Filter only new
     if (onlyNewReleases) {
       list = list.filter(r => r.hasNewRelease);
     }
 
-    // Filter by search query
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase().trim();
       list = list.filter(r =>
@@ -443,17 +399,10 @@ export function TrackerProvider({ children }) {
       );
     }
 
-    // Global Sort
     list.sort((a, b) => {
-      if (sortMode === 'A-Z') {
-        return a.name.localeCompare(b.name);
-      }
-      if (sortMode === 'Z-A') {
-        return b.name.localeCompare(a.name);
-      }
-      if (sortMode === 'STARS') {
-        return (b.stars || 0) - (a.stars || 0);
-      }
+      if (sortMode === 'A-Z') return a.name.localeCompare(b.name);
+      if (sortMode === 'Z-A') return b.name.localeCompare(a.name);
+      if (sortMode === 'STARS') return (b.stars || 0) - (a.stars || 0);
       if (sortMode === 'NEW_FIRST') {
         if (a.hasNewRelease && !b.hasNewRelease) return -1;
         if (!a.hasNewRelease && b.hasNewRelease) return 1;
@@ -483,7 +432,6 @@ export function TrackerProvider({ children }) {
     return groups;
   }, [filteredRepos]);
 
-  // Overall statistics
   const stats = useMemo(() => {
     const totalRepos = allRepos.length;
     const newReleasesCount = allRepos.filter(r => r.hasNewRelease).length;
@@ -510,9 +458,6 @@ export function TrackerProvider({ children }) {
     setSortMode,
     isSyncing,
     lastSyncTime,
-    rateLimitInfo,
-    githubToken,
-    setGithubToken: setGithubTokenState,
     collapsedCats,
     activeReleaseModal,
     setActiveReleaseModal,
@@ -535,4 +480,3 @@ export function TrackerProvider({ children }) {
     </TrackerContext.Provider>
   );
 }
-

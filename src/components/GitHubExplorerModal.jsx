@@ -13,7 +13,7 @@ import { searchGitHubVrRepos } from '../services/githubService';
 import { useTracker } from '../context/useTracker';
 
 export default function GitHubExplorerModal({ isOpen, onClose }) {
-  const { repos, addCustomRepo, githubToken } = useTracker();
+  const { repos, addCustomRepo } = useTracker();
   const [query, setQuery] = useState('topic:vr-mod OR topic:uevr OR topic:flat-to-vr');
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -31,15 +31,15 @@ export default function GitHubExplorerModal({ isOpen, onClose }) {
   const handleSearch = useCallback(async (searchQuery) => {
     setLoading(true);
     const targetQuery = searchQuery || query;
-    const items = await searchGitHubVrRepos(targetQuery, githubToken);
+    const items = await searchGitHubVrRepos(targetQuery);
     setResults(items);
     setLoading(false);
-  }, [query, githubToken]);
+  }, [query]);
 
   useEffect(() => {
     let isMounted = true;
     if (isOpen && results.length === 0) {
-      searchGitHubVrRepos('topic:vr-mod OR topic:uevr OR topic:flat-to-vr', githubToken)
+      searchGitHubVrRepos('topic:vr-mod OR topic:uevr OR topic:flat-to-vr')
         .then(items => {
           if (isMounted) {
             setResults(items);
@@ -50,7 +50,7 @@ export default function GitHubExplorerModal({ isOpen, onClose }) {
     return () => {
       isMounted = false;
     };
-  }, [isOpen, githubToken, results.length]);
+  }, [isOpen, results.length]);
 
   if (!isOpen) return null;
 

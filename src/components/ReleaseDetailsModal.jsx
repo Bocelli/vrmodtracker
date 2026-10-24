@@ -2,7 +2,6 @@ import React from 'react';
 import {
   X,
   ExternalLink,
-  Download,
   Calendar,
   Tag,
   Eye,
@@ -162,15 +161,15 @@ export default function ReleaseDetailsModal() {
                     >
                       {r.isNew ? 'Segna visto' : 'Visto'}
                     </button>
-                    {r.downloadUrl && (
+                    {r.url && (
                       <a
-                        href={r.downloadUrl}
+                        href={r.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-zinc-400 hover:text-white"
-                        title="Scarica asset"
+                        className="text-zinc-400 hover:text-white transition-colors"
+                        title="Apri pagina release ufficiale"
                       >
-                        <Download className="w-3.5 h-3.5" />
+                        <ExternalLink className="w-3.5 h-3.5" />
                       </a>
                     )}
                   </div>
